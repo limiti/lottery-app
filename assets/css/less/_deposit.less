@@ -1,0 +1,255 @@
+/************************ DEPOSIT *******/
+
+.deposit-header-wrapper{
+  background: @white-gray;
+  padding: 112px 0 112px 0;
+}
+
+.deposit-header-layout{
+  max-width: 810px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.deposit-header-title{
+  display: block;
+}
+
+.deposit-header-text{
+  display: block;
+  font-size: @font-size-14;
+  padding: 20px 0 45px 0;
+}
+
+.deposit-header-info-prices{
+  display: inline-block;
+}
+
+.deposit-header-info-price{
+  float: left;
+  padding: 0 16px 0 16px;
+
+  span{
+    display: block;
+  }
+
+  img{
+    padding: 17px 0 17px 0;
+
+  }
+}
+
+.deposit-payment-methods-form-box-path{
+  float: left;
+}
+
+.deposit-header-info-total-price{
+  font-size: @font-size-18;
+}
+
+.deposit-payment-methods-form-box {
+  padding: 70px 0 74px 240px;
+}
+
+.deposit-header-info-total-desc{
+  font-size: @font-size-12;
+  color: @gray-color;
+}
+
+.deposit-payment-methods-form-box-title{
+  font-size: @font-size-subtitle;
+  width: 337px;
+  padding: 0 0 24px 0;
+}
+
+.deposit-payment-methods-form-box-checkbox{
+  padding: 0 0 20px 0;
+
+  span{
+    font-weight: initial;
+    font-size: @font-size-12;
+    margin: 0 0 0 13px;
+  }
+
+  input{
+    float: left;
+  }
+
+}
+
+.section-deposit-payment-methods-card-variants {
+  margin: 0 0 40px 0;
+}
+
+.deposit-form-add-new-payment-btn{
+  padding: 27px 0 0 0;
+
+  button{
+    border-radius: 5px;
+    border:2px solid @red-color;
+    color: @red-color;
+    font-size: 10px;
+    padding: 0px 62px 0px 62px;
+    height: 47px;
+  }
+
+}
+
+.deposit-payment-methods-field-card{
+  width: 337px;
+  height: 47px;
+  margin: 0 37px 0px 0;
+  border:1px solid @gray-border;
+  font-size: @font-size-12;
+  border-radius: 5px;
+  outline: none;
+  padding: 0px 12px 0px 12px;
+  background: url("/assets/images/icon-form-pointer.png") no-repeat 95% 50%;
+  background-color: @white-gray;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.deposit-payment-methods-field-total{
+  width: 240px;
+  height: 47px;
+  margin: 0 16px 0 0;
+  font-size: @font-size-12;
+  color: #2e304c;
+  background: @white-gray;
+  border-color: #e6e1e1;
+  padding: 13px 24px 13px 24px;
+  box-shadow: none;
+}
+
+.deposit-payment-methods-card-variants-wrapper{
+  background: @white-gray;
+}
+
+.deposit-payment-methods-card-variants-nav{
+
+  ul{
+    padding: 0;
+    margin: 0;
+
+    li{
+      list-style-type: none;
+      float: left;
+      width: 14.28%;
+      padding: 13px 13px 13px 13px;
+      text-align: center;
+      background: @shite-green;
+      border-right: 1px solid @default-color;
+
+      a{
+        font-family: 'MontserratBold';
+        font-size: @font-size-12;
+        color: @default-color;
+        text-transform: uppercase;
+      }
+    }
+
+    .deposit-payment-methods-card-variants-nav-active{
+      background: @white-gray;
+
+      a{
+        color: @main-color;
+      }
+
+    }
+
+  }
+
+}
+
+
+@media @media-lg {
+
+  .deposit-payment-methods-form-box{
+    padding: 70px 0 74px 0px;
+  }
+
+}
+
+
+@media @media-md {
+
+  .deposit-header-wrapper{
+    padding: 90px 15px 90px 15px;
+  }
+
+  .deposit-payment-methods-field-card ,
+  .deposit-payment-methods-form-box-title{
+    width: 270px;
+  }
+
+  .deposit-payment-methods-field-total {
+    width: 170px;
+  }
+
+  .deposit-payment-methods-card-variants-nav {
+    ul {
+
+      li {
+        width: 33.333%;
+      }
+
+    }
+
+  }
+
+}
+
+@media @media-sm {
+
+  .deposit-payment-methods-field-card,
+  .deposit-payment-methods-field-total{
+    margin: 0 0 20px 0;
+  }
+
+  .deposit-payment-methods-form-box-title{
+    padding: 0 0 10px 0;
+  }
+
+  .deposit-payment-methods-form-box-path{
+    float: none;
+  }
+
+  .deposit-payment-methods-field-card, .deposit-payment-methods-form-box-title,
+  .deposit-payment-methods-field-total{
+    width: 100%;
+  }
+
+  .deposit-payment-methods-card-variants-nav-mobile-close-btn{
+    img {
+      float: right;
+    }
+  }
+
+}
+
+@media @media-xs{
+  .deposit-header-wrapper{
+    padding: 71px 15px 39px 15px;
+    word-break: break-all;
+  }
+
+  .deposit-header-text{
+    padding: 17px 0 22px 0;
+  }
+
+  .deposit-payment-methods-form-box {
+    padding: 25px 0 45px 0px;
+  }
+
+  .deposit-form-add-new-payment-btn {
+    padding: 34px 0 0 0;
+  }
+
+
+}
+
+
+
+/************************ DEPOSIT *******/

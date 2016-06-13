@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Order</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="layout">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <section class="header-main-nav">
+                            <div class="row">
+                                <nav class="navbar">
+                                    <div class="navbar-box">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                            <ul class="nav navbar-nav navbar-right navbar-nav-right-section pull-right visible-xs">
+                                                <li class="header-nav-sing-in-btn"><a href="#" class="bold">SING IN</a></li>
+                                            </ul>
+                                            <a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt=""/></a>
+                                        </div>
+                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class="nav navbar-nav navbar-right navbar-nav-right-section">
+                                                <li class="header-nav-sing-in-btn hidden-xs"><a href="/sign-in-step-1.html" class="bold">SING IN</a></li>
+                                                <li class="dropdown">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EN <span><img src="/assets/images/icon-dropdown.png" alt=""/></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">RU</a></li>
+                                                        <li><a href="#">UA</a></li>
+                                                        <li><a href="#">KZ</a></li>
+                                                        <li role="separator" class="divider"></li>
+                                                        <li><a href="#">EN</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="nav navbar-nav navbar-nav-left-section ">
+                                                <li><a href="#">Play lottery</a></li>
+                                                <li><a href="lottery-results.html">Results</a></li>
+                                                <li><a href="#">Support</a></li>
+                                            </ul>
+                                            <ul class="nav navbar-nav navbar-nav-center-section ">
+                                                <li class="hidden-xs navbar-nav-center-ellips"><a href="#"><img src="assets/images/icon-ellips.png" alt=""/></a></li>
+                                                <li><a href="/how-it-works.html">How it works</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="order-page">
+                <section class="section-order-head">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section-order-title">
+                                    <h1 class="section-title bold text-uppercase block text-center">YOUR ORDER</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-order-table">
+                    <div class="container">
+                       <div class="row desktop-no-row">
+                           <div class="col-lg-9 desktop-no-col">
+                                <div class="order-page-table-wrapper">
+                                    <div class="order-table-line">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="order-col order-lottery-box">
+                                                        <span class="order-col-title">Lottery</span>
+                                                        <div class="order-lottery-box-logo">
+                                                            <img src="assets/images/brands/brand-power-red.png" alt=""/>
+                                                            <span class="bold text-uppercase">PowerBall</span>
+                                                        </div>
+                                                        <a href="#" class="order-sum-box-delete-btn-mobile-visible"><img src="assets/images/icon-lottery-ticket-box-big-dark-delete.png" alt=""/></a>
+                                                    </td>
+                                                    <td class="order-col order-lines-box">
+                                                        <span class="order-col-title">Lines</span>
+                                                        <div class="one-select-line-box">
+                                                            <select>
+                                                                <option>1</option>
+                                                                <option>2</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                    <td class="order-col order-draws-box">
+                                                        <span class="order-col-title">Draws</span>
+                                                        <div class="one-select-line-box">
+                                                            <select>
+                                                                <option>1</option>
+                                                                <option>2</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                    <td class="order-col order-sum-box">
+                                                        <span class="order-col-title">Summ</span>
+                                                        <div class="order-sum-box-total">€5.32</div>
+                                                        <a href="#" class="order-sum-box-delete-btn"><img src="assets/images/icon-lottery-ticket-box-dark-delete.png" alt=""/></a>
+                                                        <div class="clearfix"></div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="order-table-assets-info ">
+                                                    <td>
+                                                        <div class="circle-checkbox-line order-table-checkbox">
+                                                            <input type="checkbox" id="checkbox-order-table-1" class="circle-checkbox" checked="checked">
+                                                            <label for="checkbox-order-table-1" class="circle-checkbox-label label-checkbox-circle"></label>
+                                                        </div>
+                                                        <div class="order-table-checkbox-information">
+                                                            <span>Subscription - Never miss a draw</span>
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                    </td>
+                                                    <td  class="line-order-table-purchase-save-info" colspan="2">
+                                                       <!-- empty-->
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- TABLE ROW-->
+                                    <div class="order-table-line">
+                                        <table class="table">
+                                            <tbody>
+                                            <tr>
+                                                <td class="order-col order-lottery-box">
+                                                    <span class="order-col-title">Lottery</span>
+                                                    <div class="order-lottery-box-logo">
+                                                        <img src="assets/images/brands/brand-power-red.png" alt=""/>
+                                                        <span class="bold text-uppercase">PowerBall</span>
+                                                    </div>
+                                                    <a href="#" class="order-sum-box-delete-btn-mobile-visible"><img src="assets/images/icon-lottery-ticket-box-big-dark-delete.png" alt=""/></a>
+                                                </td>
+                                                <td class="order-col order-lines-box">
+                                                    <span class="order-col-title">Lines</span>
+                                                    <div class="one-select-line-box">
+                                                        <select>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                                <td class="order-col order-draws-box">
+                                                    <span class="order-col-title">Draws</span>
+                                                    <div class="one-select-line-box">
+                                                        <select>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                                <td class="order-col order-sum-box">
+                                                    <span class="order-col-title">Summ</span>
+                                                    <div class="order-sum-box-total">€5.32</div>
+                                                    <a href="#" class="order-sum-box-delete-btn"><img src="assets/images/icon-lottery-ticket-box-dark-delete.png" alt=""/></a>
+                                                    <div class="clearfix"></div>
+                                                </td>
+                                            </tr>
+                                            <tr class="order-table-assets-info">
+                                                <td>
+                                                    <div class="circle-checkbox-line order-table-checkbox">
+                                                        <input type="checkbox" id="checkbox-order-table-2" class="circle-checkbox">
+                                                        <label for="checkbox-order-table-2" class="circle-checkbox-label label-checkbox-circle"></label>
+                                                    </div>
+                                                    <div class="order-table-checkbox-information">
+                                                        <span>Subscription - Never miss a draw</span>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </td>
+                                                <td class="line-order-table-purchase-save-info" colspan="2">
+                                                    <div class="order-table-purchase-save-info">
+                                                        <span class="bold">ON THIS PURCHASE YOU SAVE</span>
+                                                        <br/>
+                                                        <span class="order-table-line-assets-right-subtitle">2 Draws Discount (2%) <span class="bold order-table-line-assets-right-currency-val">- €1</span></span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- TABLE ROW -->
+                                </div>
+                               <div class="order-page-table-lottery-points-wrapper">
+                                   <div class="order-page-table-lottery-points-line">
+                                       <div class="order-page-table-lottery-points-line-title">
+                                           <span>Line 1</span>
+                                           <a href=""><img src="assets/images/icon-lottery-ticket-box-dark-edit.png" alt=""/></a>
+                                           <div class="clearfix"></div>
+                                       </div>
+                                       <div class="order-page-table-lottery-points-line-content">
+                                           <div class="lottery-ticket-point-number"><span>1</span></div>
+                                           <div class="lottery-ticket-point-number"><span>8</span></div>
+                                           <div class="lottery-ticket-point-number"><span>15</span></div>
+                                           <div class="lottery-ticket-point-number"><span>22</span></div>
+                                           <div class="lottery-ticket-point-number lottery-ticket-point-number-selected"><span>29</span></div>
+                                           <div class="lottery-ticket-point-number lottery-ticket-point-number-selected"><span>1</span></div>
+                                           <div class="clearfix"></div>
+                                       </div>
+                                   </div>
+                                   <!-- -->
+                                   <div class="order-page-table-lottery-points-line">
+                                       <div class="order-page-table-lottery-points-line-title">
+                                           <span>Line 2</span>
+                                           <a href=""><img src="assets/images/icon-lottery-ticket-box-dark-edit.png" alt=""/></a>
+                                           <div class="clearfix"></div>
+                                       </div>
+                                       <div class="order-page-table-lottery-points-line-content">
+                                           <div class="lottery-ticket-point-number"><span>1</span></div>
+                                           <div class="lottery-ticket-point-number"><span>8</span></div>
+                                           <div class="lottery-ticket-point-number"><span>15</span></div>
+                                           <div class="lottery-ticket-point-number"><span>22</span></div>
+                                           <div class="lottery-ticket-point-number lottery-ticket-point-number-selected"><span>29</span></div>
+                                           <div class="lottery-ticket-point-number lottery-ticket-point-number-selected"><span>1</span></div>
+                                           <div class="clearfix"></div>
+                                       </div>
+                                   </div>
+                                   <div class="clearfix"></div>
+                               </div>
+                           </div>
+                           <div class="col-lg-3 desktop-no-col">
+                               <div class="order-summary-aside-wrapper">
+                                   <div class="order-summary-aside-layout">
+                                       <span class="bold text-uppercase order-aside-summary-title">SUMMARY</span>
+                                       <div class="order-aside-summary-form" >
+                                           <input type="text" placeholder="enter promocode"/>
+                                           <span class="red text-uppercase">APPLY</span>
+                                       </div>
+                                       <div class="order-aside-summary-total">
+                                          <span class="bold">Total:</span>
+                                          <span class="bold red">€10.98</span>
+                                       </div>
+                                       <div class="order-aside-summary-button">
+                                           <button class="btn main-solid-btn bold text-uppercase">CONTINUE</button>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="clearfix"></div>
+                           </div>
+                           <div class="clearfix"></div>
+                       </div>
+                    </div>
+                </section>
+                <section class="section-deposit-payment-methods-card-variants">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="payment-methods-navbar">
+                                    <div class="deposit-payment-methods-card-variants-nav-mobile visible-xs">
+                                        <div class="card-variants-nav-mobile-control deposit-payment-methods-card-variants-nav-mobile-current-item">
+                                            <span class="text-uppercase bold">Visa/Master Card</span>
+                                        </div>
+                                        <div class="card-variants-nav-mobile-control deposit-payment-methods-card-variants-nav-mobile-btn collapsed" data-toggle="collapse" data-target="#deposit-card-nav-collapse" aria-expanded="false">
+                                            <div class="card-variants-nav-mobile-control-assets-elem bold">
+                                                <span>MORE</span>
+                                                <img src="assets/images/icon-dotted-points.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <ul id="deposit-card-nav-collapse" class="collapse in" aria-expanded="false" style="/*height: 0px;*/">
+                                       <li data-toggle="collapse" data-target="#deposit-card-nav-collapse" aria-expanded="false" class="visible-xs deposit-payment-methods-card-variants-nav-mobile-close-btn">
+                                           <a>
+                                               <img src="assets/images/icon-close-card-nav.png" alt="">
+                                               <div class="clearfix"></div>
+                                           </a>
+                                        </li>
+                                        <li role="presentation" class="active bold text-uppercase ">
+                                            <a href="#tab-visa" aria-controls="home" role="tab" data-toggle="tab">Visa/MasterCard</a>
+                                        </li>
+                                        <li role="presentation" class="bold ">
+                                            <a href="#tab-skrill" aria-controls="profile" role="tab" data-toggle="tab" >SKRILL</a>
+                                        </li>
+                                        <li role="presentation" class="bold ">
+                                            <a href="#tab-yandex" aria-controls="profile" role="tab" data-toggle="tab" >YANDEX</a>
+                                        </li>
+                                        <li role="presentation" class="bold ">
+                                            <a href="#tab-paypal" aria-controls="profile" role="tab" data-toggle="tab" >PAYPAL</a>
+                                        </li>
+                                        <li role="presentation" class="bold ">
+                                            <a href="#tab-qiwi" aria-controls="profile" role="tab" data-toggle="tab" >QIWI</a>
+                                        </li>
+                                        <li role="presentation" class="bold ">
+                                            <a href="#tab-moneta-ru" aria-controls="profile" role="tab" data-toggle="tab" >MONETA.RU</a>
+                                        </li>
+
+                                        <li role="presentation" class="bold ">
+                                            <a href="#tab-comepay" aria-controls="profile" role="tab" data-toggle="tab" >COMEPAY</a>
+                                        </li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                </div>
+                                <div class="pay-tab-wrapper">
+                                    <div class="user-donations-sidebar-content-tab tab-content">
+                                        <!-- -->
+                                        <div role="tabpanel" class="tab-pane box-tab-visa active" id="tab-visa">
+                                            <div class="deposit-payment-card-variants-field-cards-wrap">
+                                                <div class="deposit-payment-card-variants-field-cards">
+                                                    <div class="deposit-payment-card-variants-main-card">
+                                                        <div class="deposit-payment-card-variants-main-card-name-code">
+                                                            <span class="deposit-payment-card-variants-main-card-name-text bold text-uppercase">YOUR FULL NAME:</span>
+                                                            <input type="text" class="deposit-payment-card-variants-main-card-name-field form-control" placeholder="YEVHEN SOROCHAN">
+                                                            <span class="deposit-payment-card-variants-main-card-number-text bold text-uppercase">Card number:</span>
+                                                            <input type="text" class="form-control deposit-payment-card-variants-main-card-number-field" placeholder="1225 - 0053 - 2125 - 0053"  />
+                                                        </div>
+                                                        <div class="deposit-payment-card-variants-main-card-expires-logo">
+                                                            <span class="bold text-uppercase">Expires on:</span>
+                                                            <select class="bold">
+                                                                <option value="">MM</option>
+                                                                <option value="">01</option>
+                                                                <option value="">02</option>
+                                                                <option value="">03</option>
+                                                                <option value="">04</option>
+                                                                <option value="">05</option>
+                                                                <option value="">06</option>
+                                                            </select>
+                                                            <select class="bold">
+                                                                <option value="">YY</option>
+                                                                <option value="">2016</option>
+                                                                <option value="">2017</option>
+                                                                <option value="">2018</option>
+                                                                <option value="">2019</option>
+                                                                <option value="">2020</option>
+                                                            </select>
+                                                            <img src="assets/images/visa-card-logo.png">
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="deposit-payment-card-variants-confirm-card">
+                                                        <span class="bold deposit-payment-card-variants-confirm-code-title text-uppercase">Serucity Code:</span>
+                                                        <div class="deposit-payment-card-variants-confirm-code-num">
+                                                            <span>CCV2</span>
+                                                            <input type="text" placeholder="564">
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                                <div class="deposit-payment-card-variants-field-cards-pay-info">
+                                                    <div class="deposit-payment-card-variants-field-cards-pay-info-checkbox">
+                                                        <label><input type="checkbox"><span>I Agree with the Terms &amp; Conditions</span></label>
+                                                    </div>
+                                                    <div class="bold deposit-payment-card-variants-field-cards-pay-info-value">
+                                                        <span class="deposit-payment-card-variants-field-cards-pay-info-value-title">Pay:</span>
+                                                        <span class="red deposit-payment-card-variants-field-cards-pay-info-value-currency">€16</span>
+                                                    </div>
+                                                    <button class="btn main-solid-btn bold">SUMBIT ORDER</button>
+                                                    <div class="deposit-payment-card-variants-field-cards-pay-info-verified-logos">
+                                                        <img src="assets/images/logo-verified-visa.png" alt="">
+                                                        <img src="assets/images/logo-master-card-securecode.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <!-- -->
+                                        <div role="tabpanel" class="tab-pane box-tab-skrill" id="tab-skrill">
+                                            -skrill
+                                        </div>
+                                        <!-- -->
+                                        <div role="tabpanel" class="tab-pane box-tab-yandex" id="tab-yandex">
+                                            -yandex
+                                        </div>
+
+                                        <!-- -->
+                                        <div role="tabpanel" class="tab-pane box-tab-paypal" id="tab-paypal">
+                                            -PAYPAL
+                                        </div>
+                                        <!-- -->
+                                        <div role="tabpanel" class="tab-pane box-tab-qiwi" id="tab-qiwi">
+                                            -QIWI
+                                        </div>
+                                        <!-- -->
+                                        <div role="tabpanel" class="tab-pane box-tab-moneta-ru" id="tab-moneta-ru">
+                                            -MONETA.RU
+                                        </div>
+                                        <!-- -->
+                                        <div role="tabpanel" class="tab-pane box-tab-comepay" id="tab-comepay">
+                                            COMEPAY
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <section class="section-footer">
+                <div class="container">
+                    <div class="footer-wrapper">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3">
+                                <div class="footer-box footer-box-section-logo">
+                                    <a href="/" class="footer-box-logo"><img src="assets/images/logo-footer.png" alt=""/></a>
+                                    <ul class="footer-box-social-nav">
+                                        <li>
+                                            <a href="#"><img src="assets/images/icon-twitter.png" alt=""/></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="assets/images/icon-facebook.png" alt=""/></a>
+                                        </li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6  col-md-2 col-lg-2">
+                                <div class="footer-box">
+                                    <div class="footer-nav-title bold">
+                                        <span>Play lottery</span>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">Powerball</a></li>
+                                        <li><a href="#">Eldorado</a></li>
+                                        <li><a href="#">Megamillions</a></li>
+                                        <li><a href="#">UK Lotto</a></li>
+                                        <li><a href="#">Supernalotto</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6  col-md-3 col-lg-3 footer-nav-fight">
+                                <div class="footer-box footer-box-last">
+                                    <div class="footer-nav-title bold">
+                                        <span>About us</span>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">What is lottofund?</a></li>
+                                        <li><a href="#">Rules</a></li>
+                                        <li><a href="#">Privacy policy</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-4 col-lg-4">
+                                <div class="footer-box">
+                                    <div class="footer-nav-title bold">
+                                        <span>Explore campaigns</span>
+                                    </div>
+                                    <div class="d">
+                                        <div class="footer-nav-column">
+                                            <ul>
+                                                <li><a href="#">Music</a></li>
+                                                <li><a href="#">Midical</a></li>
+                                                <li><a href="#">Education</a></li>
+                                                <li><a href="#">Travel</a></li>
+                                                <li><a href="#">Family</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-nav-column">
+                                            <ul>
+                                                <li><a href="#">Business</a></li>
+                                                <li><a href="#">Other</a></li>
+                                                <li><a href="#">Technology</a></li>
+                                                <li><a href="#">Art</a></li>
+                                                <li><a href="#">Charaty</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-nav-column">
+                                            <ul>
+                                                <li><a href="#">Internet</a></li>
+                                                <li><a href="#">Food</a></li>
+                                                <li><a href="#">Events</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="footer-copy">
+                                    <span class="footer-copy-right hidden-xs" >&copy All rigths reserved 2016.</span>
+                                    <span class="footer-copy-designer">Design by: New Wave  </span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,5761 @@
+/************************ HEADER *******/
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: transparent;
+}
+nav.navbar {
+  margin-bottom: 5px;
+}
+nav.navbar li a {
+  color: #2e304c;
+  text-transform: uppercase;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+nav.navbar li a:hover,
+nav.navbar li a:focus {
+  background: none;
+}
+nav.navbar .dropdown {
+  padding: 0 0 0 25px;
+}
+nav.navbar .dropdown .dropdown-menu {
+  min-width: 50px;
+}
+nav.navbar .navbar-nav-left-section,
+nav.navbar .navbar-nav-right-section,
+nav.navbar .navbar-nav-center-section {
+  padding: 12px 0 0 0;
+}
+nav.navbar .navbar-nav-left-section {
+  padding-left: 50px;
+}
+nav.navbar .navbar-nav-center-section {
+  padding-left: 45px;
+}
+nav.navbar .navbar-nav-center-ellips {
+  padding: 0 33px 0 0px;
+}
+nav.navbar .navbar-brand {
+  height: inherit;
+}
+nav.navbar .header-nav-sing-in-btn {
+  border: 2px solid #fa3a48;
+  border-radius: 5px;
+}
+nav.navbar .header-nav-sing-in-btn a {
+  color: #fa3a48;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+nav.navbar button.navbar-toggle {
+  margin: 25px 5px 0px 16px;
+}
+nav.navbar button.navbar-toggle .icon-bar {
+  width: 24px;
+  height: 3px;
+  background: #2e304c;
+}
+nav.navbar nav.navbar .header-nav-sing-in-btn a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 10px;
+}
+nav.navbar .header-btn-logout {
+  padding: 2px 0 5px 0;
+}
+nav.navbar .header-btn-logout a {
+  float: left;
+  padding-bottom: 0;
+  border-bottom: 1px solid red;
+  color: #fa3a48;
+}
+nav.navbar .header-btn-logout img {
+  vertical-align: initial;
+  padding: 9px 0 6px 13px;
+  display: block;
+  float: right;
+}
+@media (max-width: 1198px) {
+  nav.navbar .navbar-nav-left-section {
+    padding-left: 0;
+  }
+  nav.navbar .navbar-nav-center-section {
+    padding-left: 0;
+  }
+  nav.navbar .navbar-nav-center-ellips {
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  nav.navbar .navbar-nav-left-section {
+    clear: both;
+  }
+  nav.navbar .navbar-brand img {
+    padding: 9px 0 0 0;
+  }
+  .navbar-collapse {
+    padding-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-nav-left-section li:first-child a {
+    padding-left: 15px;
+  }
+  .navbar-collapse {
+    padding-left: 15px;
+  }
+  nav.navbar .dropdown {
+    padding: 0 0 0 0;
+  }
+  nav.navbar .header-btn-logout {
+    padding-left: 15px ;
+  }
+  nav.navbar .header-btn-logout img {
+    float: left;
+  }
+}
+@media (max-width: 480px) {
+  nav.navbar .dropdown {
+    padding: 0 0 0 0px;
+  }
+  nav.navbar .header-nav-sing-in-btn a {
+    letter-spacing: inherit;
+  }
+  .navbar-brand {
+    max-width: 190px;
+  }
+  .navbar-brand img {
+    max-width: 100%;
+  }
+  nav.navbar .navbar-brand {
+    padding-left: 10px;
+  }
+  nav.navbar .navbar-brand img {
+    padding: 14px 0 0 0;
+  }
+  nav.navbar .navbar-collapse {
+    padding-left: 10px;
+  }
+  header nav.navbar button.navbar-toggle {
+    padding-right: 10px;
+    margin-right: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-brand {
+    max-width: 138px;
+  }
+  .navbar-brand img {
+    padding: 18px 0 0 0;
+  }
+}
+/************************ HEADER *******/
+/************************ FOOTER *******/
+.section-footer {
+  background: #2e304c;
+  padding: 50px 0 0 0;
+}
+.footer-box {
+  border-right: 1px solid #43455e;
+  min-height: 255px;
+}
+.footer-box ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-box ul li {
+  padding: 10px 0 10px 0;
+  list-style-type: none;
+}
+.footer-box ul li a {
+  color: #fff;
+}
+.footer-nav-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 0 0 27px 0;
+}
+ul.footer-box-social-nav {
+  margin: 70px 0 0 0;
+  padding: 0;
+}
+ul.footer-box-social-nav li {
+  float: left;
+  padding-right: 15px;
+}
+.footer-nav-column {
+  float: left;
+  padding: 0 50px 0 0;
+}
+.footer-box-last {
+  border: none;
+}
+.footer-copy {
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0 15px 0;
+}
+.footer-copy-right {
+  float: left;
+}
+.footer-copy-designer {
+  float: right;
+}
+.footer-nav-fight {
+  float: right;
+}
+@media (max-width: 1198px) {
+  .footer-box-logo img {
+    max-width: 100%;
+    padding: 0 14px 0 0;
+  }
+}
+@media (max-width: 992px) {
+  .footer-nav-column {
+    width: 33.333%;
+  }
+  .footer-box-section-logo {
+    margin: 0 0 25px 0 ;
+  }
+  .footer-box {
+    border: none;
+    margin-bottom: 15px;
+    min-height: inherit;
+  }
+  .footer-box-logo {
+    float: left;
+  }
+  .footer-box-social-nav {
+    float: right;
+  }
+  ul.footer-box-social-nav {
+    margin: 0;
+  }
+  .footer-box-social-nav li {
+    margin: 0px 0 0px 10px;
+  }
+  .footer-box-logo {
+    margin: 10px 0 0 0;
+  }
+  .footer-box-logo img {
+    max-width: 100%;
+    padding: 0 14px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .footer-copy-designer {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+  .footer-copy {
+    padding: 23px 0 41px 0;
+  }
+  .footer-nav-column {
+    padding: 0 0px 0 0;
+  }
+}
+@media (max-width: 480px) {
+  a.footer-box-logo {
+    max-width: 170px;
+  }
+  .footer-box-logo img {
+    padding: 2px 0px 0 0;
+  }
+  ul.footer-box-social-nav li {
+    padding-right: 0px;
+  }
+}
+/************************ FOOTER *******/
+/************************HOME*******/
+.header-banner-wrapper {
+  background: url("/assets/images/header-banner1.png");
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.header-banner-layout {
+  max-width: 578px;
+  margin: 0 auto;
+  padding: 117px 0 0 0;
+}
+.header-banner-subtitle {
+  padding: 15px 0 0 0;
+}
+.header-banner-subtitle span {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+}
+.header-banner-buttons {
+  text-align: center;
+  padding: 45px 0 0 0;
+}
+.header-banner-button {
+  display: inline-block;
+}
+.header-banner-button-link {
+  background: #fa3a48;
+  border-radius: 5px;
+}
+.header-banner-button-link a {
+  width: 200px;
+}
+.header-banner-button-link img {
+  padding: 0 0 0 10px;
+}
+.header-banner-button-text {
+  padding: 0 0px 0 15px;
+}
+.header-banner-button-text span {
+  font-size: 18px;
+  font-family: 'MontserratBold';
+  color: #fff;
+}
+.header-banner-button-player img {
+  float: left;
+}
+.header-banner-button-player span {
+  color: #fff;
+  float: left;
+  display: block;
+  font-family: 'MontserratBold';
+  padding: 15px 0 15px 10px;
+}
+.header-banner-button-player button {
+  background: transparent;
+}
+.header-banner-brands-wrapper {
+  text-align: center;
+  background: rgba(138, 141, 146, 0.5);
+  margin: 110px 0 15px 0;
+  padding: 15px 0 10px 0;
+}
+.header-banner-brand-image {
+  display: inline-block;
+  width: 14%;
+}
+.section-winners-users-wrapper {
+  padding: 38px 0 50px 0;
+  border-bottom: 1px solid #afafaf;
+}
+.section-winners-user-item {
+  float: left;
+  width: 28.3333%;
+}
+.winners-users-statistics-offer-price {
+  width: 15%;
+}
+.section-winners-user-description-circle {
+  float: left;
+  padding: 7px 28px 0 0 ;
+}
+.winners-users-statistics-title {
+  display: block;
+  font-size: 16px;
+  font-family: "MontserratBold";
+}
+.winners-users-statistics-cash {
+  color: #fa3a48;
+  padding: 6px 0 0 0;
+  display: block;
+}
+.section-winners-user {
+  float: right;
+}
+.section-winners-user-icon {
+  float: left;
+}
+.section-winners-user-description {
+  float: left;
+  padding: 0 0 0 15px;
+}
+.section-winners-user-description-title {
+  display: block;
+  font-family: 'MontserratBold';
+}
+.section-winners-user-description-name-cash {
+  color: #afafaf;
+  display: block;
+  font-size: 12px;
+  padding: 4px 0 0 0;
+}
+/*Section*/
+.section-campaigns-tile-title-box > span {
+  text-transform: uppercase;
+  padding: 35px 0 35px 0;
+  display: block;
+  float: left;
+}
+.section-campaigns-tile-box > .row {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.section-campaigns-tile-box > .row .col-lg-4 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.campaigns-item-wrap {
+  padding: 24px 0 24px 0;
+}
+.campaigns-price-line-table-item a {
+  color: #fff;
+  font-family: 'MontserratBold';
+  font-size: 12px;
+  float: right;
+  background: #fa3a48;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 18px 0 0 0;
+}
+.campaigns-price-line-table-item {
+  width: 26.6666%;
+  float: left;
+}
+.campaigns-price-line-table-item span:first-child {
+  color: #afafaf;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: block;
+}
+.campaigns-price-line-table-item span:last-child {
+  font-size: 18px;
+  display: block;
+}
+.campaigns-price-line-table-item-pointer {
+  width: 10%;
+  padding: 21px 0 0px 0;
+}
+.campaigns-item-image {
+  position: relative;
+}
+.campaigns-item-image img {
+  width: 100%;
+}
+.campaigns-item-owner-avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -45px;
+  margin: 0 auto;
+  max-width: 90px;
+  max-height: 90px;
+}
+.campaigns-item-owner-avatar img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 4px 46px -3px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 0px 4px 46px -3px rgba(0, 0, 0, 0.56);
+  box-shadow: 0px 4px 46px -3px rgba(0, 0, 0, 0.56);
+}
+.load-more-campaigns {
+  padding: 92px 0px 72px 0px;
+  text-align: center;
+}
+.load-more-campaigns a {
+  width: 210px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+.campaigns-item-desc {
+  background-image: url("/assets/images/campaigns-wrap-bg.png");
+  padding: 65px 30px 15px 30px;
+}
+.campaigns-item-desc-title a {
+  font-size: 16px;
+}
+.campaigns-item-desc-position-point-icon-black {
+  background-position: 0 -14px;
+}
+.campaigns-item-desc-position-point-icon-gray {
+  background-position: 0 14px;
+}
+.campaigns-item-desc-position-point-icon-white-gray {
+  background-position: 0 0px;
+}
+.campaigns-item-desc-position-point-icon {
+  width: 9px;
+  height: 14px;
+  float: left;
+  margin: 1px 0 0 0;
+  background-image: url('/assets/images/icon-sprice-map-pointer.png');
+}
+.campaigns-item-desc-position-point-data {
+  float: left;
+}
+.campaigns-item-desc-position {
+  display: table;
+  margin: 0 auto;
+  font-size: 12px;
+  padding: 15px 0 15px 0;
+}
+.campaigns-item-desc-position span {
+  padding: 0 7px;
+}
+.campaigns-item-desc-info {
+  color: #717384;
+  font-size: 13px;
+  text-align: center;
+  line-height: 20px;
+}
+/*DELETE*/
+.campaigns-item-progress {
+  position: relative;
+  margin: 60px 0 0 0;
+}
+.progress {
+  border-radius: 0px;
+  height: 5px;
+}
+.progress-bar {
+  background: #fa3a48;
+}
+.progress-bar-value {
+  position: absolute;
+  top: -30px;
+  color: #222222;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 0 -27px;
+}
+/*END DELETE REPLACE*/
+.campaigns-item-price-line .campaigns-price-line-table-item span:first-child {
+  color: #2e304c;
+}
+.campaigns-item-stat-info {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+  margin: 0 auto;
+}
+.campaigns-item-stat-content {
+  text-align: left;
+}
+.campaigns-item-stat-title {
+  display: block;
+  font-size: 12px;
+}
+.campaigns-item-stat-val {
+  display: block;
+  font-size: 16px;
+  font-family: 'MontserratBold';
+  padding: 5px 0 0 0;
+}
+.campaigns-item-stat-val img {
+  float: right;
+  padding: 7px 17px 0px 0px;
+}
+/*Section*/
+.section-lottofund-wrapper {
+  background: url('/assets/images/lottofund-wrap-bg.png') no-repeat 100% 0%;
+  text-align: center;
+}
+.section-lottofund-wrapper p {
+  padding: 21px 0 25px 0;
+  font-size: 16px;
+}
+.section-lottofund-layout {
+  max-width: 725px;
+  margin: 0 auto;
+  padding: 94px 0 64px 0;
+}
+.section-lottofund-btn a {
+  font-size: 12px;
+  width: 140px;
+}
+/*Section*/
+.section-how-it-works {
+  padding: 91px 0 0 0;
+}
+.section-how-it-box-title {
+  display: block;
+  font-size: 32px;
+}
+.section-how-it-box-desc {
+  display: block;
+  font-size: 14px;
+  padding: 16px 0 33px 0;
+}
+.how-it-works-item-image {
+  display: inline-block;
+}
+.how-it-works-item-image-arrow {
+  display: inline-block;
+  padding: 0 0 0 91px;
+}
+.how-it-works-item-link {
+  font-size: 16px;
+  color: #fa3a48;
+  padding: 15px 0 0px 0;
+  min-height: 67px;
+}
+.how-it-works-item-desc span {
+  white-space: pre-line;
+  line-height: 24px;
+}
+.wrap-how-it-works-buttons {
+  padding: 50px 0 0 0;
+}
+.wrap-how-it-works-button-link {
+  margin: 0 0px 0px 15px;
+}
+/*Section*/
+.section-success-stories {
+  padding: 45px 0 0 0;
+}
+.section-success-stories-carousel-wrap {
+  position: relative;
+}
+.carousel-indicators {
+  right: 0;
+  width: auto;
+  left: 97%;
+  margin: 42px 0 0px -70px;
+  top: 0;
+  height: 20px;
+}
+.carousel-indicators li {
+  border-color: #afafaf;
+}
+.carousel-indicators .active {
+  background: #fa3a48;
+  border-color: #fa3a48;
+}
+.success-stories-wrapper {
+  background: url("/assets/images/success-stories-bg.png");
+  padding: 35px 35px 27px 35px;
+}
+.success-stories-titles {
+  display: inline-block;
+}
+.success-stories-title {
+  display: block;
+}
+.success-stories-subtitle {
+  color: #fa3a48;
+  font-size: 18px;
+  padding: 10px 0 10px 0;
+  display: block;
+}
+.success-stories-desc {
+  font-size: 14px;
+  padding: 5px 0 0 0;
+}
+.success-stories-user {
+  display: inline-block;
+  float: right;
+  margin: 0px 130px 0 0;
+}
+.success-stories-user-avatar {
+  display: inline-block;
+  float: left;
+  padding: 0 20px 0 0px;
+}
+.success-stories-user-avatar img {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+}
+.success-stories-user-info {
+  display: inline-block;
+}
+.success-stories-user-nickname {
+  display: block;
+  font-size: 14px;
+}
+.success-stories-user-country {
+  display: block;
+  color: #afafaf;
+  font-size: 12px;
+}
+/*Section*/
+.section-easily-find-campaigns {
+  padding: 50px 0 0 0;
+}
+.section-easily-find-campaigns button {
+  background: #1452d4;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  color: #fff;
+  padding: 11px 25px 11px 25px;
+}
+.easily-find-campaigns-wrap {
+  padding: 90px 0 80px 0px;
+  background: url("/assets/images/easily-find-campaigns.png") no-repeat 100% 100%;
+}
+.easily-find-campaigns-title {
+  text-align: center;
+  display: block;
+}
+.easily-find-campaigns-desc {
+  text-align: center;
+  max-width: 590px;
+  margin: 0 auto;
+  padding: 20px 0 35px 0;
+  font-size: 16px;
+}
+/*Section */
+.section-latest-lottery-res {
+  padding: 85px 0 37px 0;
+}
+.latest-lottery-res-title {
+  padding: 0 0 30px 0;
+}
+.latest-lottery-item-box {
+  padding: 13px 0;
+}
+.latest-lottery-element {
+  display: inline-block;
+  min-height: 75px;
+  margin: 0 80px 0 0;
+  float: left;
+}
+.latest-lottery-item-calendar-wrap {
+  padding: 30px 0 0 0;
+  width: 75px;
+  height: 75px;
+  background: url("/assets/images/icon-calendar-bg.png") no-repeat;
+}
+.latest-lottery-item-calendar-wrap span {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #466477;
+}
+.latest-lottery-item-calendar-date {
+  font-size: 18px;
+}
+.latest-lottery-item-calendar-mount {
+  font-size: 11px;
+}
+.latest-lottery-item-logo {
+  min-width: 90px;
+}
+.latest-lottery-item-logo-image {
+  padding: 10px 0 0 0;
+}
+.latest-lottery-item-logo-country {
+  padding: 15px 0 0 0;
+}
+.latest-lottery-item-logo-country span {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.latest-lottery-item-numbers {
+  padding: 20px 0 14px 0;
+}
+.latest-lottery-item-number-circle {
+  width: 37px;
+  height: 37px;
+  margin: 0 4px 0 4px;
+  border: 1px solid #afafaf;
+  border-radius: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+.latest-lottery-item-number-circle span {
+  display: block;
+  text-align: center;
+  padding: 7px 0px 0 0;
+  color: #afafaf;
+  font-size: 14px;
+}
+.lot-item-number-circle-active {
+  background: #fa3a48;
+  border-color: #fa3a48;
+}
+.lot-item-number-circle-active span {
+  color: #fff;
+}
+.latest-lottery-res-button-box {
+  padding: 37px 0 50px 0;
+}
+.latest-lottery-res-button-box a {
+  width: 200px;
+  font-size: 12px;
+}
+.latest-lottery-res-info-box {
+  font-size: 14px;
+}
+.latest-lottery-res-assets-content img {
+  float: right;
+  padding: 70px 0 0 0;
+}
+/*login*/
+.nav-campaigns-search {
+  float: right;
+  padding: 48px 0 35px 0;
+}
+.nav-campaigns-search li {
+  float: left;
+}
+.nav-campaigns-search li a {
+  display: block;
+  font-size: 14px;
+  color: #b7b7ba;
+  padding: 0 17px 0 17px;
+}
+.nav-campaigns-search li img {
+  display: block;
+  padding: 5px 0 4px 0;
+}
+.nav-campaigns-search li a.bold {
+  color: #2e304c;
+}
+.section-campaigns-tile-title-lowercase {
+  text-transform: lowercase;
+  font-family: 'MontserratRegular', sans-serif;
+}
+li.nav-campaigns-search-dropdown-icon img {
+  float: left;
+}
+li.nav-campaigns-search-dropdown-icon span {
+  padding: 0 0 0 10px;
+}
+li.nav-campaigns-search-dropdown-icon a {
+  padding-right: 0 ;
+}
+@media (max-width: 1198px) {
+  .header-banner-buttons {
+    padding: 45px 0 25px 0;
+  }
+  .header-banner-wrapper {
+    background-position: center;
+  }
+  .header-banner-brand-image {
+    width: 25%
+  padding: 5px 0 5px 0;
+  }
+  .section-winners-user-item {
+    width: 33.3333%;
+  }
+  .winners-users-statistics-offer-price {
+    width: 100%;
+    clear: both;
+  }
+  .winners-users-statistics-offer-price span {
+    display: inline-block;
+  }
+  .how-it-works-item-image-arrow {
+    padding: 0;
+  }
+  .winners-users-statistics-title {
+    padding: 0 15px 0 0;
+  }
+  .winners-users-statistics {
+    padding: 5px 0 15px 0;
+  }
+}
+@media (max-width: 992px) {
+  .section-how-it-box-title {
+    text-align: center;
+  }
+  .wrap-how-it-works-buttons {
+    text-align: center;
+  }
+  .header-banner-brand-image {
+    width: 25%;
+    margin: 10px 0px 5px 0px;
+  }
+  .section-winners-user-description-circle {
+    display: none;
+  }
+  .section-winners-user-item {
+    text-align: center;
+  }
+  .section-winners-user-icon {
+    float: none;
+  }
+  .latest-lottery-res-assets-content img {
+    float: none;
+    padding: 20px 0 0 0;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  .latest-lottery-element {
+    margin: 0 15px 0 0;
+  }
+  .easily-find-campaigns-wrap {
+    background-size: cover;
+  }
+  .section-lottofund-wrapper {
+    background-position: center 100%;
+    background-size: cover;
+  }
+  .section-lottofund-wrapper p {
+    padding: 21px 50px 25px 50px;
+  }
+  .nav-campaigns-search li a {
+    padding: 0 10px 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  .section-campaigns-tile-box > .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .section-campaigns-tile-box > .row .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #carousel-example-generic ol.carousel-indicators {
+    top: inherit;
+    bottom: 42px;
+  }
+  .success-stories-user {
+    float: left;
+    margin: 15px 0 0 0 ;
+  }
+  #carousel-example-generic ol.carousel-indicators {
+    top: inherit;
+    bottom: 45px;
+  }
+  .latest-lottery-res-button-box {
+    text-align: center;
+  }
+  .header-banner-buttons {
+    padding-bottom: 20px;
+  }
+  .how-it-works-item-wrap {
+    width: 50%;
+    float: left;
+    padding: 11px 15px 11px 15px;
+  }
+  .section-how-it-box-desc {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .header-banner-title span {
+    text-align: left;
+  }
+  .header-banner-subtitle span {
+    text-align: left;
+  }
+  .header-banner-title h1 {
+    text-align: left;
+  }
+  .header-banner-subtitle span {
+    font-size: 11px;
+    text-align: left;
+  }
+  nav.navbar .navbar-brand img {
+    padding: 18px 0 0 0;
+  }
+  .header-banner-buttons {
+    text-align: left;
+  }
+  .success-stories-wrapper {
+    padding: 35px 12px 35px 12px;
+  }
+  .header-banner-button.header-banner-button-player {
+    padding: 10px 0 0px 0;
+  }
+  .header-banner-subtitle {
+    padding: 0 55px 0 0px;
+  }
+  /*Winners users*/
+  .section-winners-users-wrapper {
+    padding: 8px 0 0px 0;
+    border: none;
+  }
+  .section-winners-user {
+    float: left;
+  }
+  .section-winners-user-icon {
+    float: left;
+  }
+  .section-winners-user-item {
+    width: 100%;
+    padding: 7px 0 7px 0;
+    text-align: left;
+  }
+  .section-winners-user-description-circle {
+    display: none;
+  }
+  /*Campaigns tile*/
+  .section-campaigns-tile-title-box span {
+    padding: 20px 0 0 0;
+  }
+  .load-more-campaigns {
+    padding: 15px 0px 0px 0px;
+  }
+  .campaigns-price-line-table-item span:first-child {
+    font-size: 10px;
+  }
+  .campaigns-price-line-table-item span:last-child {
+    font-size: 14px;
+    padding: 8px 0 0 0;
+  }
+  .campaigns-price-line-table-item a {
+    font-size: 10px;
+    padding: 6px 6px;
+  }
+  .section-lottofund-layout {
+    padding: 0;
+  }
+  section.section-lottofund {
+    margin: 25px  0 0 0 ;
+  }
+  .section-lottofund-wrapper {
+    background: url('/assets/images/lottofund-wrap-bg-mobile.png') no-repeat 100% 100%;
+    background-size: cover;
+  }
+  .section-lottofund-wrapper h1 {
+    padding: 37px 0 20px 0;
+    font-size: 22px;
+  }
+  .section-lottofund-wrapper p {
+    max-width: 100%;
+    font-size: 12px;
+    padding: 0 30px 25px 30px;
+  }
+  .section-lottofund-btn {
+    padding: 0 0 30px 0;
+  }
+  /*How it Works*/
+  .section-how-it-works {
+    padding: 20px 0 0 0;
+  }
+  .wrap-how-it-works-button-start {
+    padding: 11px 27px 11px 27px;
+    display: block;
+  }
+  .wrap-how-it-works-button-link {
+    margin: 10px 0 0 0 ;
+    top: 15px;
+    position: relative;
+  }
+  .wrap-how-it-works-button-start,
+  .wrap-how-it-works-button-link {
+    margin: 0 auto;
+    display: block;
+  }
+  .latest-lottery-item-logo-country {
+    padding: 5px 0 0 0;
+  }
+  /*Success stories user*/
+  .success-stories-user {
+    float: none;
+  }
+  /*Latest lottery-res*/
+  .latest-lottery-item-calendar-wrap {
+    background-size: cover;
+  }
+  .latest-lottery-item-logo {
+    min-width: inherit;
+  }
+  .latest-lottery-res {
+    padding: 25px 0 50px 0;
+  }
+  .latest-lottery-element {
+    margin: 0 12px 0 0;
+  }
+  .latest-lottery-item-calendar-wrap {
+    width: 47px;
+    height: 47px;
+  }
+  .latest-lottery-item-logo-image {
+    max-width: 47px;
+  }
+  .latest-lottery-item-logo-image img {
+    max-width: 100%;
+  }
+  .latest-lottery-item-calendar-date {
+    font-size: 11px;
+  }
+  .latest-lottery-item-number-circle {
+    width: 23px;
+    height: 23px;
+    margin: 0 2px 0 2px;
+  }
+  .latest-lottery-item-number-circle span {
+    padding: 4px 0 0 0;
+    font-size: 10px;
+  }
+  .latest-lottery-item-calendar-mount {
+    font-size: 7px;
+  }
+  .latest-lottery-item-logo-country span {
+    font-size: 11px;
+  }
+  .latest-lottery-res-button-box {
+    text-align: center;
+  }
+  .latest-lottery-res-assets-content img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    padding: 0;
+  }
+  .campaigns-item-wrap {
+    padding: 7.5px 0 7.5px 0;
+  }
+  .campaigns-item-desc-title span {
+    font-size: 14px;
+  }
+  .campaigns-item-desc-position {
+    font-size: 11px;
+  }
+  .campaigns-item-desc-info {
+    font-size: 11px;
+  }
+  .progress-bar-value {
+    font-size: 10px;
+  }
+  .campaigns-item-stat-title {
+    font-size: 10px;
+  }
+  .campaigns-item-stat-val {
+    font-size: 14px;
+  }
+  .campaigns-item-desc {
+    padding: 65px 25px 15px 25px;
+  }
+  .campaigns-item-stat-btn button {
+    font-size: 10px;
+    padding: 7px 10px 7px 11px;
+    margin: 13px 0 0 0;
+  }
+  .campaigns-item-stat-val img {
+    padding: 6px 9px 0px 0px;
+  }
+  .success-stories-user {
+    margin: 15px 0 0 0;
+  }
+  .latest-lottery-res-button-box {
+    padding: 0 0 30px 0;
+  }
+  .section-latest-lottery-res {
+    padding: 30px 0 49px 0;
+  }
+  .latest-lottery-item-calendar-wrap {
+    padding: 18px 0 0 0;
+  }
+  .latest-lottery-res-title {
+    padding: 0 0 4px 0;
+  }
+  .easily-find-campaigns-wrap {
+    padding: 70px 15px 44px 15px;
+  }
+  .easily-find-campaigns-desc {
+    font-size: 12px;
+  }
+  .easily-find-campaigns-wrap .easily-find-campaigns-title {
+    font-size: 22px;
+  }
+  section.section-easily-find-campaigns .col-lg-12 {
+    padding: 0;
+  }
+  .section-easily-find-campaigns button {
+    font-size: 12px;
+  }
+  .success-stories-titles .success-stories-title {
+    font-size: 22px;
+  }
+  .success-stories-desc {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .section-campaigns-tile-box > .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .section-campaigns-tile-box > .row .col-lg-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .how-it-works-item-wrap {
+    width: 100%;
+    float: none;
+    padding: 11px 15px 11px 15px;
+    width: 207px;
+    margin: 0 auto;
+  }
+  .header-banner-wrapper {
+    background: url("/assets/images/header-banner-home-mobile.png") no-repeat 78% 100% transparent;
+    background-size: cover;
+  }
+  .header-banner-layout {
+    padding: 5px 0 0 0;
+  }
+  .header-banner-title {
+    padding: 40px 0 5px 0;
+  }
+  .header-banner-wrapper {
+    padding: 0px 30px 0 30px;
+  }
+  .header-banner-title span {
+    font-size: 22px;
+  }
+  .header-banner-subtitle span {
+    font-size: 10px;
+  }
+  .header-banner-buttons {
+    text-align: left;
+    padding: 32px 0 25px 0;
+  }
+  .header-banner-button-player button {
+    padding-left: 0 ;
+  }
+}
+@media (max-width: 380px) {
+  .latest-lottery-element.latest-lottery-item-numbers {
+    margin: 0;
+  }
+}
+@media (max-width: 320px) {
+  nav.navbar .navbar-brand img {
+    padding: 22px 0 0 0;
+  }
+}
+/************************HOME*******/
+/************************HOW IT WORKS*******/
+.how-it-works-page-banner-wrapper {
+  padding: 150px 0 170px 0;
+  text-align: center;
+  background: url("/assets/images/how-it-works-page-banner.png") no-repeat 100% 100% transparent;
+  background-size: cover;
+}
+.how-it-works-page-banner-wrapper .how-it-works-page-banner-subtitle {
+  padding: 20px 0 0 0;
+}
+.how-it-works-page-banner-wrapper span {
+  display: block;
+}
+.how-it-works-page-banner-layout {
+  max-width: 630px;
+  margin: 0 auto;
+}
+/*section-how-it-works-page-create-step*/
+.section-how-it-works-page-create-step {
+  padding: 55px 0 55px 0;
+}
+.how-it-works-page-create-step-item {
+  padding: 35px 0px 0 0;
+}
+.how-it-works-page-create-step-item-link {
+  font-size: 16px;
+  color: #fa3a48;
+  padding: 18px 0 15px 0;
+}
+.how-it-works-page-create-step-item-info {
+  padding: 0 30px 0 0;
+}
+.how-it-works-page-create-step-register {
+  padding: 100px 0 0px 0;
+}
+.how-it-works-page-create-step-register-button {
+  padding: 35px 0 0 0;
+}
+.how-it-works-page-create-step-register-button a {
+  color: #fff;
+  padding: 0px 0 0px 0;
+  margin: 0 auto;
+  display: block;
+  line-height: 66px;
+  font-size: 14px;
+  width: 265px;
+  height: 66px;
+}
+.how-it-works-page-create-step-inner-banner {
+  padding: 32px 0 32px 0;
+  text-align: center;
+  color: #fff;
+  background: #3f4268;
+}
+.how-it-works-page-create-step-inner-banner span {
+  font-size: 14px;
+  display: block;
+  padding: 10px 0 10px 0;
+}
+@media (max-width: 767px) {
+  .how-it-works-page-banner-wrapper {
+    padding: 102px 30px 139px 15px;
+    background: url("/assets/images/privacy-policy-bg-mobile.png");
+    background-size: cover;
+  }
+  .how-it-works-page-create-step-section-title {
+    font-size: 22px;
+    display: block;
+    text-align: center;
+  }
+  .how-it-works-page-create-step-items {
+    padding-left: 75px;
+  }
+  .how-it-works-page-create-step-register {
+    padding: 45px 0 0 0;
+  }
+  .how-it-works-page-create-step-register button {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/************************HOW IT WORKS*******/
+@media (min-width: 1200px) {
+  .container {
+    width: 1210px;
+  }
+}
+@font-face {
+  font-family: MontserratRegular;
+  src: url("../fonts/Montserrat/Montserrat-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url("../fonts/Montserrat/Montserrat-Bold.otf") format("opentype");
+}
+body {
+  font-family: 'MontserratRegular', sans-serif;
+  color: #2e304c;
+}
+body a {
+  color: #2e304c;
+  text-decoration: none;
+}
+body a:focus {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.bold {
+  font-family: 'MontserratBold';
+}
+.line-text {
+  line-height: 25px;
+}
+.section-title {
+  font-size: 32px;
+  font-family: 'MontserratBold';
+  line-height: 40px;
+}
+.section-subtitle {
+  font-size: 14px;
+}
+.block {
+  display: block;
+}
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.red {
+  color: #fa3a48;
+}
+.white {
+  color: #fff;
+}
+.green {
+  color: #2ecc71;
+}
+.btn-red {
+  background: #fa3a48;
+  border-radius: 5px;
+}
+.btn:hover {
+  outline: none;
+}
+.main-line-btn {
+  width: 180px;
+  border-radius: 5px;
+  font-size: 10px;
+  background: transparent;
+  border: 2px solid #fa3a48;
+  color: #fa3a48;
+  height: 47px;
+  letter-spacing: 0.1em;
+  padding: 0;
+  line-height: 47px;
+}
+.main-line-btn:hover {
+  color: #fff;
+  background: #fa3a48;
+}
+.main-solid-btn {
+  width: 180px;
+  height: 47px;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #fa3a48;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0;
+  line-height: 47px;
+}
+.main-solid-btn:hover {
+  background: #DA0E1D ;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.solid-button:hover {
+  background: #DA0E1D ;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.form-control {
+  height: inherit;
+  display: initial;
+}
+.main-solid-input {
+  width: 240px;
+  height: 47px;
+  /*margin: 0 16px 0 0;*/
+  font-size: 12px;
+  color: #2e304c;
+  background: rgba(246, 244, 245, 0);
+  border-color: #e6e1e1;
+  padding: 13px 25px 13px 15px;
+  box-shadow: none;
+}
+.default-input-select {
+  border: 1px solid #ede9e9;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #afafaf;
+  padding-right: 30px;
+  padding-left: 11px;
+  height: 47px;
+  background: url("/assets/images/icon-form-pointer-small.png") no-repeat 93% 50% transparent;
+  background-color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-position: calc(100% - 15px);
+}
+.solid-blue-button {
+  border-radius: 5px;
+  background: #1452d4;
+}
+.solid-blue-button:hover {
+  background-color: #2854b0;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.line-blue-button {
+  border-radius: 5px;
+  height: 47px;
+  width: 180px;
+  font-size: 10px;
+  background: transparent;
+  border: 2px solid #1452d4;
+  color: #1452d4;
+}
+.line-blue-button:hover {
+  background-color: #2854b0;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+label {
+  font-weight: inherit;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0 ;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+.panel-tabs-wrap ul.nav.nav-tabs {
+  border: none;
+}
+.panel-tabs-wrap ul.nav.nav-tabs li a {
+  margin-right: 0px;
+  border: none;
+  border-radius: inherit;
+}
+.panel-tabs-wrap ul.nav.nav-tabs li a:focus {
+  background: #f6f4f5;
+  color: #2e304c;
+}
+.panel-tabs-wrap ul.nav.nav-tabs li a:hover {
+  background: #f6f4f5;
+  color: #2e304c;
+}
+/***/
+input.gray-placeholder::-webkit-input-placeholder {
+  color: #adadad;
+}
+input.gray-placeholder:-moz-placeholder {
+  color: #adadad;
+}
+input.gray-placeholder::-moz-placeholder {
+  color: #adadad;
+}
+input.gray-placeholder:-ms-input-placeholder {
+  color: #adadad;
+}
+/*shine placeholder*/
+input.shine-placeholder-form-control::-webkit-input-placeholder {
+  color: #4b5979;
+}
+input.shine-placeholder-form-control:-moz-placeholder {
+  color: #4b5979;
+}
+input.shine-placeholder-form-control::-moz-placeholder {
+  color: #4b5979;
+}
+input.shine-placeholder-form-control:-ms-input-placeholder {
+  color: #4b5979;
+}
+/*Default color placeholder*/
+input.main-placeholder::-webkit-input-placeholder {
+  color: #2e304c;
+}
+input.main-placeholder:-moz-placeholder {
+  color: #2e304c;
+}
+input.main-placeholder::-moz-placeholder {
+  color: #2e304c;
+}
+input.main-placeholder:-ms-input-placeholder {
+  color: #2e304c;
+}
+.clear-padding {
+  padding: 0;
+}
+.clear-margin {
+  margin: 0;
+}
+.default-input {
+  border: 1px solid #e6e1e1;
+  background-color: #fff;
+  border-radius: 3px;
+  height: 46px;
+  color: #afafaf;
+  padding-right: 14px;
+  padding-left: 14px;
+  font-size: 12px;
+}
+@media (max-width: 480px) {
+  .col-lg-12.mobile-full-width {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-xs-1,
+  .col-sm-1,
+  .col-md-1,
+  .col-lg-1,
+  .col-xs-2,
+  .col-sm-2,
+  .col-md-2,
+  .col-lg-2,
+  .col-xs-3,
+  .col-sm-3,
+  .col-md-3,
+  .col-lg-3,
+  .col-xs-4,
+  .col-sm-4,
+  .col-md-4,
+  .col-lg-4,
+  .col-xs-5,
+  .col-sm-5,
+  .col-md-5,
+  .col-lg-5,
+  .col-xs-6,
+  .col-sm-6,
+  .col-md-6,
+  .col-lg-6,
+  .col-xs-7,
+  .col-sm-7,
+  .col-md-7,
+  .col-lg-7,
+  .col-xs-8,
+  .col-sm-8,
+  .col-md-8,
+  .col-lg-8,
+  .col-xs-9,
+  .col-sm-9,
+  .col-md-9,
+  .col-lg-9,
+  .col-xs-10,
+  .col-sm-10,
+  .col-md-10,
+  .col-lg-10,
+  .col-xs-11,
+  .col-sm-11,
+  .col-md-11,
+  .col-lg-11,
+  .col-xs-12,
+  .col-sm-12,
+  .col-md-12,
+  .col-lg-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section-title {
+    font-size: 22px;
+    line-height: inherit;
+  }
+  .section-subtitle {
+    font-size: 12px;
+  }
+  .line-text {
+    line-height: inherit;
+  }
+}
+.desktop-no-row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.desktop-no-col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (max-width: 992px) {
+  .desktop-no-row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .desktop-no-col {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .desktop-no-row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .desktop-no-col {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/************************RESULTS*******/
+section.section-lottery-results-page-statistics {
+  padding: 51px 0 60px 0;
+}
+.lottery-results-page-banner-wrapper {
+  background: url("/assets/images/lottery-page-results-bg.png") no-repeat 100% 100% transparent;
+  padding: 106px 0px 78px 0;
+  background-size: cover;
+}
+.lottery-results-page-banner-wrapper span {
+  display: block;
+  text-align: center;
+}
+.lottery-results-page-banner-wrapper a {
+  display: block;
+  text-align: center;
+}
+.lottery-results-page .lottery-results-page-banner-layout {
+  max-width: 730px;
+  margin: 0 auto;
+}
+.lottery-results-page-statistics-title {
+  font-size: 20px;
+  padding: 0 0 30px 0;
+  display: block;
+}
+span.lottery-results-page-banner-subtitle {
+  padding: 20px 0 35px 0;
+}
+.lottery-results-page-statistics-wrap {
+  padding: 0px 45px 0 75px;
+}
+.lottery-results-page-statistics-table-wrap {
+  padding: 0px 115px 0 25px;
+}
+.lottery-results-page-statistics-winning-numbers-run-up {
+  max-width: 367px;
+}
+.lottery-results-page-statistics-winning-numbers-desc {
+  font-size: 14px;
+}
+.lottery-results-page-statistics-winning-numbers-select-date select {
+  width: 310px;
+  border: none;
+  outline: none;
+  padding: 10px 12px 10px 12px;
+  background: url("/assets/images/icon-form-pointer.png") no-repeat 95% 50%;
+  background-color: #f6f4f5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.lottery-results-page-statistics-winning-numbers-select-date {
+  border-bottom: 1px solid #e6e1e1;
+  padding: 21px 0 21px 0;
+}
+.lottery-results-page-statistics-winning-numbers-numbers {
+  padding: 22px 0px 25px 0;
+}
+.lottery-results-page-statistics-winning-numbers-number-circle {
+  width: 30px;
+  height: 30px;
+  margin: 0 6px 0 0px;
+  border: 1px solid #afafaf;
+  border-radius: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+.lottery-results-page-statistics-winning-numbers-number-circle span {
+  display: block;
+  text-align: center;
+  padding: 5px 0px 0 0;
+  color: #afafaf;
+  font-size: 12px;
+}
+.lottery-results-page-statistics-winning-numbers-number-circle.lottery-results-circle-active {
+  background: #fa3a48;
+  border-color: #fa3a48;
+}
+.lottery-results-page-statistics-winning-numbers-number-circle.lottery-results-circle-active span {
+  color: #fff;
+}
+/********************************************************/
+.page-date-time {
+  float: left;
+}
+.page-date-time-title {
+  padding: 57px 0 15px 0;
+}
+.lottery-results-page-statistics-winning-lottery-logo {
+  padding: 0 0 23px 0;
+}
+.lottery-results-page-statistics-winning-numbers-description {
+  border-bottom: 1px solid #e6e1e1;
+  padding: 0px 0 14px 0;
+}
+.date-time-number {
+  float: left;
+  text-align: center;
+}
+.date-time-number span {
+  display: block;
+}
+.date-time-number span:first-child {
+  font-size: 22px;
+}
+.date-time-number span:last-child {
+  font-size: 9px;
+  color: #afafaf;
+}
+.date-time-number-separator {
+  float: left;
+  padding: 12px 13px 12px 13px;
+  text-align: center;
+  display: block;
+}
+/************************************************************/
+.lottery-results-page-play-btn {
+  padding: 31px 0px 0 0;
+}
+/*table result statistic*/
+table tr.lottery-results-page-statistics-table-title td {
+  border-top: none;
+  padding: 0 0 20px 0;
+  color: #b7b7ba;
+}
+table tr.lottery-results-page-statistics-table-content td {
+  padding: 20px 0 20px 0;
+  border-top: none;
+  border-bottom: 1px solid #e6e1e1;
+}
+table tr.lottery-results-page-statistics-table-title td.lottery-results-page-statistics-table-center {
+  padding: 0px 75px 0px 75px;
+  text-align: center;
+}
+td.lottery-results-page-statistics-table-center {
+  text-align: center;
+}
+section.section-lottery-results-page-laprimitiva-results-information {
+  background-color: #f6f4f5;
+  padding: 71px 0 80px 0;
+}
+section.section-lottery-results-page-laprimitiva-results-information span {
+  text-align: center;
+  display: block;
+}
+.layout-lottery-results-page-laprimitiva-results-information {
+  max-width: 922px;
+  margin: 0 auto;
+}
+.lottery-results-page-laprimitiva-results-information-title {
+  padding: 0px 0px 16px 0;
+}
+@media (max-width: 1198px) {
+  .lottery-results-page-statistics-table-wrap {
+    padding: 0px 25px 0 25px;
+  }
+  table tr.lottery-results-page-statistics-table-title td.lottery-results-page-statistics-table-center {
+    padding: 0px 50px 0px 50px;
+  }
+}
+@media (max-width: 992px) {
+  .lottery-results-page-statistics-wrap {
+    padding: 0px 0px 0 0px;
+  }
+  .lottery-results-page-statistics-table-wrap {
+    padding: 55px 0px 0 0px;
+  }
+  .lottery-results-page-banner-layout {
+    max-width: inherit;
+    padding: 0px 60px 0 60px;
+  }
+}
+@media (max-width: 480px) {
+  section.section-lottery-results-page-statistics {
+    padding: 21px 0 6px 0;
+  }
+  section.section-lottery-results-page-laprimitiva-results-information {
+    padding: 51px 0 48px 0;
+    margin-bottom: 30px;
+  }
+  .lottery-results-page-banner-wrapper {
+    padding: 54px 0px 39px 0;
+    background: url("/assets/images/lottery-page-results-mobile-bg.png") no-repeat 50% 100% transparent;
+    background-size: cover;
+  }
+  section.section-lottery-results-page-banner .col-lg-12 {
+    padding: 0;
+  }
+  .lottery-results-page-statistics-table-wrap {
+    padding: 34px 0px 0 0px;
+  }
+  .page-date-time-title {
+    padding: 24px 0 9px 0;
+  }
+  .lottery-results-page-play-btn {
+    padding: 19px 0px 0 0;
+  }
+  .lottery-results-page-banner-layout {
+    padding: 0px 18px 0px 18px;
+  }
+  .lottery-results-page-statistics-title {
+    font-size: 22px;
+  }
+  .lottery-results-page-statistics-winning-numbers-desc {
+    font-size: 12px;
+  }
+  .lottery-results-page-statistics-winning-numbers-select-date select {
+    width: 100%;
+  }
+  .lottery-results-page-statistics-winning-numbers-description p {
+    font-size: 12px;
+  }
+  .lottery-results-page-statistics-table table tr td {
+    width: 33.333%;
+  }
+  td.red.bold.lottery-results-page-statistics-table-center {
+    padding: 20px 40px 0px 0px;
+  }
+  table tr.lottery-results-page-statistics-table-title td.lottery-results-page-statistics-table-center {
+    padding: 0px 40px 0px 0px;
+  }
+  table tr.lottery-results-page-statistics-table-title td {
+    padding: 0;
+  }
+}
+@media (max-width: 320px) {
+  td.red.bold.lottery-results-page-statistics-table-center {
+    padding: 20px 13px 0px 0px;
+  }
+  table tr.lottery-results-page-statistics-table-title td.lottery-results-page-statistics-table-center {
+    padding: 0px 13px 0px 0px;
+  }
+}
+/************************LOTTERY RESULTS *******/
+.lottery-main-results-page-banner-wrapper {
+  background: url("../images/lottery-main-results-header-bg.png") no-repeat 100% 100%;
+  background-size: cover;
+  padding: 100px 0 79px 0;
+}
+.lottery-results-page-banner-layout {
+  text-align: center;
+  max-width: 590px;
+  margin: 0 auto;
+}
+.lottery-main-results-page-banner-subtitle {
+  padding: 15px 0 34px 0;
+}
+.lottery-results-ticket-miniature-wrapper {
+  background: #f6f4f5;
+  padding: 37px 24px 35px 29px;
+  margin: 15px 0;
+}
+.lottery-results-ticket-miniature-layout {
+  max-width: 220px;
+  margin: 0 auto;
+}
+.lottery-results-ticket-miniature-image {
+  height: 70px;
+}
+.lottery-results-ticket-miniature-image img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.lottery-results-ticket-miniature-name {
+  font-size: 22px;
+  padding: 22px 0 7px 5px;
+}
+.lottery-results-ticket-miniature-line-descriptions {
+  padding: 0 0 0 5px;
+}
+.lottery-results-ticket-miniature-line-descriptions span:first-child {
+  color: #a9aaac ;
+  padding-right: 10px;
+}
+.lottery-results-ticket-miniature-one-line-info {
+  padding: 7px 0 7px 0;
+}
+.lottery-results-ticket-miniature-line-points {
+  display: table;
+  margin: 0 auto;
+  padding: 13px 0 37px 0;
+}
+.lottery-results-ticket-circle-point {
+  float: left;
+  width: 26px;
+  height: 26px;
+  background: #fa3a48;
+  border-radius: 100%;
+  border: 1px solid #fa3a48;
+  text-align: center;
+  overflow: hidden;
+  line-height: 22px;
+  margin: 0 3px 0 3px;
+}
+.lottery-results-ticket-circle-point span {
+  color: #fff;
+  font-size: 11px;
+}
+.lottery-results-ticket-circle-point.lottery-results-ticket-circle-point-no-selected {
+  border-color: #fa3a48;
+  background: #fff;
+}
+.lottery-results-ticket-circle-point.lottery-results-ticket-circle-point-no-selected span {
+  color: #fa3a48;
+}
+.lottery-results-ticket-miniature-line-buttons a {
+  margin: 0 auto;
+}
+.lottery-results-ticket-circle-point:first-child {
+  margin-left: 0 ;
+}
+.lottery-results-ticket-circle-point:last-child {
+  margin-right: 0 ;
+}
+.section-lottery-main-results-page {
+  padding: 23px 0 27px 0;
+}
+.section-lottery-main-results-page .advantages-tile-wrapper {
+  margin: 15px 0 15px 0;
+}
+.section-lottery-main-results-page .advantages-tile-information {
+  margin: 7px 0 20px 0;
+}
+@media (max-width: 480px) {
+  .lottery-main-results-page-banner-wrapper {
+    padding: 51px 0 50px 0;
+    background: url("/assets/images/lottery-group1-pageheade-mobile-bg.png") no-repeat 100% 100%;
+    background-size: cover;
+  }
+  .section-lottery-main-results-page {
+    padding: 16px 0 27px 0;
+  }
+  .lottery-results-ticket-miniature-wrapper {
+    margin: 7.5px 0;
+  }
+  .section-lottery-main-results-page .advantages-tile-wrapper {
+    margin: 7.5px 0;
+  }
+  .section-lottery-main-results-page .advantages-tile-wrapper {
+    padding-bottom: 33px;
+  }
+}
+/************************LOTTERY RESULTS *******/
+/************************SIGN IN  step 1.2. SING UP  PASSWORD RESET NEW PASSWORD *******/
+.section-sign-in-step {
+  padding: 75px 0 136px 0;
+}
+.wrapper-sign-in-step {
+  max-width: 380px;
+  margin: 0 auto;
+}
+.wrapper-sign-in-step .form-control {
+  height: inherit;
+}
+.sign-in-step-page-title .sign-in-step-title {
+  padding: 0 0 16px 0;
+}
+.sign-in-step-page-title span {
+  display: block;
+  text-align: center;
+}
+.sign-in-step-page-form-input {
+  margin: 0 auto;
+  font-size: 12px;
+  color: #2e304c;
+  background: #f6f4f5;
+  border-color: #e6e1e1;
+  padding: 13px 24px 13px 24px;
+  box-shadow: none;
+}
+.sign-in-step-page-form-input-password {
+  margin: 15px 0 0 0;
+}
+.sign-in-step-page-form-checkbox {
+  padding: 27px 0 0 0;
+}
+.sign-in-step-page-form-checkbox label {
+  font-size: 12px;
+  font-weight: inherit;
+  margin: 0;
+}
+.sign-in-step-page-form-checkbox input {
+  float: left;
+}
+.sign-in-step-page-form-checkbox span {
+  float: left;
+  padding: 2px 0 0 10px ;
+}
+.sign-in-step-page-info-link {
+  padding: 0 10px 0 10px ;
+}
+.sign-in-step-page-form {
+  padding: 44px 0 0 0;
+  max-width: 338px;
+  margin: 0 auto;
+}
+.sign-in-step-page-form-separator {
+  text-align: center;
+  display: block;
+  padding: 15px 0 15px 0;
+  font-size: 10px;
+}
+.sign-in-step-page-form-buttons {
+  text-align: center;
+  padding: 26px 0 0 0;
+}
+.sign-in-step-page-info {
+  font-size: 10px;
+  text-align: center;
+  padding: 25px 0 0 0;
+}
+.sign-in-step-page-info a {
+  padding: 0 0 0 3px;
+}
+.section-password-reset {
+  padding: 75px 0 115px 0;
+}
+.password-reset-content form input {
+  width: 340px;
+  margin: 0 auto;
+  display: block;
+  font-size: 12px;
+  background: #f6f4f5;
+}
+.password-reset-content form button {
+  margin: 0 auto;
+}
+.password-reset-content-input-box {
+  margin: 43px 0 30px 0;
+}
+.new-password-input-one {
+  padding: 0 0 15px 0;
+}
+.new-password-input-one input {
+  background: #f6f4f5;
+}
+.new-password-input-one:last-child {
+  padding: 0;
+}
+@media (max-width: 480px) {
+  .section-password-reset {
+    padding: 11px 0 33px 0;
+  }
+  .password-reset-content form input {
+    width: 100%;
+  }
+  .password-reset-content-input-box {
+    margin: 28px 0 27px 0;
+  }
+}
+/*SING UP page*/
+@media (max-width: 480px) {
+  .section-sign-in-step {
+    padding: 11px 0 33px 0;
+  }
+  .sign-in-step-page-title {
+    padding: 0 15px 0 15px;
+  }
+  .sign-in-step-page-form {
+    padding: 37px 0 0 0;
+  }
+}
+/************************SIGN IN  step 1.2. SING UP  PASSWORD RESET  NEW PASSWORD *******/
+/************************SING UP *******/
+.section-sign-up {
+  padding: 75px 0 115px 0;
+}
+.wrapper-sign-up {
+  max-width: 380px;
+  margin: 0 auto;
+}
+.sign-up-page-title span {
+  display: block;
+  text-align: center;
+}
+.sign-up-page-title .sign-up-title {
+  padding: 0 0 16px 0;
+}
+.sign-up-page-form {
+  padding: 29px 0px 0 0;
+}
+.sign-up-button-fc {
+  display: block;
+  margin: 0 auto;
+}
+span.sign-up-page-form-separator {
+  text-align: center;
+  display: block;
+  font-size: 10px;
+  padding: 22px 0 22px 0;
+}
+.sign-up-page-form-input {
+  margin: 0 auto;
+  height: inherit;
+  font-size: 12px;
+  color: #2e304c;
+  background: #f6f4f5;
+  border-color: #e6e1e1;
+  padding: 13px 24px 13px 24px;
+  box-shadow: none;
+  margin: 0px 0 17px 0;
+}
+.sign-up-page-form-checkbox input {
+  float: left;
+}
+.sign-up-page-form-checkbox span {
+  float: left;
+  padding: 2px 0 0 10px ;
+  font-weight: normal;
+  font-size: 12px;
+}
+.sign-up-page-form-buttons {
+  max-width: 180px;
+  margin: 0 auto;
+  padding: 15px 0 19px 0;
+}
+.sign-up-page-form-button-login {
+  width: 100%;
+  color: #fff;
+  font-size: 10px;
+}
+.sign-up-page-info {
+  text-align: center;
+  font-size: 10px;
+}
+@media (max-width: 480px) {
+  .section-sign-up {
+    padding: 11px 0 33px 0;
+  }
+}
+/************************SING UP *******/
+/************************CAMPAINGS *******/
+.layout-user-info-top {
+  background: #f6f4f5;
+  text-align: center;
+  padding: 48px 0 0px 0;
+}
+.user-info-top-money-avatar-box {
+  display: inline-block;
+}
+.left-campaings-page-items {
+  padding: 0 0 0 60px;
+}
+.user-info-top-inline {
+  float: left;
+}
+.user-info-top-circle-avatar {
+  margin: 0 46px 0px 46px;
+}
+.user-info-top-money span {
+  display: block;
+}
+.user-info-top-money .user-info-top-money-total {
+  font-size: 18px;
+}
+.user-info-top-money .user-info-top-money-title {
+  font-size: 12px;
+  color: #afafaf;
+}
+.user-info-top-circle-avatar {
+  max-width: 90px;
+  max-height: 90px;
+}
+.user-info-top-circle-avatar img {
+  border: 2px solid #fff;
+  max-width: 100%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 4px 46px -3px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 0px 4px 46px -3px rgba(0, 0, 0, 0.56);
+  box-shadow: 0px 4px 46px -3px rgba(0, 0, 0, 0.56);
+}
+.user-info-top-money {
+  padding: 31px 0 0 0;
+}
+.user-info-top-name-location-box {
+  padding: 21px 0 36px 0;
+}
+.user-info-top-name-location-box span {
+  display: block;
+}
+.user-info-top-name-text {
+  font-size: 16px;
+  padding: 0 0 12px 0;
+}
+.user-info-top-name-country {
+  font-size: 12px;
+  color: #afafaf;
+}
+.user-info-top-buttons-box {
+  padding: 0 0 23px 0;
+}
+.user-info-top-buttons-box a {
+  margin: 0px 8px 0 8px;
+}
+.user-info-top-nav-box {
+  text-align: center;
+}
+.user-info-top-nav-box ul {
+  margin: 0;
+  padding: 0;
+}
+.user-info-top-nav-box ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 16px 0px 16px;
+}
+.user-info-top-nav-box ul li a {
+  text-decoration: none;
+  padding: 21px 0px 21px 0px;
+  display: block;
+  color: #2e304c;
+}
+.user-info-top-nav-box ul .user-info-top-nav-active a {
+  border-bottom: 3px solid #fa3a48;
+  color: #fa3a48;
+}
+/*campaings page*/
+.section-campaings-page-items {
+  padding: 0 0 63px 0;
+}
+.campaings-page-items-line {
+  padding: 68px 0 0 0;
+}
+.campaings-page-items-title span {
+  font-size: 20px;
+}
+.campaigns-item-page-text {
+  font-size: 12px;
+  color: #b7b7ba;
+  line-height: 21px;
+}
+.campaings-page-btn-create-campaings {
+  margin: 38px 0 0 0;
+  width: 170px;
+}
+.campaings-page-items .row .col-lg-6 {
+  padding: 20px 20px 20px 20px;
+}
+.campaings-page-items {
+  padding: 0 85px 0 0;
+}
+.campaings-page-item-image img {
+  width: 100%;
+}
+.campaings-page-item-description {
+  background: url("/assets/images/campaigns-item-wrap-bg.png") no-repeat 100% 100%;
+  background-size: cover;
+}
+.campaings-page-item-description {
+  text-align: center;
+  padding: 60px 60px 50px 60px;
+}
+.campaings-page-item-description span {
+  display: block;
+}
+.campaings-page-item-description-name {
+  font-size: 16px;
+}
+.campaings-page-item-description-text {
+  color: #717283;
+  padding: 24px 0 30px 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+.campaings-page-item-description-buttons a {
+  margin: 0 9px 0 9px;
+}
+@media (max-width: 1198px) {
+  .left-campaings-page-items {
+    padding: 0 20px 0 0;
+  }
+  .left-campaings-page-items {
+    padding: 0 0 0 20px;
+  }
+}
+@media (max-width: 992px) {
+  .left-campaings-page-items,
+  .campaings-page-items {
+    padding: 0;
+  }
+  .user-info-top-nav-box ul li {
+    width: 25%;
+  }
+}
+@media (max-width: 767px) {
+  .user-info-top-nav-box ul li {
+    width: 50%;
+    float: left;
+    padding: 0px 0px 0px 12px;
+    display: block;
+  }
+  .user-info-top-nav-box ul .user-info-top-nav-active a {
+    margin-bottom: 0px;
+  }
+  .user-info-top-nav-box ul li a {
+    margin-bottom: 3px;
+    float: left;
+    font-size: 12px;
+    padding: 14px 0px 6px 0px;
+  }
+  .layout-user-info-top {
+    padding: 48px 0 32px 0;
+  }
+  p.campaigns-item-page-text {
+    padding: 21px 0 3px 0;
+  }
+  .campaings-page-items .row .col-lg-6 {
+    padding: 20px 15px 20px 15px;
+  }
+}
+@media (max-width: 480px) {
+  .section-campaings-page-items {
+    padding: 0 0 30px 0;
+  }
+  .campaings-page-items-line {
+    padding: 21px 0 0 0;
+  }
+  .campaings-page-items .row .col-lg-6 {
+    padding: 15px 10px 15px 10px;
+  }
+  .campaings-page-item-description {
+    padding: 60px 28px 50px 28px;
+  }
+  .campaings-page-items-line-last {
+    padding: 4px 0 0 0;
+  }
+  .campaings-page-btn-create-campaings {
+    margin: 11px 0 0 0;
+  }
+  .user-info-top-circle-avatar {
+    margin: 0 20px 0px 20px;
+  }
+  .user-info-top-buttons-box a {
+    margin: 6px 8px 6px 8px;
+  }
+}
+/************************SING UP *******/
+/************************CONTACT US*******/
+.contact-us-page {
+  margin: 0 0 50px 0;
+}
+.contact-us-page-banner-wrapper {
+  background: url("/assets/images/contact-us-bg.png") no-repeat 100% 100% transparent;
+  padding: 158px 0px 130px 0;
+  background-size: cover;
+}
+.contact-us-page-banner-layout {
+  max-width: 730px;
+  margin: 0 auto;
+  word-break: break-all;
+}
+.contact-us-page-icon-info-layout {
+  padding: 85px 0px 41px 81px;
+}
+.contact-us-page-icon-info-layout .contact-us-page-icon-info-box:first-child {
+  padding: 0 ;
+}
+.contact-us-page-icon-info-layout .contact-us-page-icon-info-box {
+  padding: 0 0 0px 47px;
+}
+.contact-us-page-banner-subtitle {
+  padding: 24px 0 0 0;
+}
+.contact-us-page-icon-info-box {
+  float: left;
+  width: 25%;
+}
+.contact-us-page-icon-info-box span {
+  display: block;
+}
+.contact-us-page-icon-info-box img {
+  padding: 0 0 20px 0;
+}
+.contact-us-icon-info-box-title {
+  font-size: 18px;
+  padding: 0 0 20px 0;
+}
+.contact-us-icon-info-box-subtitle {
+  font-size: 12px;
+  padding: 0 0 8px 0;
+}
+.contact-us-page-why-us-wrapper {
+  background: #f6f4f5;
+  padding: 49px 0 73px 50px;
+}
+.contact-us-page-why-us-layout {
+  max-width: 900px;
+}
+.contact-us-page-why-us-title {
+  display: block;
+  padding: 0 0px 19px 0;
+}
+.contact-us-page-why-us-text {
+  font-size: 14px;
+}
+.contact-us-page-why-us-advantages {
+  padding: 55px 0 0 0;
+}
+.contact-us-page-why-us-advantages .contact-us-page-why-us-advantages-box:first-child {
+  padding: 0;
+}
+.contact-us-page-why-us-advantages-box {
+  width: 25%;
+  float: left;
+  padding: 0 0 0 35px;
+}
+.contact-us-page-why-us-advantages-box span {
+  display: block;
+  font-size: 18px;
+  padding: 20px 0 0 0;
+}
+.contact-us-page-why-us-advantages-box-image {
+  height: 39px;
+}
+@media (max-width: 1198px) {
+  .contact-us-page-icon-info-layout {
+    padding-left: 50px;
+  }
+  .contact-us-page-icon-info-layout .contact-us-page-icon-info-box {
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  .contact-us-page-icon-info-layout {
+    padding: 22px 0px 42px 0;
+  }
+  .contact-us-page-icon-info-box {
+    width: 50%;
+    text-align: center;
+    margin: 11px 0 11px 0;
+  }
+  .contact-us-page-why-us-advantages-box {
+    padding: 0;
+  }
+  .contact-us-page-banner-layout {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 767px) {
+  .contact-us-page-why-us-advantages-box {
+    width: 50%;
+  }
+  .contact-us-page-why-us-advantages-box {
+    padding: 0 0 35px 0;
+  }
+}
+@media (max-width: 480px) {
+  .contact-us-page-icon-info-box {
+    width: 100%;
+  }
+  .section-contact-us-page-why-us .col-lg-12,
+  .section-contact-us-page-banner .col-lg-12 {
+    padding: 0;
+  }
+  .contact-us-page-why-us-wrapper {
+    padding: 30px 10px 10px 10px;
+  }
+  .contact-us-page-why-us-text {
+    font-size: 12px;
+  }
+  .contact-us-page-banner-layout {
+    padding: 0;
+  }
+  .contact-us-page-banner-wrapper {
+    background: url("/assets/images/privacy-policy-bg-mobile.png");
+    padding: 93px 20px 109px 20px;
+    background-size: cover;
+  }
+  .contact-us-page-banner-subtitle {
+    padding: 16px 0 0 0;
+  }
+  .contact-us-page-why-us-advantages-box {
+    text-align: center;
+  }
+  .contact-us-page {
+    margin: 0 0 30px 0;
+  }
+}
+/************************CONTACT US*******/
+/************************ DEPOSIT *******/
+.deposit-header-wrapper {
+  background: #f6f4f5;
+  padding: 112px 0 112px 0;
+}
+.deposit-header-layout {
+  max-width: 810px;
+  margin: 0 auto;
+  text-align: center;
+}
+.deposit-header-title {
+  display: block;
+}
+.deposit-header-text {
+  display: block;
+  font-size: 14px;
+  padding: 20px 0 45px 0;
+}
+.deposit-header-info-prices {
+  display: inline-block;
+}
+.deposit-header-info-price {
+  float: left;
+  padding: 0 16px 0 16px;
+}
+.deposit-header-info-price span {
+  display: block;
+}
+.deposit-header-info-price img {
+  padding: 17px 0 17px 0;
+}
+.deposit-payment-methods-form-box-path {
+  float: left;
+}
+.deposit-header-info-total-price {
+  font-size: 18px;
+}
+.deposit-payment-methods-form-box {
+  padding: 70px 0 74px 240px;
+}
+.deposit-header-info-total-desc {
+  font-size: 12px;
+  color: #afafaf;
+}
+.deposit-payment-methods-form-box-title {
+  font-size: 16px;
+  width: 337px;
+  padding: 0 0 24px 0;
+}
+.deposit-payment-methods-form-box-checkbox {
+  padding: 0 0 20px 0;
+}
+.deposit-payment-methods-form-box-checkbox span {
+  font-weight: initial;
+  font-size: 12px;
+  margin: 0 0 0 13px;
+}
+.deposit-payment-methods-form-box-checkbox input {
+  float: left;
+}
+.section-deposit-payment-methods-card-variants {
+  margin: 0 0 40px 0;
+}
+.deposit-form-add-new-payment-btn {
+  padding: 27px 0 0 0;
+}
+.deposit-form-add-new-payment-btn button {
+  border-radius: 5px;
+  border: 2px solid #fa3a48;
+  color: #fa3a48;
+  font-size: 10px;
+  padding: 0px 62px 0px 62px;
+  height: 47px;
+}
+.deposit-payment-methods-field-card {
+  width: 337px;
+  height: 47px;
+  margin: 0 37px 0px 0;
+  border: 1px solid #e6e1e1;
+  font-size: 12px;
+  border-radius: 5px;
+  outline: none;
+  padding: 0px 12px 0px 12px;
+  background: url("/assets/images/icon-form-pointer.png") no-repeat 95% 50%;
+  background-color: #f6f4f5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.deposit-payment-methods-field-total {
+  width: 240px;
+  height: 47px;
+  margin: 0 16px 0 0;
+  font-size: 12px;
+  color: #2e304c;
+  background: #f6f4f5;
+  border-color: #e6e1e1;
+  padding: 13px 24px 13px 24px;
+  box-shadow: none;
+}
+.deposit-payment-methods-card-variants-wrapper {
+  background: #f6f4f5;
+}
+.deposit-payment-methods-card-variants-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.deposit-payment-methods-card-variants-nav ul li {
+  list-style-type: none;
+  float: left;
+  width: 14.28%;
+  padding: 13px 13px 13px 13px;
+  text-align: center;
+  background: #2ecc71;
+  border-right: 1px solid #fff;
+}
+.deposit-payment-methods-card-variants-nav ul li a {
+  font-family: 'MontserratBold';
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.deposit-payment-methods-card-variants-nav ul .deposit-payment-methods-card-variants-nav-active {
+  background: #f6f4f5;
+}
+.deposit-payment-methods-card-variants-nav ul .deposit-payment-methods-card-variants-nav-active a {
+  color: #2e304c;
+}
+@media (max-width: 1198px) {
+  .deposit-payment-methods-form-box {
+    padding: 70px 0 74px 0px;
+  }
+}
+@media (max-width: 992px) {
+  .deposit-header-wrapper {
+    padding: 90px 15px 90px 15px;
+  }
+  .deposit-payment-methods-field-card,
+  .deposit-payment-methods-form-box-title {
+    width: 270px;
+  }
+  .deposit-payment-methods-field-total {
+    width: 170px;
+  }
+  .deposit-payment-methods-card-variants-nav ul li {
+    width: 33.333%;
+  }
+}
+@media (max-width: 767px) {
+  .deposit-payment-methods-field-card,
+  .deposit-payment-methods-field-total {
+    margin: 0 0 20px 0;
+  }
+  .deposit-payment-methods-form-box-title {
+    padding: 0 0 10px 0;
+  }
+  .deposit-payment-methods-form-box-path {
+    float: none;
+  }
+  .deposit-payment-methods-field-card,
+  .deposit-payment-methods-form-box-title,
+  .deposit-payment-methods-field-total {
+    width: 100%;
+  }
+  .deposit-payment-methods-card-variants-nav-mobile-close-btn img {
+    float: right;
+  }
+}
+@media (max-width: 480px) {
+  .deposit-header-wrapper {
+    padding: 71px 15px 39px 15px;
+    word-break: break-all;
+  }
+  .deposit-header-text {
+    padding: 17px 0 22px 0;
+  }
+  .deposit-payment-methods-form-box {
+    padding: 25px 0 45px 0px;
+  }
+  .deposit-form-add-new-payment-btn {
+    padding: 34px 0 0 0;
+  }
+}
+/************************ DEPOSIT *******/
+/************************ FAQ and FAQ TOPIC *******/
+.faq-header-wrapper {
+  background: url('/assets/images/faq-header-bg.png');
+  padding: 104px 10px 93px 10px;
+}
+.faq-header-layout {
+  max-width: 446px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.faq-header-subtitle {
+  padding-top: 19px;
+  padding-bottom: 38px;
+}
+.together-header-search-group {
+  height: 51px;
+  max-width: 440px;
+  margin: 0 auto;
+}
+.together-header-search-group input {
+  border: none;
+  float: left;
+  width: 75%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background: url("/assets/images/icon-input-search.png") no-repeat 20px 50% #fff;
+  padding: 0 15px 0 53px;
+}
+.together-header-search-group button {
+  width: 25%;
+  height: 100%;
+  background: #fa3a48;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+}
+.section-faq-boxes-icons {
+  padding: 28px 0 0 0;
+}
+.faq-box-icon-wrapper {
+  background: #f6f4f5;
+  text-align: center;
+  padding: 68px 50px 64px 50px;
+  margin: 18px 0 18px 0;
+}
+.faq-box-icon-wrapper a {
+  color: #2e304c;
+  display: block;
+}
+.faq-box-icon-image {
+  min-height: 67px;
+}
+.faq-box-icon-info {
+  font-size: 18px;
+  height: 51px;
+  padding: 40px 0 0 0;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.faq-box-icon-info span {
+  margin: 0 auto;
+}
+.section-faq-boxes-topic {
+  padding: 39px 0 0 0;
+}
+.section-faq-form-question {
+  padding: 28px 0 46px 0;
+}
+.faq-form-question-wrapper {
+  background: #f6f4f5;
+  padding: 45px 0 42px 0;
+}
+.faq-form-box-wrapper {
+  padding: 25px 0 0 230px;
+}
+.faq-form-box-input-info {
+  display: block;
+  float: left;
+  width: 160px;
+  padding: 12px 0 12px 0;
+  font-size: 16px;
+}
+.faq-form-box-input {
+  display: inline-block;
+  width: 424px;
+}
+.faq-form-box-input textarea {
+  resize: none;
+  padding-top: 14px;
+}
+.faq-form-box-input input {
+  height: 46px;
+}
+.faq-form-box-input input,
+.faq-form-box-input textarea {
+  border: 1px solid #ede9e9;
+  border-radius: 3px;
+  background: #fff;
+  font-size: 12px;
+  color: #afafaf;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.faq-form-box-field-layout {
+  padding: 7px 0 7px 0;
+}
+.faq-form-box-input-full-width {
+  width: 100%;
+}
+.faq-form-box-input-name {
+  width: 48.5%;
+}
+.faq-form-box-input-surname {
+  float: right;
+  width: 48.5%;
+}
+.faq-form-box-btn-send {
+  padding: 10px 0 0 0;
+}
+.faq-form-box-btn-send button {
+  font-size: 12px;
+  float: right;
+}
+/*faq topic-page*/
+.boxes-topic-box-title {
+  max-width: 254px;
+  border-bottom: 1px solid #e6e1e1;
+  padding: 0 0 30px 0;
+}
+.faq-boxes-topic-nav-title {
+  font-size: 18px;
+  padding: 40px 0 20px 0;
+}
+.faq-boxes-topic-nav-layout ul {
+  margin: 0 ;
+  padding: 0;
+}
+.faq-boxes-topic-nav-layout ul li {
+  padding: 15px 0 15px 0;
+  list-style-type: none;
+}
+.faq-boxes-topic-nav-layout ul li a {
+  font-size: 14px;
+  color: #b7b7ba;
+}
+.faq-boxes-topic-collapse-wrapper {
+  padding: 16px 0 0 78px;
+}
+.faq-boxes-topic-collapse-item {
+  margin-bottom: 15px;
+  background: #f6f4f5;
+}
+.faq-boxes-topic-collapse-item-control a {
+  padding: 25px 30px 25px 30px;
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+}
+.faq-boxes-topic-collapse-item-control a span {
+  background: url("/assets/images/icon-collapse-sprite.png") no-repeat 0 0px;
+  width: 9px;
+  height: 7px;
+  float: right;
+  margin: 10px 0 10px 0;
+  display: block;
+}
+.faq-boxes-topic-collapse-item-control .topic-collapse-btn-open-close {
+  color: #fa3a48;
+}
+.faq-boxes-topic-collapse-item-control .topic-collapse-btn-open-close.collapsed {
+  /*close*/
+  color: #2e304c;
+}
+.faq-boxes-topic-collapse-item-control .topic-collapse-btn-open-close.collapsed span {
+  background-position: 0px -9px;
+}
+.faq-boxes-topic-collapse-item-content .panel-collapse span {
+  display: block;
+  font-size: 12px;
+  color: #b7b7ba;
+  padding: 10px 85px 30px 30px;
+  line-height: 21px;
+}
+@media (max-width: 1198px) {
+  .faq-box-icon-wrapper {
+    padding: 68px 25px 64px 25px;
+  }
+  .faq-form-box-wrapper {
+    padding: 25px 0 0 67px;
+  }
+}
+@media (max-width: 992px) {
+  .faq-boxes-topic-collapse-wrapper {
+    padding: 16px 0 0 35px;
+  }
+  .faq-boxes-topic-collapse-item-control a {
+    font-size: 16px;
+    padding: 25px 15px 25px 15px;
+  }
+  .faq-boxes-topic-collapse-item-content .panel-collapse span {
+    padding: 10px 30px 30px 15px;
+  }
+}
+@media (max-width: 767px) {
+  .faq-form-box-input {
+    width: 70%;
+  }
+  .faq-form-box-input-info {
+    width: 30%;
+  }
+  .faq-form-box-wrapper {
+    padding: 25px 15px 0 15px;
+  }
+  .faq-boxes-topic-nav-layout ul li {
+    width: 50%;
+    float: left;
+    display: inline-block;
+  }
+  .faq-boxes-topic-collapse-wrapper {
+    padding: 16px 0 0 0px;
+  }
+}
+@media (max-width: 480px) {
+  .faq-header-wrapper {
+    padding: 81px 10px 114px 10px;
+    background: url("/assets/images/lottery-page-results-mobile-bg.png");
+    background-size: cover;
+  }
+  .faq-header-subtitle {
+    padding-top: 10px;
+    padding-bottom: 19px;
+  }
+  .together-header-search-group {
+    height: 36px;
+  }
+  .together-header-search-group button,
+  .together-header-search-group input {
+    font-size: 12px;
+  }
+  .section-faq-boxes-icons {
+    padding: 15px 0 0 0;
+  }
+  .faq-form-box-input-info {
+    font-size: 12px;
+    padding-right: 5px;
+  }
+  .section-faq-form-question {
+    padding: 15px 0 30px 0;
+  }
+  .section-faq-boxes-icons .col-xs-6 {
+    width: 100%;
+  }
+  .faq-form-box-wrapper {
+    padding: 25px 10px 0 10px;
+  }
+  .boxes-topic-box-title {
+    padding: 19px 0 8px 0;
+  }
+  .faq-boxes-topic-nav-title {
+    font-size: 14px;
+    padding: 10px 0 0px 0;
+  }
+  .faq-boxes-topic-nav-layout ul li {
+    padding: 8px 0 8px 0;
+  }
+  .faq-boxes-topic-collapse-item-control a {
+    font-size: 13px;
+  }
+  .faq-boxes-topic-collapse-wrapper {
+    padding: 27px 0 0 0px;
+  }
+  .section-faq-boxes-topic {
+    padding: 0px 0 0 0;
+  }
+}
+@media (max-width: 320px) {
+  .faq-form-box-input input,
+  .faq-form-box-input select,
+  .faq-form-box-input textarea {
+    font-size: 10px;
+  }
+  .faq-boxes-topic-nav-layout ul li a {
+    font-size: 12px;
+  }
+}
+/*together*/
+/************************ FAQ and FAQ TOPIC *******/
+/************************ ABOUT *******/
+.wrapper-about-header {
+  background: url("/assets/images/how-it-works-page-banner.png") no-repeat 100% 100% transparent;
+  background-size: cover;
+  padding: 55px 0 42px 0;
+}
+.layout-about-header {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.about-header-title {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 0 25px 0;
+}
+.about-header-subtitle {
+  white-space: pre-line;
+  line-height: 25px;
+}
+.wrapper-about-how-work {
+  padding: 61px 0 61px 0;
+}
+.wrapper-about-how-work span {
+  display: block;
+}
+.section-about-why-should-you {
+  margin: 0 0 45px 0 ;
+}
+.about-how-work-content {
+  white-space: pre-line;
+}
+.wrapper-about-why-should-you {
+  background: #f6f4f5;
+}
+.layout-about-why-should-you {
+  padding: 51px 0px 51px 40px;
+  max-width: 965px;
+}
+.about-why-should-you-box-info img {
+  display: block;
+  padding: 25px 0 0 0;
+}
+.about-why-should-you-box-info span {
+  padding: 16px 0 14px 0;
+  display: block;
+  font-size: 18px;
+}
+@media (max-width: 1198px) {
+  .wrapper-about-header {
+    padding: 55px 42px 42px 42px;
+  }
+  .layout-about-why-should-you {
+    padding: 51px 45px 51px 40px;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper-about-header {
+    padding: 55px 10px 48px 10px;
+  }
+  .about-header-title {
+    padding: 0px 15px 0px 15px;
+  }
+  .wrapper-about-why-should-you {
+    padding: 0 10px;
+  }
+  .layout-about-why-should-you {
+    padding: 43px 0px 28px 0px;
+  }
+  .wrapper-about-how-work {
+    background: #f6f4f5;
+    padding: 21px 10px 0px 10px;
+    margin: 46px 0 0 0;
+  }
+  .about-how-work-content {
+    font-size: 12px;
+  }
+  .section-about-why-should-you {
+    margin: 0 0 0px 0;
+  }
+}
+/************************ ABOUT *******/
+/************************ADD CAMPAIGNS *******/
+.campaings-add-campaing-item-line-layout {
+  padding: 92px 70px 0 0;
+  background: #f6f4f5;
+}
+.campaings-add-page-line-fields-wrapper {
+  padding: 72px 0 0 0;
+}
+.right-campaings-info-txt {
+  font-size: 12px;
+  color: #b7b7ba;
+}
+.right-campaings-info-form-field-title {
+  display: block;
+  font-size: 16px;
+}
+.campaings-add-page-line-tabs-title span {
+  font-size: 10px;
+  text-align: center;
+  padding: 16px 0 16px 0;
+  display: block;
+  float: left;
+  width: 200px;
+}
+.campaings-add-page-line-tabs-title .campaings-add-page-line-tabs-title-active {
+  background: #f6f4f5;
+}
+.campaings-add-page-line-tabs-title .campaings-add-page-line-tabs-title-deactive {
+  background: #2ecc71;
+}
+.campaings-add-page-line-tabs-title .campaings-add-page-line-tabs-title-deactive a {
+  color: #fff;
+}
+.right-add-campaings-page-item-path input,
+.right-add-campaings-page-item-path textarea,
+.right-add-campaings-page-item-path select {
+  width: 420px;
+}
+/*padding field*/
+.campaings-add-campaing-item-line-layout-facebook .right-campaings-info-form-field-title {
+  padding: 21px 0 10px 0;
+}
+.add-compaign-group-info-video-link .right-campaings-info-form-field-title {
+  padding: 48px 0 10px 0;
+}
+.campaings-add-campaing-item-line-layout-my-camapaign .add-compaign-group-info-give-title .right-campaings-info-form-field-title {
+  padding: 23px 0 0 0;
+}
+.campaings-add-campaing-item-line-layout-my-camapaign .add-compaign-group-info-give-title .right-campaings-info-txt {
+  padding: 16px 0 16px 0px;
+}
+.campaings-add-campaing-item-line-layout-my-camapaign .add-compaign-group-info-description .right-campaings-info-form-field-title {
+  padding: 23px 0 10px 0;
+}
+.campaings-add-campaing-item-line-layout-my-camapaign .add-compaign-group-info-description textarea {
+  resize: none;
+  border-color: #e6e1e1;
+  min-height: 177px;
+  color: #afafaf;
+}
+.campaings-add-campaing-item-line-layout-funding-info .add-compaign-group-number-days .right-campaings-info-txt {
+  padding: 16px 0 19px 0;
+}
+.campaings-add-campaing-item-line-layout-funding-info .add-compaign-group-funding-goal .right-campaings-info-form-field-title {
+  padding: 32px 0 16px 0;
+}
+.right-campaings-info-form-group-checkboxs {
+  padding: 40px 0 0 0;
+}
+.right-campaings-info-form-group-checkboxs .right-campaings-info-form-group-checkbox-left {
+  float: left;
+  padding-right: 59px;
+}
+.right-campaings-info-form-group-checkboxs label {
+  display: block;
+}
+.right-campaings-info-form-group-checkboxs label span {
+  font-size: 12px;
+  padding: 0 0 0 8px;
+}
+.right-campaings-info-form-group-checkboxs label input {
+  width: auto;
+  float: left;
+}
+.campaings-add-campaing-item-line-buttons {
+  padding: 30px 0 82px 0;
+}
+.campaings-add-campaing-item-line-buttons button {
+  width: 200px;
+  margin: 0 6px 0 6px;
+}
+.upload-image-info-miniature {
+  float: left;
+}
+.upload-image-info-zone {
+  float: left;
+  padding: 0 0 0 22px;
+}
+.upload-image-info-zone span {
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+}
+.upload-image-info-zone button {
+  width: 120px;
+  height: 38px;
+  color: #fff;
+  background: #2ecc71;
+  font-size: 10px;
+  margin: 5px 0 0 0;
+}
+@media (max-width: 992px) {
+  .campaings-add-campaing-item-line-layout {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .right-add-campaings-page-item-path input,
+  .right-add-campaings-page-item-path textarea,
+  .right-add-campaings-page-item-path select {
+    width: 100%;
+  }
+  .section-add-compaign .campaings-page-items-title {
+    padding: 14px 0 14px 0;
+  }
+  .campaings-add-campaing-item-line-layout {
+    padding: 33px 0px 0 0px;
+  }
+}
+@media (max-width: 480px) {
+  .campaings-add-page-line-fields-wrapper {
+    padding: 31px 0 0 0;
+  }
+  .campaings-add-page-line-tabs-title span {
+    width: 50%;
+  }
+  .campaings-page-items-title span {
+    font-size: 22px;
+  }
+  .campaings-add-campaing-item-line-buttons {
+    padding: 13px 0 22px 0;
+  }
+  .campaings-add-campaing-item-line-buttons button {
+    margin: 8px 0px 8px 0px;
+  }
+  .section-add-compaign {
+    margin: 0 0 31px 0;
+  }
+  .right-campaings-info-form-group-checkboxs {
+    padding: 22px 0 0 0;
+  }
+  .section-add-compaign .campaings-page-items-title {
+    padding: 0 0 14px 0;
+  }
+  .upload-image-info-zone {
+    float: none;
+  }
+  .upload-image-info-miniature {
+    padding: 0 15px 0 0 ;
+  }
+}
+/************************ ADD CAMPAIGNS *******/
+/************************PRODUCTS  *******/
+.page-pagination {
+  text-align: center;
+}
+.page-pagination ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 47px;
+  height: 47px;
+}
+.page-pagination ul li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 47px;
+  text-align: center;
+  color: #2e304c;
+  font-size: 16px;
+}
+.page-pagination ul .pagination-active-point {
+  background: #fa3a48;
+  border-radius: 50%;
+}
+.page-pagination ul .pagination-active-point a {
+  color: #fff;
+}
+.page-pagination ul .pagination-infinity-point {
+  width: auto;
+}
+.products-page-page .page-pagination {
+  padding: 63px 0px 52px 0;
+}
+.wrapper-products-page-table {
+  padding: 54px 0 0px 0;
+}
+table tr.products-page-table-header td {
+  border: none;
+  padding: 10px 0 10px 0;
+  font-size: 14px;
+  color: #b7b7ba;
+  text-transform: uppercase;
+}
+table tr.products-page-table-content td {
+  border-top: none;
+  border-bottom: 1px solid #e6e1e1;
+  padding: 25px 0 25px 0;
+  font-size: 14px;
+}
+table tr.products-page-table-content td a {
+  color: #2e304c;
+}
+table.products-mobile-table {
+  margin: 18px 0 18px 0;
+  font-size: 12px;
+  border-bottom: 1px solid #e6e1e1;
+}
+table.products-mobile-table tr {
+  width: 33.333%;
+  display: inline-block;
+}
+table.products-mobile-table tr td {
+  border: none;
+}
+table.products-mobile-table tr td.products-mobile-table-content-title {
+  display: block;
+  color: #b7b7ba;
+  padding: 0px 0 0 0;
+  font-size: 11px;
+}
+table.products-mobile-table tr td.products-mobile-table-content-txt {
+  vertical-align: middle;
+  padding: 10px 0 19px 0;
+  display: table-cell;
+}
+@media (max-width: 480px) {
+  .products-page-page .page-pagination {
+    padding: 10px 0px 32px 0;
+  }
+  .page-pagination ul li {
+    width: 42px;
+    height: 42px;
+  }
+  .page-pagination ul li a {
+    line-height: 42px;
+  }
+}
+/*  padding: 54px 0 65px 0;*/
+/************************PRODUCTS  *******/
+/************************ ALL CAMPAIGNS  *******/
+.all-campaigns-header-wrapper {
+  background: url("/assets/images/all-campaigns-header-bg.png") no-repeat 100% 100% transparent;
+  padding: 85px 10px 93px 10px;
+  background-size: cover;
+}
+.all-campaigns-header.header-subtitle {
+  max-width: 318px;
+  margin: 0 auto;
+  padding: 19px 0 34px 0;
+}
+.together-header-search-group input {
+  background-image: url("/assets/images/icon-input-search-blue.png");
+  color: #4b5979;
+}
+.title-top-section-all-campaigns-popular {
+  padding: 48px 0 38px 0;
+}
+.popular-campaigns-top-box-wrapper {
+  padding: 0 114px 0 20px;
+}
+.popular-campaigns-top-box-inner-image {
+  height: 410px;
+  width: 100%;
+}
+.popular-campaigns-top-box-inner-image img {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.75);
+}
+.popular-campaigns-top-campaigns-short-info span {
+  border-left: 2px solid #2e304c;
+  padding: 0 0 0 7px;
+}
+.popular-campaigns-top-campaigns-short-info img {
+  padding-right: 12px;
+}
+.popular-campaigns-top-campaigns-full-info-title {
+  padding: 14px 0 20px 0;
+}
+.popular-campaigns-top-campaigns-price-load-info {
+  max-width: 306px;
+}
+.popular-campaigns-top-campaigns-price-load-info .campaigns-item-progress {
+  margin: 56px 0 0 0;
+}
+.popular-campaigns-top-campaigns-price-load-info .progress-bar-value {
+  color: #fa3a48;
+}
+.popular-campaigns-top-campaigns-price-load-info .progress {
+  margin-bottom: 25px;
+}
+.popular-campaigns-top-campaigns-full-info-buttons {
+  padding: 48px 0 0 0;
+}
+.popular-campaigns-top-campaigns-full-info-buttons button {
+  margin-right: 14px;
+}
+.all-campaigns-page .section-campaigns-tile-title-box > span {
+  padding-bottom: 20px;
+}
+.popular-campaigns-top-campaigns-full-info-buttons .main-line-btn {
+  border-color: #3b5998;
+  color: #3b5998;
+}
+.popular-campaigns-top-campaigns-full-info-buttons .main-line-btn:hover {
+  background: transparent;
+}
+.section-pagination-box.all-campaigns-page-pagination {
+  padding: 69px 0 0px 0;
+}
+.section-pagination-box.all-campaigns-page-pagination .page-pagination ul li {
+  width: 38px;
+  height: 38px;
+}
+.section-pagination-box.all-campaigns-page-pagination .page-pagination ul li a {
+  line-height: 38px;
+}
+.section-pagination-box.all-campaigns-page-pagination .page-pagination ul .pagination-link-cursor-pionter img {
+  position: relative;
+  top: -1px;
+}
+.section-how-it-works.section-how-it-works-all-campaigns-page .section-how-it-box-desc {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 16px 10px 51px 10px;
+}
+.section-how-it-works.section-how-it-works-all-campaigns-page .section-how-it-box-desc span {
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+}
+.section-how-it-works.section-how-it-works-all-campaigns-page .section-how-it-works {
+  padding: 88px 0 0 0;
+}
+.section-how-it-works.section-how-it-works-all-campaigns-page .wrap-how-it-works {
+  background: #f6f4f5;
+  padding: 40px 0 46px 0;
+}
+.section-how-it-works.section-how-it-works-all-campaigns-page .how-it-works-item-wrap {
+  padding: 0 0 0 33px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.all-campaigns-page-bottom-information {
+  padding: 54px 0 29px 0;
+}
+@media (max-width: 1198px) {
+  .popular-campaigns-top-box-wrapper {
+    padding: 0px 0 0px 0;
+  }
+}
+@media (max-width: 992px) {
+  .popular-campaigns-top-box-inner-image {
+    height: auto;
+  }
+  .popular-campaigns-top-campaigns-short-info-brand {
+    max-width: 87px;
+  }
+  .popular-campaigns-top-box-wrapper {
+    padding: 35px 0 25px 0;
+  }
+  .popular-campaigns-top-campaigns-full-info-title {
+    padding: 30px 0 20px 0;
+  }
+  .popular-campaigns-top-campaigns-price-load-info {
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .section-campaigns-tile.all-campaigns-page-tile .load-more-campaigns {
+    padding: 25px 0px 0px 0px;
+  }
+}
+@media (max-width: 480px) {
+  .all-campaigns-header-wrapper {
+    background: url('/assets/images/lottery-page-results-mobile-bg.png');
+    background-size: cover;
+  }
+  .popular-campaigns-top-campaigns-full-info-content {
+    font-size: 12px;
+  }
+  .popular-campaigns-top-campaigns-full-info-buttons {
+    text-align: center;
+  }
+  .popular-campaigns-top-campaigns-full-info-buttons button {
+    margin: 6px 14px 7px 14px;
+  }
+  .section-campaigns-tile.all-campaigns-page-tile .load-more-campaigns {
+    padding: 18px 0px 0px 0px;
+  }
+  .section-campaigns-tile.all-campaigns-page-tile .campaigns-item-wrap {
+    padding: 24px 0 0px 0;
+  }
+  .section-how-it-works.section-how-it-works-all-campaigns-page {
+    padding: 30px 0 0 0;
+  }
+  .section-how-it-works.section-how-it-works-all-campaigns-page .how-it-works-item-wrap {
+    padding: 11px 15px 11px 15px;
+  }
+}
+/************************ ALL CAMPAIGNS  *******/
+/************************CAMPAIGN *******/
+.section-campaign-play-lotteries-information {
+  padding: 0 0 35px 0;
+}
+.section-campaign-header-box .row {
+  margin: 0;
+}
+.campaign-header-box-col-left {
+  float: left;
+  width: 45%;
+}
+.campaign-header-box-col-right {
+  float: right;
+  width: 55%;
+  min-height: 655px;
+}
+.campaign-header-box-image-layout {
+  position: relative;
+  background: url('/assets/images/campaign-item-image-header.png');
+  background-size: cover;
+  min-height: 655px;
+}
+.campaign-header-box-image-inner {
+  width: 100%;
+}
+.campaign-header-box-image-bottom-information {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0 22px 21px 22px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.campaign-header-box-image-bottom-information .campaigns-item-progress {
+  margin: 53px 0 0 0;
+}
+.campaign-header-box-image-bottom-information .progress {
+  background: #d2d2d5;
+}
+.campaign-header-box-image-bottom-information .progress-bar-value {
+  color: #fa3a48;
+}
+.campaign-header-box-image-bottom-information .campaigns-price-line-table-item span:first-child {
+  color: #2e304c;
+}
+.campaign-header-box-image-bottom-information-price {
+  width: 310px;
+  float: left;
+}
+.campaign-header-box-image-bottom-information-user-box {
+  float: right;
+  margin: 36px 0 0 0px;
+}
+.campaign-header-box-image-bottom-information-user-box span {
+  font-size: 12px;
+}
+.campaign-header-box-image-bottom-information-user-box img {
+  padding: 0 5px 0 0;
+}
+.campaign-header-box-image-bottom-information-user {
+  padding: 8px 0 8px 0;
+}
+.campaign-header-box-col-right {
+  background: url("/assets/images/campaign-header-box-col-right-bg.png") no-repeat transparent;
+  background-size: cover ;
+}
+.campaign-header-box-col-right-layout {
+  padding: 58px 100px 0 100px;
+}
+.campaign-header-box-col-right-layout .page-date-time-title {
+  padding: 30px 0 15px 0;
+}
+.campaign-header-box-col-right-layout .date-time-number span:last-child {
+  color: #2e304c;
+}
+.campaign-header-box-col-subtitle {
+  font-size: 18px;
+  padding: 30px 0 0 0;
+  line-height: 30px;
+}
+.campaign-header-box-col-subtitle span {
+  font-size: 22px;
+}
+.campaign-header-box-col-buttons {
+  padding: 38px 0 85px 0;
+}
+.campaign-header-box-col-buttons button {
+  width: 216px;
+  height: 55px;
+  font-size: 12px;
+  margin-right: 6px;
+}
+.campaign-header-box-col-social {
+  padding: 0px 0 14px 0;
+}
+.campaign-header-box-col-social span {
+  padding: 6px 14px 6px 0px;
+  display: block;
+  float: left;
+}
+.campaign-header-box-col-social a {
+  display: block;
+  float: left;
+  padding: 0 14px 0 0px;
+}
+.play-lotteries-to-help-user-title {
+  font-size: 18px;
+  padding: 55px 0 30px 0;
+}
+.play-lotteries-to-help-user-wrapper {
+  background: #f6f4f5;
+  margin: 20px 0 20px 0;
+}
+.play-lotteries-to-help-user-image img {
+  width: 100%;
+}
+.play-lotteries-to-help-user-total {
+  text-align: center;
+  padding: 25px 0 25px 0;
+  font-size: 16px;
+  border-bottom: 2px solid #e6e1e1;
+}
+.play-lotteries-to-help-user-total span {
+  padding: 0 4px 0 4px;
+}
+.play-lotteries-to-help-user-time {
+  padding: 20px 0 0 0;
+}
+.play-lotteries-to-help-user-time .numbers-date-wrapper {
+  display: table;
+  margin: 0 auto;
+}
+.play-lotteries-to-help-user-time .date-time-number span:last-child {
+  color: #b7b7ba;
+}
+.play-lotteries-to-help-user-button {
+  padding: 32px 0 32px 0;
+}
+.play-lotteries-to-help-user-button a {
+  font-size: 12px;
+  margin: 0 auto;
+}
+.play-lotteries-to-help-user-see-all-button {
+  text-align: center;
+  padding: 28px 0 50px 0;
+}
+.play-lotteries-to-help-user-see-all-button a {
+  font-size: 12px;
+  width: 216px;
+}
+.campaign-play-lotteries-information-left-box-wrapper {
+  padding: 0 61px 0 0;
+}
+.campaign-play-lotteries-information-left-box-text-line {
+  border-bottom: 3px solid #eaeaed;
+  padding: 34px 0 44px 0px;
+}
+.campaign-play-lotteries-information-left-box-text-line:first-child {
+  padding-top: 0px;
+}
+.campaign-play-lotteries-information-left-box-text {
+  padding: 27px 0 13px 0;
+}
+.campaign-play-lotteries-information-left-box-text p {
+  margin: 0 0 26px 0;
+}
+.campaign-play-lotteries-information-left-box-text img {
+  padding: 0 0 26px 0;
+  width: 100%;
+}
+.campaign-play-lotteries-information-left-box-social > div {
+  float: left;
+  padding: 3px 11px 6px 0;
+}
+.campaign-play-lotteries-information-left-box-social a {
+  padding: 0 10px 0 0px;
+}
+.campaign-play-lotteries-information-left-box-head-title {
+  float: left;
+}
+.campaign-play-lotteries-information-left-box-head-date {
+  float: left;
+  color: #afafaf;
+  font-size: 12px;
+  padding: 8px 0 0 14px;
+}
+.campaign-play-lotteries-information-left-box-text-arrow {
+  float: right;
+  padding: 12px 0 0 0;
+}
+.campaign-play-lotteries-information-left-box-text-line-assets-info {
+  padding: 44px 0 25px 0;
+}
+.campaign-play-lotteries-information-left-box-text-line-assets-info span {
+  float: left;
+  display: block;
+  max-width: 400px;
+}
+.post-assets-btn-control {
+  float: right;
+}
+.post-assets-btn-control a {
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 0px 24px 0 24px;
+}
+.post-assets-btn-control img {
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.post-assets-btn-control span {
+  text-align: center;
+  padding: 9px 0 0 0;
+}
+.campaign-play-lotteries-information-right-box ul li {
+  width: 50%;
+  float: left;
+  background: #f6f4f5;
+  text-align: center;
+}
+.campaign-play-lotteries-information-right-box ul li a {
+  padding: 20px 0 20px 0;
+  font-size: 12px;
+  display: block;
+}
+.user-donations-sidebar-content-tab {
+  background: #f6f4f5;
+}
+.user-donations-sidebar-facebook-btn-tab a {
+  color: #fff;
+  background: #3b5998;
+}
+.user-donations-sidebar-wrap {
+  padding: 31px 31px 31px 31px;
+}
+.user-donations-sidebar-user-avatar {
+  float: left;
+}
+.user-donations-sidebar-user-avatar img {
+  max-width: 39px;
+  max-height: 39px;
+}
+.user-donations-sidebar-user-line {
+  border-bottom: 1px solid #d8d7dc;
+  padding: 20px 0 20px 0;
+}
+.user-donations-sidebar-user-line:last-child {
+  border: none;
+}
+.user-donations-sidebar-user-name {
+  float: left;
+  padding: 0px 0 0 23px;
+}
+.user-donations-sidebar-user-name span:first-child {
+  font-size: 14px;
+}
+.user-donations-sidebar-user-name span:last-child {
+  font-size: 12px;
+  color: #afafaf;
+}
+.user-donations-sidebar-user-total {
+  float: right;
+  font-size: 22px;
+  padding: 2px 0px 0 0;
+}
+.user-donations-sidebar-content-buttons {
+  text-align: center;
+  padding: 34px 0 0 0;
+}
+.user-donations-sidebar-btn-buy {
+  margin-right: 16px;
+}
+.user-donations-sidebar-content-tab-miniature.tab-content {
+  background: #f6f4f5;
+}
+@media (max-width: 1198px) {
+  .campaign-header-box-col-left {
+    width: 100%;
+  }
+  .campaign-header-box-col-right {
+    width: 100%;
+    min-height: inherit;
+  }
+  .campaign-header-box-image-bottom-information-price {
+    width: 60%;
+  }
+  .campaign-header-box-image-bottom-information-user-box {
+    width: 30%;
+  }
+  .user-donations-sidebar-btn-buy {
+    margin: 0 0 15px 0;
+  }
+}
+@media (max-width: 992px) {
+  .campaign-header-box-col-right-layout {
+    padding: 58px 20px 0 20px;
+  }
+  .campaign-play-lotteries-information-left-box-wrapper {
+    padding: 0 0px 0 0;
+  }
+  .user-donations-sidebar-btn-buy {
+    margin: 0 15px 0px 0;
+  }
+}
+@media (max-width: 767px) {
+  .campaign-header-box-image-bottom-information-user-top {
+    width: 45%;
+    float: left;
+    text-align: left;
+  }
+  .campaign-header-box-image-bottom-information-user-pointer {
+    width: 10%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .campaign-header-box-image-bottom-information-user-pointer img {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 0 12px 0;
+  }
+  .campaign-header-box-image-bottom-information-user-bottom {
+    width: 45%;
+    float: right;
+    text-align: right;
+  }
+  .campaign-header-box-image-bottom-information-price {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .section-campaign-header-box .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .campaign-header-box-image-bottom-information {
+    padding: 20px 10px 18px 10px;
+  }
+  .campaign-header-box-image-bottom-information-user {
+    font-size: 12px;
+  }
+  .campaign-header-box-image-layout {
+    min-height: 360px;
+    background-position: center 100%;
+  }
+  .campaign-page .campaigns-price-line-table-item span:first-child {
+    font-size: 12px;
+  }
+  .campaign-page .progress-bar-value {
+    font-size: 12px;
+  }
+  .campaign-page .campaigns-item-progress {
+    margin: 23px 0 0 0;
+  }
+  .campaign-header-box-col-right-layout {
+    padding: 18px 10px 0 10px;
+  }
+  .campaign-header-box-col-subtitle {
+    font-size: 12px;
+    line-height: inherit;
+    padding: 5px 0 0 0;
+  }
+  .campaign-header-box-col-subtitle span {
+    font-size: 12px;
+  }
+  .campaign-header-box-col-right-layout .page-date-time-title {
+    padding: 10px 0 13px 0;
+  }
+  .campaign-header-box-col-buttons button {
+    margin: 7px 0 7px 0;
+  }
+  .campaign-header-box-col-buttons {
+    padding: 25px 0 25px 0;
+  }
+  .campaign-header-box-col-social span {
+    width: 100%;
+    padding: 0px 0 14px 0;
+  }
+  .play-lotteries-to-help-user-title {
+    padding: 31px 0 15px 0;
+  }
+  .play-lotteries-to-help-user-button a {
+    font-size: 10px;
+  }
+  .play-lotteries-to-help-user-wrapper {
+    margin: 15px 0 15px 0;
+  }
+  .play-lotteries-to-help-user-see-all-button {
+    padding: 14px 0 28px 0;
+  }
+  .campaign-play-lotteries-information-left-box-text-arrow {
+    display: none;
+  }
+  .campaign-play-lotteries-information-left-box-head-date {
+    float: right;
+  }
+  .campaign-play-lotteries-information-left-box-text {
+    padding: 8px 0 0px 0;
+  }
+  .campaign-play-lotteries-information-left-box-text-line {
+    padding: 30px 0 30px 0px;
+  }
+  .campaign-play-lotteries-information-left-box-social > div {
+    width: 100%;
+    padding: 0px 0px 13px 0;
+  }
+  .campaign-play-lotteries-information-left-box-text p {
+    margin: 0 0 10px 0;
+  }
+  .user-donations-sidebar-user-name span:first-child {
+    font-size: 12px;
+  }
+  .user-donations-sidebar-user-total {
+    font-size: 16px;
+    padding: 7px 0px 0 0;
+  }
+  .user-donations-sidebar-user-line {
+    padding: 16px 0 16px 0;
+  }
+  .user-donations-sidebar-wrap {
+    padding: 20px 31px 16px 31px;
+  }
+  .campaign-play-lotteries-information-left-box-text-line:last-child {
+    border: none;
+  }
+  .campaign-play-lotteries-information-left-box-text-line-assets-info {
+    padding: 0 0 25px 0;
+    font-size: 12px;
+  }
+  .user-donations-sidebar-content-buttons {
+    padding: 19px 0 0 0;
+  }
+  .user-donations-sidebar-content-buttons button {
+    display: block;
+    margin: 15px auto;
+  }
+  .user-donations-sidebar-content-tab {
+    margin: 0 -10px;
+  }
+}
+/************************CAMPAIGN *******/
+/************************LOTTERY GROUP 1*******/
+.lottery-group1-header-wrapper {
+  background: url("/assets/images/lottery-group1-header-bg.png") no-repeat 100% 100%;
+}
+.lottery-group1-header-layout {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 75px 0 34px 0;
+}
+.lottery-group1-subtitle {
+  padding: 22px 0 38px 0;
+  display: block;
+}
+.lottery-group1-header-total {
+  font-size: 26px;
+  padding: 0 0 14px 0;
+}
+.lottery-group1-header-layout .numbers-date-wrapper {
+  display: table;
+  margin: 0 auto;
+}
+.lottery-group1-header-layout .numbers-date-wrapper span:first-child {
+  color: #2e304c;
+}
+.section-campaigns-tile.section-campaigns-tile-lottery-group1-page {
+  padding: 0 0 24px 0;
+}
+.section-your-friends-with-us-line {
+  padding: 58px 0 0 0;
+}
+.your-friends-with-us-line-button {
+  float: left;
+}
+.your-friends-with-us-line-button a {
+  width: 190px;
+  height: 61px;
+  display: block;
+  font-size: 12px;
+  float: left;
+  line-height: 60px;
+  text-align: center;
+}
+.your-friends-with-us-line-button img {
+  vertical-align: inherit;
+  margin-right: 10px;
+}
+.your-friends-with-us-line-button-group {
+  background: #f6f4f5;
+}
+.your-friends-with-us-line-button-personal {
+  background: #2ecc71;
+  color: #fff;
+}
+.your-friends-with-us-line-users {
+  float: left;
+  padding: 12px 0 10px 100px;
+  font-size: 12px;
+}
+.your-friends-with-us-line-users span {
+  float: left;
+  padding: 10px 44px 0px 0px;
+}
+.your-friends-with-us-line-users a {
+  display: block;
+  float: left;
+  padding: 0 11px 0 11px;
+}
+.section-improve-your-odds-with-group {
+  background: #f6f4f5;
+}
+.improve-your-odds-with-group-column {
+  min-height: 630px;
+  padding: 45px 40px 0 40px;
+}
+.improve-your-odds-with-group-column.improve-your-odds-with-group-column-left {
+  padding-left: 0;
+}
+.improve-your-odds-with-group-column.improve-your-odds-with-group-column-right {
+  padding-right: 0;
+}
+.circle-checkbox-line-one-item {
+  padding: 15px 0 15px 0px;
+}
+.circle-checkbox-line.circle-checkbox-box-label.block {
+  display: block;
+}
+.circle-checkbox-line {
+  float: left;
+  height: 35px;
+}
+.circle-checkbox-box-select {
+  float: right;
+}
+.circle-checkbox-box-label img {
+  padding: 0 0 0 8px;
+}
+.circle-checkbox-box-label-subtitle-label {
+  font-size: 10px;
+  display: block;
+  color: #b7b7ba;
+}
+.circle-checkbox-box-select select {
+  width: 108px;
+  border: none;
+  outline: none;
+  background: url("/assets/images/icon-form-pointer.png") no-repeat 90% 50%;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 8px;
+}
+.circle-checkbox-box-point {
+  padding: 0 14px 0 0;
+}
+.circle-checkbox-box-point,
+.circle-checkbox-box-label,
+.circle-checkbox-box-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+input[type=checkbox].circle-checkbox {
+  display: none;
+}
+input[type=checkbox].circle-checkbox:checked + label.circle-checkbox-label.label-checkbox-circle {
+  background-position: 0 -20px;
+}
+label.circle-checkbox-label.label-checkbox-circle {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  background: url('/assets/images/icon-chackbox-bg.png') no-repeat;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.choose-your-draw-participation-total-box-wrapper {
+  background: #fff;
+  padding: 25px 20px 25px 20px;
+}
+.choose-your-draw-participation-total-box-title {
+  font-size: 20px;
+}
+.choose-your-draw-participation-total-box-line-left {
+  float: left;
+}
+.choose-your-draw-participation-total-box-line-layout {
+  border-bottom: 1px solid #eaeaed;
+  padding: 25px 0 23px 0;
+}
+.choose-your-draw-participation-total-box-line-left span:first-child {
+  font-size: 12px;
+}
+.choose-your-draw-participation-total-box-line-left span:last-child {
+  color: #b7b7ba;
+  font-size: 10px;
+}
+.choose-your-draw-participation-total-sum-left {
+  float: left;
+}
+.choose-your-draw-participation-total-sum-box-layout {
+  padding: 17px 0 35px 0;
+}
+.choose-your-draw-participation-total-sum-button {
+  margin: 0 auto;
+  font-size: 10px;
+}
+.choose-your-draw-participation-total-sum-box-title {
+  font-size: 18px;
+}
+.choose-your-draw-participation-total-sum-box-subtitle {
+  font-size: 10px;
+  color: #b7b7ba;
+}
+.choose-your-draw-participation-total-sum-box-subtitle img {
+  padding: 0 5px 0 5px;
+}
+.choose-your-draw-participation-total-sum-right {
+  float: right;
+  padding: 3px 0 0 0;
+}
+.choose-your-draw-participation-total-sum-right span {
+  font-size: 26px;
+}
+.choose-your-draw-participation-total-box-line-right {
+  float: right;
+  font-size: 12px;
+  padding: 8px 0 0 0;
+}
+.improve-your-odds-with-group-column-left {
+  width: 36%;
+  float: left;
+  border-right: 1px solid #e2e0e4;
+}
+.improve-your-odds-with-group-column-center {
+  width: 36%;
+  float: left;
+  border-right: 1px solid #e2e0e4;
+}
+.improve-your-odds-with-group-column-right {
+  width: 28%;
+  float: left;
+}
+.improve-your-odds-with-group-column-left-title,
+.improve-your-odds-with-group-column-center-title,
+.improve-your-odds-with-group-column-right-title {
+  height: 58px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.improve-your-odds-with-group-column-left-title {
+  font-size: 20px;
+}
+.improve-your-odds-with-group-column-left-image {
+  max-width: 100%;
+  display: block;
+  padding: 45px 0 0 0;
+}
+.improve-your-odds-with-group-column-center-title {
+  font-size: 20px;
+}
+.improve-your-odds-with-group-column-center-content {
+  padding: 27px 0 46px 0;
+}
+.improve-your-odds-with-group-column-center-how-shares-would-you-like span:first-child {
+  font-size: 20px;
+  padding: 0 0 20px 0;
+}
+.see-my-numbers {
+  padding: 0 0 50px 0;
+}
+.link-dotted {
+  font-style: italic;
+}
+.link-dotted a {
+  background: url('/assets/images/icon-see-my-numbers.png') 100% 100%;
+  background-repeat-y: no-repeat;
+  padding: 0 0 4px 0;
+  color: #fa3a48;
+}
+.how-shares-would-you-like-btn {
+  font-size: 22px;
+  float: left;
+  padding: 10px 0 0 0px;
+}
+.how-shares-would-you-like-total {
+  font-size: 35px;
+  float: left;
+  padding: 0 21px 0 21px;
+}
+.section-inner-line-banner-lottery-group1-page {
+  height: 120px;
+}
+.section-inner-line-banner-layout {
+  padding: 35px 0 35px 0;
+}
+.section-inner-line-banner {
+  background: #2e304c;
+  color: #fff;
+  font-size: 18px;
+}
+.improve-your-odds-with-group-column-right-title {
+  font-size: 20px;
+}
+.section-advantages-tile {
+  padding: 0 0 58px 0;
+}
+.section-header-advantages-tile {
+  max-width: 690px;
+}
+.section-title.section-header-advantages-tile-title {
+  padding: 44px 0 0 0;
+}
+.section-header-advantages-tile-subtitle {
+  padding: 12px 0 52px 0;
+  font-size: 14px;
+}
+.advantages-tile-wrapper {
+  background: #f6f4f5;
+  padding: 25px 25px 42px 25px;
+  text-align: center;
+  margin: 7.5px 0 7.5px 0;
+}
+.advantages-tile-title {
+  font-size: 18px;
+  line-height: 30px;
+  overflow: hidden;
+  height: 65px;
+  margin: 5px 0 0 0;
+}
+.advantages-tile-title span {
+  width: 100%;
+}
+.advantages-tile-information {
+  color: #afafaf;
+  font-size: 12px;
+  height: 52px;
+  overflow: hidden;
+  margin: 7px 0 50px 0;
+}
+.advantages-tile-image {
+  height: 80px;
+}
+.advantages-tile-image img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.advantages-tile-image,
+.advantages-tile-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media (max-width: 1198px) {
+  .your-friends-with-us-line-button a {
+    width: 140px;
+  }
+  .your-friends-with-us-line-users {
+    padding: 12px 0 10px 15px;
+  }
+  .your-friends-with-us-line-users span {
+    padding: 10px 15px 0px 0px;
+  }
+  .improve-your-odds-with-group-column-left {
+    width: 33%;
+  }
+  .improve-your-odds-with-group-column-center {
+    width: 33%;
+  }
+  .improve-your-odds-with-group-column-right {
+    width: 34%;
+  }
+}
+@media (max-width: 992px) {
+  .your-friends-with-us-line-users span {
+    display: none;
+  }
+  .your-friends-with-us-line-users a {
+    padding: 0 6px 0 6px;
+  }
+  .improve-your-odds-with-group-column {
+    min-height: 606px;
+  }
+  .improve-your-odds-with-group-column.improve-your-odds-with-group-column-right {
+    min-height: inherit;
+  }
+  .improve-your-odds-with-group-column-left {
+    width: 50%;
+  }
+  .improve-your-odds-with-group-column-center {
+    width: 50%;
+    border-right: none;
+  }
+  .improve-your-odds-with-group-column-right {
+    width: 100%;
+  }
+  .improve-your-odds-with-group-column.improve-your-odds-with-group-column-right {
+    padding: 43px 0 43px 0;
+  }
+  .choose-your-draw-participation {
+    padding: 0 15px 0 0px;
+  }
+  .choose-your-draw-participation-total-box,
+  .choose-your-draw-participation {
+    width: 50%;
+    float: left;
+  }
+}
+@media (max-width: 767px) {
+  .improve-your-odds-with-group-column-left {
+    width: 100%;
+    border: none;
+  }
+  .improve-your-odds-with-group-column-center {
+    width: 100%;
+    border-right: none;
+  }
+  .improve-your-odds-with-group-column {
+    min-height: inherit;
+    padding: 35px 0px 0 0px;
+  }
+  .improve-your-odds-with-group-column-left-image {
+    margin: 0 auto;
+    padding: 29px 0 0 0;
+  }
+  .your-friends-with-us-line-button {
+    float: none;
+  }
+  .your-friends-with-us-line-button a {
+    width: 50%;
+  }
+  .your-friends-with-us-line-users {
+    text-align: center;
+    float: none;
+    padding: 16px 0 16px 0px;
+  }
+  .your-friends-with-us-line-users a {
+    width: 25%;
+    text-align: center;
+    padding: 11px;
+  }
+  .choose-your-draw-participation-total-box,
+  .choose-your-draw-participation {
+    width: 100%;
+    float: none;
+  }
+  .choose-your-draw-participation {
+    padding: 0 0px 0 0px;
+  }
+}
+@media (max-width: 480px) {
+  .lottery-group1-header-wrapper {
+    background: url('/assets/images/lottery-group1-pageheade-mobile-bg.png') no-repeat 100% 100%;
+    background-size: cover;
+  }
+  .lottery-group1-header-layout {
+    padding: 83px 11px 51px 11px;
+  }
+  .lottery-group1-subtitle {
+    padding: 19px 0 24px 0;
+  }
+  .your-friends-with-us-line-users {
+    display: none;
+  }
+  .improve-your-odds-with-group-column-left-title,
+  .improve-your-odds-with-group-column-center-title,
+  .improve-your-odds-with-group-column-right-title {
+    font-size: 16px;
+  }
+  .improve-your-odds-with-group-column-center-content {
+    font-size: 12px;
+    border-bottom: 1px solid #e5e4e7 ;
+  }
+  .improve-your-odds-with-group-column-center-content {
+    padding: 0px 0 20px 0;
+  }
+  .see-my-numbers {
+    font-size: 12px;
+    padding: 21px 0 17px 0;
+  }
+  .how-shares-would-you-like-total {
+    font-size: 28px;
+  }
+  .how-shares-would-you-like-btn {
+    padding: 5px 0 0 0px;
+  }
+  .improve-your-odds-with-group-column-center-how-shares-would-you-like {
+    border-bottom: 1px solid #e5e4e7;
+    padding: 0 0 13px 0;
+  }
+  .improve-your-odds-with-group-column-center-how-shares-would-you-like span:first-child {
+    padding: 0 0 11px 0;
+  }
+  .improve-your-odds-with-group-column.improve-your-odds-with-group-column-right {
+    padding: 13px 0 35px 0;
+  }
+  .circle-checkbox-box-label {
+    font-size: 12px;
+  }
+  .choose-your-draw-participation-total-sum-button {
+    margin-left: 0;
+  }
+  .section-title.section-header-advantages-tile-title {
+    padding: 22px 0 0 0;
+  }
+  .section-header-advantages-tile-subtitle {
+    font-size: 12px;
+    padding: 12px 0 19px 0;
+  }
+  .advantages-tile-wrapper {
+    padding: 40px 25px 42px 25px;
+  }
+  .advantages-tile-information {
+    margin: 15px 0 75px 0;
+  }
+  .section-advantages-tile {
+    padding: 0 0 26px 0;
+  }
+}
+/************************LOTTERY GROUP 1*******/
+/************************LOTTERY PERSONAL 3*******/
+.lottery-personal3-header-wrapper {
+  background: url("/assets/images/lottery-personal3-header-bg.png") no-repeat 100% 100%;
+  background-size: cover;
+}
+.lottery-personal3-header-layout {
+  text-align: center;
+  padding: 39px 0 48px 0;
+}
+.section-lottery-personal3-header .numbers-date-wrapper {
+  display: table;
+  margin: 0 auto;
+}
+.section-lottery-personal3-header .date-time-number span:last-child {
+  color: #2e304c;
+}
+.section-lottery-personal3-header .date-time-number-separator {
+  padding-left: 15px ;
+  padding-right: 15px ;
+}
+.lottery-personal3-header-price-title {
+  font-size: 26px;
+}
+.lottery-personal3-header-title {
+  padding: 13px 11px 6px 11px;
+}
+.section-lottery-personal3-lottery-tickets {
+  background: #f6f4f5;
+  padding: 50px 0 50px 0;
+}
+.lottery-tickets-wrapper {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+.lottery-ticket-box {
+  width: 20%;
+  float: left;
+}
+.lottery-ticket-box-border img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.lottery-ticket-box-border-top img:first-child {
+  top: -1px;
+}
+.lottery-ticket-box-border-top img:last-child {
+  top: -2px;
+}
+.lottery-ticket-box-border-bottom img:first-child {
+  bottom: -1px;
+}
+.lottery-ticket-box-border-bottom img:last-child {
+  bottom: -2px;
+}
+.lottery-ticket-box-assets-control {
+  padding: 3px 0 10px 0;
+}
+.lottery-ticket-box-assets-control-title {
+  float: left;
+  padding: 6px 0 6px 0;
+}
+.lottery-ticket-circle-points-box-main-extra-title {
+  padding: 15px 0 15px 0;
+}
+.lottery-ticket-box-assets-control-element {
+  float: right;
+  padding: 6px 0 6px 0;
+}
+.lottery-ticket-box-assets-control-element a {
+  display: block;
+  float: left;
+  padding: 0 7px;
+}
+.lottery-ticket-box-assets-control-element a:last-child {
+  padding-right: 0;
+}
+.lottery-ticket-box-assets-control-button {
+  float: right;
+  display: none;
+}
+.lottery-ticket-box-assets-control-button button {
+  width: 63px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  background: #fa3a48;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+}
+.lottery-ticket-box-wrapper {
+  padding: 1px 7.5px 1px 7.5px;
+}
+.lottery-ticket-box-layout {
+  border: 1px solid #9292a0;
+  position: relative;
+  padding: 28px 12px 32px 12px;
+}
+.lottery-ticket-circle-points-box-main,
+.lottery-ticket-circle-points-box-main-extra {
+  margin-left: -3px;
+  margin-right: -3px;
+}
+.lottery-ticket-point-number {
+  width: 29px;
+  height: 29px;
+  border: 1px solid #d7d7d7;
+  border-radius: 100%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  margin: 4px 2.5px 4px 2.5px;
+}
+.lottery-ticket-point-number span {
+  font-size: 12px;
+  line-height: 28px;
+  display: block;
+}
+.lottery-ticket-circle-points-box-main-extra .lottery-ticket-point-number {
+  background-color: #d4d4d4 ;
+  color: #fff;
+}
+.lottery-ticket-box-border img:first-child {
+  display: block;
+}
+.lottery-ticket-box-border img:last-child {
+  display: none;
+}
+/*lottery selected ticket*/
+.lottery-ticket-box-selected .lottery-ticket-box-wrapper {
+  padding: 0 6.5px;
+}
+.lottery-ticket-box-selected .lottery-ticket-box-layout {
+  border: 2px solid #9292a0;
+  border-radius: 5px;
+}
+.lottery-ticket-box-selected .lottery-ticket-box-assets-control-element {
+  display: none;
+}
+.lottery-ticket-box-selected .lottery-ticket-point-number-selected {
+  background: #fa3a48;
+  color: #fff;
+  border-color: #fa3a48;
+}
+.lottery-ticket-box-selected .lottery-ticket-box-assets-control-button {
+  display: block;
+}
+.lottery-ticket-box-selected .lottery-ticket-box-border img:first-child {
+  display: none;
+}
+.lottery-ticket-box-selected .lottery-ticket-box-border img:last-child {
+  display: block;
+}
+/*mini*/
+.lottery-ticket-box-left {
+  float: left;
+  width: 16%;
+}
+.lottery-ticket-box-right {
+  float: right;
+  width: 24%;
+}
+.lottery-personal3-page .choose-your-draw-participation {
+  padding: 0 0px 0 18px;
+}
+.lottery-personal3-page .choose-your-draw-participation-total-sum-button {
+  margin-left: 0;
+}
+.lottery-personal3-page .circle-checkbox-line-one-item {
+  padding-right: 40px;
+}
+.lottery-ticket-box-left .lottery-ticket-box-layout {
+  padding: 0;
+  border: none;
+}
+.lottery-ticket-box-left .lottery-ticket-circle-points-box-main {
+  padding-top: 31px;
+  padding-bottom: 74px;
+}
+.lottery-ticket-box-left .lottery-ticket-point-number {
+  float: none;
+  margin: 8px auto 8px auto;
+}
+.lottery-ticket-box-left .lottery-ticket-circle-points-box-main-extra {
+  padding-top: 10px;
+}
+.lottery-ticket-box-played-mini-ticket-item {
+  width: 80px;
+  position: relative;
+  border: 1px solid #9292a0;
+  padding: 55px 5px 76px 5px;
+}
+.lottery-ticket-box-assets-control-mini {
+  padding: 103px 0 0 0;
+}
+.lottery-ticket-box-assets-control-mini a {
+  margin: 9px 0;
+}
+/*mini*/
+.lottery-ticket-box-played-mini-ticket-item {
+  float: left;
+}
+.lottery-ticket-box-played-mini-ticket-item:nth-child(even) {
+  float: right;
+}
+.lottery-ticket-circle-points-box-main-head {
+  overflow: hidden;
+}
+.lottery-personal3-page .choose-your-draw-participation {
+  padding-top: 15px;
+}
+/**/
+.lottery-ticket-box-left {
+  position: relative;
+}
+.lottery-ticket-box-played-mini-ticket-item {
+  position: relative;
+  display: block;
+  float: left;
+  transition: all 0.1s ease .100ms;
+  background: #f6f4f5;
+  position: absolute;
+  width: 80px ;
+}
+.lottery-ticket-box-played-tickets-wrapper {
+  height: 786px;
+}
+.lottery-ticket-box-played-mini-ticket-item:hover {
+  z-index: 9999 !important;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.lottery-ticket-box-played-mini-ticket-item .lottery-ticket-box-border.lottery-ticket-box-border-top img {
+  display: block;
+  top: -1px;
+}
+.lottery-ticket-box-played-mini-ticket-item-selected {
+  width: 80px !important;
+  z-index: 9999 !important;
+}
+/**/
+@media (max-width: 1198px) {
+  .advantages-tile-title {
+    height: 95px;
+  }
+  .lottery-ticket-box,
+  .lottery-ticket-box-left {
+    width: 33.333%;
+  }
+  .lottery-ticket-box-right {
+    width: 33.33%;
+  }
+  .lottery-ticket-box-layout {
+    max-width: 226px;
+    margin: 0 auto;
+  }
+  .lottery-ticket-box-wrapper {
+    margin: 7.5px 0;
+  }
+}
+@media (max-width: 992px) {
+  .lottery-ticket-box,
+  .lottery-ticket-box-left {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .lottery-ticket-box-layout {
+    max-width: 226px;
+    margin: 0 auto;
+  }
+  .lottery-ticket-box-wrapper {
+    margin: 15px 0;
+  }
+  .lottery-ticket-box-right {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .lottery-ticket-box {
+    width: 100%;
+    max-width: 250px;
+    float: none;
+    margin: 0 auto;
+  }
+  .lottery-ticket-box-wrapper {
+    margin: 15px 0;
+  }
+  .lottery-ticket-box-left {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .lottery-personal3-header-wrapper {
+    background: url("/assets/images/lottery-group1-pageheade-mobile-bg.png") no-repeat 100% 100%;
+    background-size: cover;
+  }
+  .lottery-personal3-header-layout {
+    padding: 119px 0 134px 0;
+  }
+  .lottery-personal3-header-title {
+    padding: 13px 11px 3px 11px;
+  }
+  .lottery-personal3-page .section-your-friends-with-us-line {
+    padding: 28px 0 0 0;
+  }
+  .section-lottery-personal3-lottery-tickets {
+    padding: 18px 0 30px 0;
+    margin-bottom: 30px;
+  }
+  .choose-your-draw-participation-total-box-title {
+    font-size: 16px;
+  }
+  .choose-your-draw-participation-total-box-line-left span:first-child {
+    font-size: 14px;
+  }
+  .choose-your-draw-participation-total-sum-right span {
+    font-size: 21px;
+  }
+  span.block.improve-your-odds-with-group-column-right-title {
+    font-size: 18px;
+  }
+  .lottery-personal3-page .choose-your-draw-participation {
+    padding: 15px 0px 0 0px;
+  }
+}
+/************************LOTTERY PERSONAL 3*******/
+/************************THANK YOU PAGE *******/
+.thank-you-page-wrapper {
+  max-width: 454px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 93px 0 106px 0;
+}
+.thank-you-page-title img {
+  padding: 0px 0 42px 0;
+}
+.thank-you-page-subtitle {
+  padding: 23px 0 37px 0;
+}
+.thank-you-page-button a {
+  margin: 0 auto;
+  color: #fff;
+}
+@media (max-width: 480px) {
+  .thank-you-page-wrapper {
+    padding: 41px 0px 40px 0px;
+  }
+}
+/************************THANK YOU PAGE *******/
+/************************TRANSACTIONS*******/
+.table-information {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 72px 2px 35px 2px;
+}
+.table-information table tr {
+  border-bottom: 1px solid #e4e0e0;
+}
+.table-information table tr td {
+  border: none;
+  padding: 0px 0;
+}
+.table-information table tr td span {
+  display: block;
+  font-size: 14px;
+  padding: 25px 0 25px 0;
+}
+.table-information table tr span:first-child {
+  color: #b7b7ba;
+  font-family: 'MontserratBold';
+}
+.table-information table tr:first-child span:first-child {
+  display: block;
+  padding: 0 0 18px 0;
+}
+.table-information table tr:last-child {
+  border: none;
+}
+.table-information table tr span:first-child {
+  display: none;
+}
+.table-information-button a {
+  width: 240px;
+}
+@media (max-width: 767px) {
+  .table-information {
+    padding: 23px 2px 30px 2px;
+  }
+  .table-information table tr td {
+    width: 33.333%;
+    float: left;
+  }
+  .table-information table tr td span {
+    padding: 6px 0 6px 0;
+    min-height: 46px;
+  }
+  .table-information table tr:first-child span:first-child {
+    padding: 6px 0 6px 0;
+  }
+  .table-information table tr span:first-child {
+    display: block;
+    padding: 17px 0 0px 0;
+  }
+}
+@media (max-width: 480px) {
+  .table-information table tr td span {
+    font-size: 12px;
+  }
+}
+/************************TRANSACTIONS*******/
+/************************WITHDRAW *******/
+.section-withdraw-items {
+  padding: 0 0 46px 0;
+}
+.withdraw-page .deposit-header-title {
+  max-width: 501px;
+  margin: 0 auto;
+}
+.withdraw-page-item {
+  border-bottom: 1px solid #f6f4f5;
+  padding: 49px 0 49px 0;
+}
+.withdraw-page-item:last-child {
+  border: none;
+}
+.withdraw-page-item-title {
+  font-size: 20px;
+  padding: 0 0 0 80px;
+}
+.withdraw-page-item-content {
+  padding: 0 320px 0 0;
+  word-break: break-all;
+}
+.withdraw-page-item-content p {
+  color: #b7b7ba;
+  font-size: 12px;
+  line-height: 21px;
+}
+.withdraw-page-item-content img {
+  max-width: 100%;
+  padding: 5px 0 0 0;
+}
+.withdraw-form-box-subtitle {
+  font-size: 12px;
+  font-style: italic;
+  padding: 5px 0 15px 0px;
+  display: block;
+  color: #b7b7ba;
+}
+.withdraw-form-box-title span {
+  color: #2e304c;
+  padding: 0 0 0 5px;
+}
+.withdraw-form input {
+  background: #f6f4f5;
+}
+@media (max-width: 1198px) {
+  .withdraw-page-item-content {
+    padding: 0 130px 0 0;
+  }
+  .withdraw-page-item-title {
+    padding: 0 0 0 50px;
+  }
+}
+@media (max-width: 992px) {
+  .withdraw-page-item-content {
+    padding: 0 0px 0 0;
+  }
+  .withdraw-page-item-title {
+    padding: 0 0 10px 0px;
+  }
+  .withdraw-page-item {
+    padding: 30px 0 30px 0;
+  }
+  .deposit-header-title {
+    padding: 0 20px 0 20px;
+    word-break: break-word;
+  }
+}
+@media (max-width: 480px) {
+  .withdraw-form button {
+    margin: 15px 0 0 0 ;
+  }
+}
+/************************WITHDRAW *******/
+/************************ORDER ORDER NO SING IN  *******/
+.section-order-head {
+  padding: 17px 0 40px 0;
+}
+.section-order-table .order-table-line {
+  width: 780px;
+  border-bottom: 1px solid #e6e1e1;
+  padding: 30px 0 5px 0;
+}
+.section-order-table .order-table-line:last-child {
+  border: none;
+}
+.section-order-table table tr td {
+  border: none;
+  padding: 0;
+}
+.order-col-title {
+  font-size: 14px;
+  color: #b7b7ba;
+  display: block;
+  padding: 0 0 22px 0;
+}
+.order-col.order-lottery-box {
+  width: 400px;
+}
+.order-col.order-lines-box {
+  width: 105px;
+}
+.order-col.order-draws-box {
+  width: 180px;
+}
+.order-col.order-sum-box {
+  width: 105px;
+}
+.order-lottery-box-logo img {
+  max-width: 127px;
+  max-height: 39px;
+}
+.order-lottery-box-logo span {
+  padding: 9px 0 9px 25px;
+}
+.one-select-line-box {
+  position: relative;
+  width: 70px;
+}
+.one-select-line-box select {
+  width: 70px;
+  height: 39px;
+  display: inline-block;
+  border: 2px solid #f6f4f5;
+  padding: 4px 3px 3px 5px;
+  margin: 0;
+  outline: none;
+  background: #fff;
+  -webkit-appearance: none;
+}
+.one-select-line-box:after {
+  content: "";
+  background-image: url("/assets/images/icon-form-pointer.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 30px;
+  padding: 0 7px;
+  background-color: #f6f4f5;
+  color: white;
+  pointer-events: none;
+}
+/*ORDER*/
+.order-sum-box-delete-btn-mobile-visible {
+  display: none;
+}
+.table tr.order-table-assets-info td {
+  padding: 26px 0 0px 0;
+}
+.order-table-purchase-save-info {
+  padding: 10px 0 0 0 ;
+}
+.order-sum-box-total {
+  float: left;
+  padding: 6px 0 6px 0;
+  font-size: 18px;
+}
+.order-sum-box-delete-btn {
+  float: right;
+  padding: 7px 0;
+}
+.order-table-checkbox-information {
+  padding: 0 0 0 15px;
+  float: left;
+}
+.order-table-line-assets-right-currency-val {
+  float: right;
+  font-size: 14px;
+}
+.order-table-line-assets-right-subtitle {
+  font-size: 12px;
+}
+.order-page-table-lottery-points-wrapper {
+  background: #f6f4f5;
+  width: 780px;
+  margin: 0 0 47px 0;
+}
+.order-page-table-lottery-points-line {
+  width: 202px;
+  float: left;
+  margin: 0 25px 0 25px;
+  padding: 25px 0 20px 0;
+}
+.order-page-table-lottery-points-line-title {
+  padding: 0 0 9px 0;
+}
+.order-page-table-lottery-points-line-title span {
+  float: left;
+}
+.order-page-table-lottery-points-line-title a {
+  float: right;
+  padding: 0 5px 0 0;
+}
+.order-page-table-lottery-points-line-content {
+  margin: 0 -2.5px;
+}
+.order-page-table-lottery-points-line-content .lottery-ticket-point-number {
+  color: #afafaf;
+}
+.order-page-table-lottery-points-line-content .lottery-ticket-point-number-selected {
+  background: #fa3a48;
+  color: #fff;
+  border-color: #fa3a48;
+}
+.order-summary-aside-wrapper {
+  background: #f6f4f5;
+  min-width: 282px;
+  margin: 15px 0 48px 0;
+  float: right;
+}
+.order-summary-aside-layout {
+  padding: 20px 20px 25px 20px;
+}
+.order-aside-summary-title {
+  font-size: 20px;
+}
+.order-aside-summary-form {
+  padding: 52px 0 38px 0;
+}
+.order-aside-summary-form input {
+  font-size: 10px;
+  height: 33px;
+  padding: 0 10px 0 10px;
+  color: #b7b7ba;
+}
+.order-aside-summary-form span {
+  font-size: 12px;
+  padding: 0 0 0 15px;
+}
+.order-aside-summary-form .checkbox-line input {
+  float: left;
+  height: inherit;
+}
+.order-page-no-sing-in .order-aside-summary-form {
+  padding: 0 0 38px 0;
+}
+.order-page-no-sing-in .order-aside-summary-form .checkbox-line {
+  padding: 18px 0 18px 0px;
+}
+.order-aside-summary-total {
+  padding: 0 0 45px 0;
+}
+.order-aside-summary-total span:first-child {
+  font-size: 18px;
+  padding: 0 16px 0 0px;
+}
+.order-aside-summary-total span:last-child {
+  font-size: 26px;
+}
+.section-order-page-table-lottery-points {
+  padding: 5px 0 50px 0;
+}
+/*nav*/
+.payment-methods-navbar ul li {
+  list-style-type: none;
+  float: left;
+  width: 14.28%;
+  text-align: center;
+  background: #2ecc71;
+  border-right: 1px solid #fff;
+}
+.payment-methods-navbar ul li a {
+  font-family: 'MontserratBold';
+  display: block;
+  padding: 14px 14px 14px 14px;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+.payment-methods-navbar ul li.active {
+  background: #f6f4f5;
+}
+.payment-methods-navbar ul li.active a {
+  color: #2e304c;
+}
+.user-donations-sidebar-content-tab.tab-content .tab-pane {
+  padding: 54px 0 68px 79px;
+}
+.card-variants-nav-mobile-control {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.card-variants-nav-mobile-control-assets-elem {
+  display: inline-block;
+}
+.card-variants-nav-mobile-control-assets-elem img {
+  padding: 6px 0 0 15px;
+}
+.card-variants-nav-mobile-control-assets-elem img,
+.card-variants-nav-mobile-control-assets-elem span {
+  float: left;
+}
+.deposit-payment-methods-card-variants-nav-mobile-btn {
+  background: #2ecc71;
+}
+.deposit-payment-card-variants-field-cards {
+  float: left;
+}
+.deposit-payment-card-variants-main-card {
+  width: 380px;
+  height: 215px;
+  float: left;
+  position: relative;
+  z-index: 2;
+  background: url("/assets/images/bg-master-card-left.png") no-repeat 100% 100% transparent;
+  padding: 37px 15px 0 15px;
+}
+.deposit-payment-card-variants-confirm-card {
+  width: 213px;
+  height: 215px;
+  float: left;
+  position: relative;
+  left: -3px;
+  background: url("/assets/images/bg-master-card-right.png") no-repeat 100% 100% transparent;
+  padding: 0 14px 0 3px;
+}
+.deposit-payment-card-variants-main-card-name-code span {
+  text-shadow: 1px 1px 4px #0a3200;
+  font-size: 10px;
+  color: #fff;
+  display: block;
+  padding: 6px 0 6px 0;
+}
+.deposit-payment-card-variants-main-card-name-code input {
+  width: 100%;
+  height: 33px;
+  border: 1px solid #46aa71;
+  border-radius: 4px;
+}
+.deposit-payment-card-variants-main-card-expires-logo {
+  padding: 10px 0 0 0;
+}
+.deposit-payment-card-variants-main-card-expires-logo span {
+  text-shadow: 1px 1px 4px #0a3200;
+  font-size: 10px;
+  color: #fff;
+  padding: 0 10px 0 0;
+}
+.deposit-payment-card-variants-main-card-expires-logo select {
+  width: 68px;
+  height: 34px;
+  padding: 0 6px 0 6px;
+  color: #4a4a4a;
+  border: 1px solid #46aa71;
+  font-size: 12px;
+  background: #fff;
+  border-radius: 4px;
+  background: url("/assets/images/select-blue-arrow.png") no-repeat 90% 50%;
+  background-color: #f6f4f5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.deposit-payment-card-variants-main-card-expires-logo img {
+  padding: 0 0 0 53px;
+}
+.deposit-payment-card-variants-confirm-code-title {
+  text-align: right;
+  display: block;
+  padding: 47px 0 0 0;
+  color: #fff;
+  font-size: 10px;
+}
+.deposit-payment-card-variants-confirm-card input {
+  width: 52px;
+  height: 34px;
+  text-align: center;
+}
+.deposit-payment-card-variants-confirm-code-num {
+  text-align: right;
+  padding: 30px 10px 0px 0;
+}
+.deposit-payment-card-variants-confirm-code-num span {
+  font-size: 16px;
+  color: #4a4a4a;
+}
+.deposit-payment-card-variants-field-cards-pay-info {
+  float: left;
+  padding: 28px 0 0 80px;
+}
+.deposit-payment-card-variants-field-cards-pay-info label input {
+  float: left;
+}
+.deposit-payment-card-variants-field-cards-pay-info label span {
+  font-size: 12px;
+  font-weight: initial;
+  padding-left: 10px;
+}
+.deposit-payment-card-variants-field-cards {
+  float: left;
+}
+.deposit-payment-card-variants-field-cards-pay-info-value {
+  padding: 6px 0 27px 0;
+}
+.deposit-payment-card-variants-field-cards-pay-info-value-title {
+  font-size: 18px;
+}
+.deposit-payment-card-variants-field-cards-pay-info-value-currency {
+  font-size: 26px;
+  padding: 0 0 0 10px;
+}
+.deposit-payment-card-variants-field-cards-pay-info-verified-logos {
+  padding: 15px 0 0 0;
+}
+.panel-tabs-wrap .tab-pane {
+  padding: 43px 0 45px 0;
+  background: #f6f4f5;
+}
+.panel-tabs-wrap ul li {
+  width: 200px;
+}
+.panel-tabs-wrap ul li a {
+  font-size: 10px;
+  text-align: center;
+  padding: 16px 0 16px 0;
+  display: block;
+  background: #2ecc71;
+  color: #fff;
+}
+.panel-tabs-wrap ul li.panel-tabs-first-child.active a {
+  color: #2e304c;
+  background: #f6f4f5;
+}
+.already-member-tab-content-form-wrapper {
+  float: left;
+  max-width: 505px;
+  margin-left: 244px;
+}
+.already-member-tab-content-form {
+  max-width: 340px;
+}
+.already-member-tab-content-form-info {
+  padding: 0 0 21px 0;
+}
+.already-member-tab-content-form input.form-control {
+  width: 100%;
+  margin: 8px 0 8px 0;
+}
+.already-member-tab-content-form-checkbox {
+  padding: 12px 0 12px 0;
+}
+.already-member-tab-content-form-checkbox input {
+  float: left;
+}
+.already-member-tab-content-form-checkbox span {
+  padding: 0 0 0 10px;
+}
+.already-member-tab-content-form-link {
+  padding: 15px 0 15px 0;
+}
+.already-member-tab-content-form-link a {
+  font-size: 10px;
+  padding-right: 20px;
+}
+.already-member-tab-content-pay-info-wrapper .deposit-payment-card-variants-field-cards-pay-info {
+  float: left;
+  padding: 154px 0 0 15px;
+}
+@media (max-width: 1198px) {
+  .section-order-page-table-lottery-points {
+    padding: 30px 0 30px 0;
+  }
+  .order-page-table-lottery-points-wrapper {
+    width: 550px;
+    float: left;
+  }
+  .order-summary-aside-wrapper {
+    margin-top: 0;
+  }
+  /*no sing in*/
+  .already-member-tab-content-form-wrapper {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .section-order-table .order-table-line {
+    width: 100%;
+  }
+  .order-page-table-lottery-points-wrapper {
+    width: 400px;
+  }
+  .user-donations-sidebar-content-tab.tab-content .tab-pane {
+    padding: 30px 0 15px 15px;
+  }
+  .deposit-payment-card-variants-confirm-card {
+    width: 160px;
+  }
+  .deposit-payment-card-variants-field-cards-pay-info {
+    padding: 28px 0 0 0px;
+  }
+  /*no sing in*/
+  .already-member-tab-content-form-wrapper {
+    max-width: 400px;
+  }
+  .already-member-tab-content-pay-info-wrapper .deposit-payment-card-variants-field-cards-pay-info {
+    padding: 108px 30px 12px 15px;
+  }
+}
+@media (max-width: 767px) {
+  td.order-col.order-lottery-box {
+    width: 100%;
+    float: left;
+    display: block;
+    padding: 0 0 40px 0;
+  }
+  td.order-col.order-lines-box,
+  td.order-col.order-draws-box,
+  td.order-col.order-sum-box {
+    width: 33.33%;
+    display: block;
+    float: left;
+  }
+  tr.order-table-assets-info td {
+    width: 100%;
+    display: block;
+  }
+  .order-page-table-lottery-points-wrapper {
+    width: 255px;
+  }
+  .payment-methods-navbar ul {
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 78px;
+    -webkit-box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.8);
+  }
+  .payment-methods-navbar ul li {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0e1e4;
+    background: #fff;
+  }
+  .payment-methods-navbar ul li a {
+    color: #2e304c;
+  }
+  .payment-methods-navbar ul li.active {
+    background: #2ecc71;
+  }
+  .payment-methods-navbar ul li.active a {
+    color: #fff;
+  }
+}
+@media (max-width: 600px) {
+  .deposit-payment-card-variants-confirm-card {
+    width: 380px;
+    left: 0;
+  }
+  .order-page-table-lottery-points-wrapper,
+  .order-summary-aside-wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .section-order-head {
+    padding-bottom: 0px;
+  }
+  .table tr td.order-col.order-sum-box .order-sum-box-delete-btn,
+  .table tr td.line-order-table-purchase-save-info {
+    display: none;
+  }
+  .order-table-line:first-child {
+    padding-top: 0px;
+  }
+  .section-order-table .order-table-line {
+    padding: 11px 0 11px 0;
+  }
+  .order-table-line table {
+    margin-bottom: 0px;
+  }
+  .order-sum-box-delete-btn-mobile-visible {
+    display: block;
+    float: right;
+  }
+  .order-lottery-box-logo {
+    float: left;
+  }
+  .deposit-payment-methods-card-variants-nav-mobile {
+    font-size: 11px;
+  }
+  .deposit-payment-card-variants-field-cards {
+    padding: 0 11px;
+  }
+  .deposit-payment-card-variants-main-card {
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  .deposit-payment-card-variants-confirm-card {
+    width: 100%;
+    background-size: 100% 100%;
+    left: 0;
+    margin: 15px 0 0 0;
+  }
+  /*not sing in*/
+  .already-member-tab-content-form {
+    max-width: 100%;
+  }
+  .already-member-tab-content-form-wrapper {
+    max-width: 100%;
+  }
+  .panel-tabs-wrap ul li {
+    width: 50%;
+    float: left;
+  }
+  .panel-tabs-wrap ul li a {
+    font-size: 12px;
+  }
+  .tab-content.order-tab-content {
+    margin: 0 -10px;
+  }
+  .already-member-tab-content-form-wrapper {
+    margin-left: 0;
+  }
+  .panel-tabs-wrap .tab-pane {
+    padding: 31px 0 45px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .already-member-tab-content-pay-info-wrapper .deposit-payment-card-variants-field-cards-pay-info {
+    padding: 33px 30px 0px 0px;
+  }
+}
+@media (max-width: 380px) {
+  .deposit-payment-card-variants-main-card-expires-logo select {
+    width: 50px;
+  }
+  .deposit-payment-card-variants-main-card-expires-logo img {
+    padding: 6px 0px 0 0px;
+    float: right;
+  }
+}
+/************************ORDER ORDER NO SING IN  *******/
+/************************PRIVACY POLICY  *******/
+.privacy-policy-head-wrapper {
+  background: url("/assets/images/privacy-policy-bg.png") no-repeat 100% 100% transparent;
+  background-size: cover;
+}
+.privacy-policy-head-layout {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 162px 0 123px 0;
+}
+.section-privacy-policy-title {
+  padding: 0 0 18px 0;
+}
+.privacy-policy-content {
+  padding: 26px 0 59px 0;
+}
+.privacy-policy-content-line span {
+  padding: 33px 0 0 0;
+}
+.privacy-policy-content-line p {
+  padding: 18px 0 0 0;
+}
+@media (max-width: 480px) {
+  .privacy-policy-head-wrapper {
+    background: url("/assets/images/privacy-policy-bg-mobile.png") no-repeat 100% 100% transparent;
+    background-size: cover;
+  }
+  .privacy-policy-head-layout {
+    padding: 85px 11px 106px 11px;
+    word-break: break-all;
+  }
+  .privacy-policy-content-line span {
+    padding: 8px 0 0 0;
+  }
+  .privacy-policy-content-line p {
+    padding: 8px 0 0 0;
+    font-size: 12px;
+  }
+  .privacy-policy-content {
+    padding: 13px 0 42px 0;
+  }
+}
+/************************PRIVACY POLICY  *******/
+/************************PROFILE DETAILS*******/
+.profile-details-content-line {
+  border-bottom: 1px solid #f6f4f5;
+  padding: 40px 0 40px 0px;
+}
+.profile-details-content-left {
+  font-size: 20px;
+}
+.profile-details-content-right p {
+  color: #b7b7ba;
+  font-size: 12px;
+}
+.profile-details-content-facebook span {
+  font-size: 18px;
+}
+.profile-details-content-facebook p {
+  padding: 10px 0 0 0;
+}
+.profile-details-content-facebook a {
+  display: block;
+  text-align: center;
+  width: 198px;
+  margin: 39px 0 0 0;
+}
+.profile-details-content-user-info .upload-image-info-zone-wrap {
+  padding: 0 0 20px 0;
+}
+.profile-details-content-user-info .upload-image-info-zone {
+  padding: 6px 0 7px 22px;
+}
+.profile-details-content-user-info .upload-image-info-zone span {
+  padding: 0px 0 3px 0;
+}
+.profile-details-content-user-info-form-layout {
+  max-width: 425px;
+}
+.profile-details-content-form-line {
+  font-size: 16px;
+}
+.profile-details-content-form-line span {
+  padding: 21px 0 5px 0;
+}
+.profile-details-content-form-line button {
+  width: 198px;
+  margin: 22px 0 0 0;
+}
+.profile-details-content-form-line-full input {
+  width: 100%;
+}
+.input-half-line-box-layout {
+  margin: 0 -6px;
+}
+.input-half-line-box-layout .input-half-line-box {
+  padding: 0 6px;
+  width: 50%;
+  float: left;
+}
+.input-half-line-box-layout .input-half-line-box .half-form-field {
+  width: 100%;
+}
+.profile-details-content-right .form-control {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: #adadad;
+}
+@media (max-width: 992px) {
+  .profile-details-content-user-info-form-layout {
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .profile-details-content-left {
+    font-size: 22px;
+  }
+  .profile-details-content-line {
+    padding: 25px 0 25px 0px;
+  }
+  .input-half-line-box-layout .input-half-line-box {
+    width: 100%;
+  }
+  .profile-details-content-form-line-half .left-half-input {
+    width: 70%;
+  }
+  .profile-details-content-form-line-half .right-half-input {
+    width: 30%;
+  }
+}
+/************************PROFILE DETAILS*******/
+/************************PAYMENT METHODS  *******/
+.payment-methods-page .table-information {
+  max-width: 860px;
+}
+.payment-methods-page .table-information tr:first-child span:first-child {
+  padding: 0;
+  font-family: 'MontserratRegular', sans-serif;
+}
+.payment-methods-page .table-information td:first-child {
+  width: 480px;
+}
+.payment-methods-page .table-information tr:last-child {
+  border-bottom: 1px solid #e4e0e0;
+}
+@media (max-width: 1198px) {
+  .payment-methods-page .table-information td:first-child {
+    width: 360px;
+  }
+}
+@media (max-width: 767px) {
+  .payment-methods-page .table-information tr span:first-child {
+    color: #b7b7ba;
+    font-family: 'MontserratRegular', sans-serif;
+  }
+  .payment-methods-page .table-information td:first-child {
+    width: 33.333%;
+  }
+  .payment-methods-page .table-information td.text-center {
+    text-align: left;
+  }
+  .payment-methods-page .table-information td.text-center .table-information-control-btn {
+    padding: 0 0 0 12px;
+  }
+}
+@media (max-width: 480px) {
+  .payment-methods-page .table-information tr td span {
+    min-height: 53px;
+  }
+}
+/************************PAYMENT METHODS  *******/
+/************************TICKETS *******/
+.tickets-page .table-information {
+  max-width: 860px;
+}
+.tickets-page .table-information tr td:last-child .table-head-content {
+  padding-left: 14px;
+}
+.tickets-line-wrap {
+  background: #f6f4f5;
+  padding: 30px 0 30px 131px;
+}
+.tickets-line-box {
+  float: left;
+}
+.tickets-line-box-name {
+  padding: 17px 0 0 0;
+}
+.tickets-line-box-tile {
+  padding: 0 0 10px 0;
+  display: block;
+}
+.tickets-line-box-scan .tickets-line-box-content,
+.tickets-line-box-print .tickets-line-box-content {
+  padding: 8px 0 8px 0;
+}
+.tickets-line-box-scan .tickets-line-box-content {
+  padding-left: 25px;
+}
+.tickets-line-box-print .tickets-line-box-content {
+  padding-left: 10px;
+}
+.tickets-line-box.tickets-line-box-name {
+  width: 176px;
+}
+.tickets-line-box.tickets-line-box-results {
+  width: 285px;
+}
+.tickets-line-box.tickets-line-box-results .lottery-ticket-point-number {
+  color: #afafaf;
+}
+.tickets-line-box.tickets-line-box-scan {
+  width: 150px;
+}
+.section-pagination-box.tickets-page-pagination {
+  padding: 5px 0 40px 0;
+}
+@media (max-width: 992px) {
+  .tickets-line-wrap {
+    padding: 30px 0 30px 50px;
+  }
+  .tickets-line-box.tickets-line-box-name {
+    width: 120px;
+  }
+  .tickets-line-box.tickets-line-box-results {
+    width: 250px;
+  }
+  .tickets-line-box.tickets-line-box-scan {
+    width: 110px;
+  }
+}
+@media (max-width: 767px) {
+  .tickets-line-box.tickets-line-box-scan,
+  .tickets-line-box.tickets-line-box-print {
+    padding-top: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .tickets-line-box.tickets-line-box-scan,
+  .tickets-line-box.tickets-line-box-print {
+    display: none;
+  }
+  .tickets-line-box.tickets-line-box-name {
+    width: auto;
+    float: left;
+  }
+  .tickets-line-box.tickets-line-box-results {
+    float: right;
+    width: initial;
+  }
+  .tickets-line-wrap {
+    margin: 0 -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/************************TICKETS *******/

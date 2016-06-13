@@ -1,0 +1,145 @@
+
+/************************TICKETS *******/
+
+.tickets-page{
+
+  .table-information{
+    max-width: 860px;
+
+    tr{
+
+      td:last-child{
+
+       .table-head-content{
+         padding-left: 14px;
+       }
+
+      }
+
+    }
+
+  }
+
+}
+
+.tickets-line-wrap{
+  background: @white-gray;
+  padding: 30px 0 30px 131px;
+}
+
+.tickets-line-box{
+  float: left;
+}
+
+.tickets-line-box-name{
+  padding: 17px 0 0 0;
+}
+
+.tickets-line-box-tile{
+  padding: 0 0 10px 0;
+  display: block;
+}
+
+.tickets-line-box-scan,
+.tickets-line-box-print{
+  .tickets-line-box-content{
+    padding: 8px 0 8px 0
+  }
+
+}
+
+.tickets-line-box-scan{
+
+  .tickets-line-box-content{
+    padding-left:25px;
+  }
+
+}
+
+.tickets-line-box-print{
+
+  .tickets-line-box-content{
+    padding-left: 10px;
+  }
+
+}
+
+.tickets-line-box.tickets-line-box-name{
+  width: 176px;
+}
+
+.tickets-line-box.tickets-line-box-results{
+  width: 285px;
+
+  .lottery-ticket-point-number{
+    color: @gray-color;
+  }
+
+}
+
+.tickets-line-box.tickets-line-box-scan{
+  width: 150px;
+}
+
+.section-pagination-box.tickets-page-pagination{
+  padding: 5px 0 40px 0;
+}
+
+
+@media @media-md{
+
+  .tickets-line-wrap{
+    padding: 30px 0 30px 50px;
+  }
+
+  .tickets-line-box.tickets-line-box-name {
+    width: 120px;
+  }
+
+  .tickets-line-box.tickets-line-box-results {
+    width: 250px;
+  }
+
+  .tickets-line-box.tickets-line-box-scan {
+    width: 110px;
+  }
+
+}
+
+
+@media @media-sm{
+
+  .tickets-line-box.tickets-line-box-scan,
+  .tickets-line-box.tickets-line-box-print{
+    padding-top: 15px;
+  }
+
+}
+
+
+@media @media-xs {
+
+  .tickets-line-box.tickets-line-box-scan,
+  .tickets-line-box.tickets-line-box-print{
+    display: none;
+  }
+
+  .tickets-line-box.tickets-line-box-name {
+    width: auto;
+    float: left;
+  }
+
+  .tickets-line-box.tickets-line-box-results{
+    float: right;
+    width: initial;
+  }
+
+  .tickets-line-wrap {
+    margin: 0 -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+/************************TICKETS *******/

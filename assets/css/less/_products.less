@@ -1,0 +1,107 @@
+/************************PRODUCTS  *******/
+
+.page-pagination{
+  text-align: center;
+  ul{
+    li{
+      list-style-type: none;
+      display: inline-block;
+      width: 47px;
+      height: 47px;
+      a{
+        text-decoration: none;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 47px;
+        text-align: center;
+        color: @main-color;
+        font-size: @font-size-subtitle;
+      }
+    }
+    .pagination-active-point{
+      background: @red-color;
+      border-radius: 50%;
+      a{
+        color: @default-color;
+      }
+    }
+    .pagination-infinity-point{
+      width: auto;
+    }
+  }
+}
+
+.products-page-page .page-pagination {
+  padding: 63px 0px 52px 0;
+}
+
+.wrapper-products-page-table{
+  padding: 54px 0 0px 0;
+}
+
+table tr.products-page-table-header td {
+  border: none;
+  padding: 10px 0 10px 0;
+  font-size: @font-size-14;
+  color: @shite-grey;
+  text-transform: uppercase;
+}
+
+table tr.products-page-table-content td {
+  border-top: none;
+  border-bottom: 1px solid @gray-border;
+  padding: 25px 0 25px 0;
+  font-size: @font-size-14;
+  a{
+    color: @main-color;
+  }
+}
+
+
+table.products-mobile-table{
+  margin: 18px 0 18px 0;
+  font-size: @font-size-12;
+  border-bottom: 1px solid @gray-border;
+  tr{
+    width: 33.333%;
+    display: inline-block;
+    td{
+      border:none;
+    }
+
+    td.products-mobile-table-content-title{
+      display: block;
+      color: @shite-grey;
+      padding: 0px 0 0 0;
+      font-size: 11px;
+    }
+
+    td.products-mobile-table-content-txt{
+      vertical-align: middle;
+      padding: 10px 0 19px 0;
+      display: table-cell;
+    }
+  }
+}
+
+@media @media-xs {
+  .products-page-page .page-pagination {
+    padding: 10px 0px 32px 0;
+  }
+
+  .page-pagination{
+    ul{
+      li{
+        width: 42px;
+        height: 42px;
+        a{
+          line-height: 42px;
+        }
+      }
+    }
+  }
+}
+/*  padding: 54px 0 65px 0;*/
+/************************PRODUCTS  *******/

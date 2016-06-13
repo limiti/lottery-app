@@ -1,0 +1,805 @@
+/************************ORDER ORDER NO SING IN  *******/
+
+.section-order-head {
+  padding: 17px 0 40px 0;
+}
+
+
+.section-order-table{
+
+  .order-table-line{
+    width: 780px;
+    border-bottom: 1px solid @gray-border;
+    padding: 30px 0 5px 0;
+  }
+
+  .order-table-line:last-child{
+    border: none;
+  }
+
+  table{
+    tr{
+
+      td{
+        border: none;
+        padding: 0;
+      }
+
+    }
+
+  }
+
+}
+
+.order-col-title{
+  font-size: @font-size-14;
+  color: #b7b7ba;
+  display: block;
+  padding: 0 0 22px 0;
+}
+
+.order-col.order-lottery-box {
+  width: 400px;
+}
+
+.order-col.order-lines-box{
+  width: 105px;
+}
+
+.order-col.order-draws-box{
+  width: 180px;
+}
+
+.order-col.order-sum-box{
+  width: 105px;
+}
+
+.order-lottery-box-logo{
+  img{
+    max-width: 127px;
+    max-height: 39px;
+  }
+  span{
+    padding: 9px 0 9px 25px;
+  }
+}
+
+.one-select-line-box{
+  position: relative;
+  width: 70px;
+}
+
+.one-select-line-box select {
+  width: 70px;
+  height: 39px;
+  display: inline-block;
+  border: 2px solid @white-gray;
+  padding: 4px 3px 3px 5px;
+  margin: 0;
+  outline:none;
+  background: @default-color;
+  -webkit-appearance:none;
+}
+
+.one-select-line-box select:focus{}
+
+.one-select-line-box:after {
+  content: "";
+  background-image: url("/assets/images/icon-form-pointer.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 30px;
+  padding: 0 7px;
+  background-color: @white-gray;
+  color: white;
+  pointer-events:none;
+}
+
+/*ORDER*/
+
+.order-sum-box-delete-btn-mobile-visible{
+  display: none;
+}
+
+.table{
+  tr.order-table-assets-info{
+    td{
+      padding: 26px 0 0px 0;
+    }
+  }
+}
+
+.order-table-purchase-save-info{
+  padding: 10px 0 0 0 ;
+}
+
+.order-sum-box-total{
+  float: left;
+  padding: 6px 0 6px 0;
+  font-size: @font-size-18;
+}
+
+.order-sum-box-delete-btn{
+  float: right;
+  padding: 7px 0;
+}
+
+.order-table-checkbox-information {
+  padding: 0 0 0 15px;
+  float: left;
+}
+
+.order-table-line-assets-right-currency-val{
+  float: right;
+  font-size: @font-size-14;
+}
+
+.order-table-line-assets-right-subtitle{
+  font-size: @font-size-12;
+}
+
+.order-page-table-lottery-points-wrapper{
+  background: @white-gray;
+  width: 780px;
+  margin: 0 0 47px 0;
+}
+
+.order-page-table-lottery-points-line{
+  width: 202px;
+  float: left;
+  margin: 0 25px 0 25px;
+  padding: 25px 0 20px 0;
+}
+
+.order-page-table-lottery-points-line-title{
+  padding: 0 0 9px 0;
+
+  span{
+    float: left;
+  }
+
+  a{
+    float: right;
+    padding: 0 5px 0 0;
+  }
+
+}
+
+.order-page-table-lottery-points-line-content{
+  margin: 0 -2.5px;
+
+  .lottery-ticket-point-number{
+    color: @gray-color;
+  }
+
+  .lottery-ticket-point-number-selected{
+    background: #fa3a48;
+    color: #fff;
+    border-color: #fa3a48;
+  }
+}
+
+.order-summary-aside-wrapper{
+  background: @white-gray;
+  min-width: 282px;
+  margin: 15px 0 48px 0;
+  float: right;
+}
+
+.order-summary-aside-layout {
+  padding: 20px 20px 25px 20px;
+}
+
+.order-aside-summary-title{
+  font-size: @font-size-20;
+}
+
+.order-aside-summary-form{
+  padding: 52px 0 38px 0;
+
+  input{
+    font-size: @font-size-10;
+    height: 33px;
+    padding: 0 10px 0 10px;
+    color: #b7b7ba;
+  }
+
+  span{
+    font-size: @font-size-12;
+    padding: 0 0 0 15px;
+  }
+
+}
+
+.order-aside-summary-form{
+
+  .checkbox-line{
+    input{
+      float: left;
+      height: inherit;
+    }
+
+    span{
+    }
+  }
+}
+
+.order-page-no-sing-in{
+  .order-aside-summary-form {
+    padding: 0 0 38px 0;
+    .checkbox-line{
+      padding: 18px 0 18px 0px;
+    }
+  }
+}
+
+.order-aside-summary-total{
+  padding: 0 0 45px 0;
+
+  span:first-child{
+    font-size: @font-size-18;
+    padding: 0 16px 0 0px;
+  }
+
+  span:last-child{
+    font-size: @font-size-26;
+  }
+}
+
+.section-order-page-table-lottery-points{
+  padding: 5px 0 50px 0;
+}
+
+/*nav*/
+
+.payment-methods-navbar{
+  ul{
+
+    li{
+      list-style-type: none;
+      float: left;
+      width: 14.28%;
+      text-align: center;
+      background: #2ecc71;
+      border-right: 1px solid #fff;
+
+      a{
+        font-family: 'MontserratBold';
+        display: block;
+        padding: 14px 14px 14px 14px;
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1.1px;
+      }
+
+    }
+
+    li.active{
+      background: @white-gray;
+     a{
+       color:@main-color;
+     }
+    }
+
+  }
+}
+
+.user-donations-sidebar-content-tab.tab-content{
+  .tab-pane{
+    padding: 54px 0 68px 79px;
+  }
+}
+
+
+.card-variants-nav-mobile-control{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.card-variants-nav-mobile-control-assets-elem{
+  display: inline-block;
+
+  img{
+    padding: 6px 0 0 15px;
+  }
+
+  img,span{
+    float: left;
+  }
+
+}
+
+.deposit-payment-methods-card-variants-nav-mobile-btn{
+  background: @shite-green;
+}
+
+.deposit-payment-card-variants-field-cards{
+  float: left;
+}
+
+.deposit-payment-card-variants-main-card{
+  width: 380px;
+  height: 215px;
+  float: left;
+  position: relative;
+  z-index: 2;
+  background: url("/assets/images/bg-master-card-left.png") no-repeat 100% 100% transparent;
+  padding: 37px 15px 0 15px
+}
+
+.deposit-payment-card-variants-confirm-card{
+  width: 213px;
+  height: 215px;
+  float: left;
+  position: relative;
+  left: -3px;
+  background: url("/assets/images/bg-master-card-right.png") no-repeat 100% 100% transparent;
+  padding: 0 14px 0 3px;
+}
+
+.deposit-payment-card-variants-main-card-name-code{
+
+  span{
+    text-shadow: 1px 1px 4px rgba(10, 50, 0, 1);
+    font-size: 10px;
+    color: @default-color;
+    display: block;
+    padding: 6px 0 6px 0;
+  }
+
+  input{
+    width: 100%;
+    height: 33px;
+    border: 1px solid @dark-green;
+    border-radius:4px;
+  }
+
+}
+
+.deposit-payment-card-variants-main-card-expires-logo{
+  padding: 10px 0 0 0;
+
+  span{
+    text-shadow: 1px 1px 4px rgba(10, 50, 0, 1);
+    font-size: @font-size-10;
+    color: @default-color;
+    padding: 0 10px 0 0;
+  }
+
+  select{
+    width: 68px;
+    height: 34px;
+    padding: 0 6px 0 6px;
+    color: #4a4a4a;
+    border: 1px solid @dark-green;
+    font-size: @font-size-12;
+    background: #fff;
+    border-radius: 4px;
+    background: url("/assets/images/select-blue-arrow.png") no-repeat 90% 50%;
+    background-color: #f6f4f5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  img{
+    padding: 0 0 0 53px;
+  }
+
+}
+
+.deposit-payment-card-variants-confirm-code-title{
+  text-align: right;
+  display: block;
+  padding: 47px 0 0 0;
+  color: @default-color;
+  font-size: @font-size-10;
+}
+
+.deposit-payment-card-variants-confirm-card {
+
+  input{
+    width: 52px;
+    height: 34px;
+    text-align: center;
+  }
+
+}
+
+
+.deposit-payment-card-variants-confirm-code-num{
+  text-align: right;
+  padding: 30px 10px 0px 0;
+
+  span{
+    font-size: @font-size-subtitle;
+    color: @dark-brown;
+  }
+}
+
+.deposit-payment-card-variants-field-cards-pay-info{
+  float: left;
+  padding: 28px 0 0 80px;
+  label{
+    input{
+      float: left;
+    }
+    span{
+      font-size: @font-size-12;
+      font-weight: initial;
+      padding-left: 10px;
+    }
+  }
+}
+
+
+.deposit-payment-card-variants-field-cards{
+  float: left;
+}
+
+.deposit-payment-card-variants-field-cards-pay-info-value {
+  padding: 6px 0 27px 0;
+}
+
+.deposit-payment-card-variants-field-cards-pay-info-value-title{
+  font-size: @font-size-18;
+}
+
+.deposit-payment-card-variants-field-cards-pay-info-value-currency{
+  font-size: @font-size-26;
+  padding: 0 0 0 10px;
+}
+
+.deposit-payment-card-variants-field-cards-pay-info-verified-logos {
+  padding: 15px 0 0 0;
+}
+
+
+.panel-tabs-wrap{
+  .tab-pane{
+    padding: 43px 0 45px 0;
+    background: @white-gray;
+
+  }
+
+  ul{
+
+    li{
+      width: 200px;
+      a{
+        font-size: @font-size-10;
+        text-align: center;
+        padding: 16px 0 16px 0;
+        display: block;
+        background: @shite-green;
+        color: @default-color;
+      }
+    }
+
+    li.panel-tabs-first-child.active{
+      a{
+        color: @main-color;
+        background: @white-gray;
+      }
+    }
+  }
+}
+
+.already-member-tab-content-form-wrapper {
+  float: left;
+  max-width: 505px;
+  margin-left: 244px;
+}
+
+
+
+
+
+.already-member-tab-content-form{
+  max-width: 340px;
+}
+
+.already-member-tab-content-form-info {
+  padding: 0 0 21px 0;
+}
+
+.already-member-tab-content-form{
+  input.form-control{
+    width: 100%;
+    margin: 8px 0 8px 0;
+  }
+}
+
+.already-member-tab-content-form-checkbox {
+  padding: 12px 0 12px 0;
+  input{
+    float: left;
+  }
+
+  span{
+    padding: 0 0 0 10px;
+  }
+}
+
+.already-member-tab-content-form-link{
+  padding: 15px 0 15px 0;
+  a{
+    font-size: @font-size-10;
+    padding-right: 20px;
+  }
+}
+
+.already-member-tab-content-pay-info-wrapper .deposit-payment-card-variants-field-cards-pay-info {
+  float: left;
+  padding: 154px 0 0 15px;
+}
+
+@media @media-lg {
+  .section-order-page-table-lottery-points {
+    padding: 30px 0 30px 0;
+  }
+
+  .order-page-table-lottery-points-wrapper {
+    width: 550px;
+    float: left;
+  }
+
+  .order-summary-aside-wrapper{
+    margin-top: 0;
+  }
+
+  /*no sing in*/
+  .already-member-tab-content-form-wrapper{
+    margin-left: 30px;
+  }
+
+}
+
+
+@media @media-md{
+  .section-order-table{
+
+    .order-table-line{
+      width: 100%;
+    }
+
+  }
+
+  .order-page-table-lottery-points-wrapper{
+    width: 400px;
+  }
+
+  .user-donations-sidebar-content-tab.tab-content{
+    .tab-pane{
+      padding: 30px 0 15px 15px;
+    }
+  }
+
+  .deposit-payment-card-variants-confirm-card {
+    width: 160px;
+  }
+
+  .deposit-payment-card-variants-field-cards-pay-info{
+    padding: 28px 0 0 0px;
+  }
+
+  /*no sing in*/
+  .already-member-tab-content-form-wrapper {
+    max-width: 400px;
+  }
+
+  .already-member-tab-content-pay-info-wrapper {
+    .deposit-payment-card-variants-field-cards-pay-info {
+      padding: 108px 30px 12px 15px;
+    }
+
+  }
+
+}
+
+
+@media @media-sm {
+  td.order-col.order-lottery-box{
+    width: 100%;
+    float: left;
+    display: block;
+    padding: 0 0 40px 0;
+  }
+
+  td.order-col.order-lines-box,
+  td.order-col.order-draws-box,
+  td.order-col.order-sum-box{
+    width: 33.33%;
+    display: block;
+    float: left;
+  }
+
+
+
+  tr.order-table-assets-info{
+    td{
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .order-page-table-lottery-points-wrapper {
+    width: 255px;
+  }
+
+  .payment-methods-navbar {
+    ul{
+      position: absolute;
+      z-index: 3;
+      width: 80%;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: 78px;
+      -webkit-box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.8);
+      -moz-box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.8);
+      box-shadow: 0px 8px 40px -12px rgba(0, 0, 0, 0.8);
+
+      li{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e0e1e4;
+        background: #fff;
+
+        a{
+          color: @main-color;
+        }
+
+      }
+
+      li.active{
+        background: @shite-green;
+        a{
+          color: @default-color;
+        }
+      }
+    }
+  }
+}
+
+@media @media-sm-small {
+  .deposit-payment-card-variants-confirm-card {
+    width: 380px;
+    left: 0;
+  }
+
+  .order-page-table-lottery-points-wrapper,
+  .order-summary-aside-wrapper{
+    width: 100%;
+  }
+}
+
+
+
+
+@media @media-xs {
+  .section-order-head{
+    padding-bottom: 0px;
+  }
+  .table{
+    tr{
+
+      td.order-col.order-sum-box .order-sum-box-delete-btn,
+      td.line-order-table-purchase-save-info{
+        display: none;
+      }
+
+    }
+  }
+
+  .order-table-line:first-child{
+    padding-top: 0px;
+  }
+
+  .section-order-table{
+    .order-table-line{
+      padding: 11px 0 11px 0;
+    }
+  }
+
+  .order-table-line{
+    table{
+      margin-bottom: 0px;
+    }
+  }
+
+  .order-sum-box-delete-btn-mobile-visible{
+    display: block;
+    float: right;
+  }
+
+  .order-lottery-box-logo{
+    float: left;
+  }
+
+  .deposit-payment-methods-card-variants-nav-mobile{
+    font-size: @font-size-11;
+  }
+
+
+  .deposit-payment-card-variants-field-cards{
+    padding: 0 11px;
+  }
+
+  .deposit-payment-card-variants-main-card{
+    width: 100%;
+    background-size: 100% 100%;
+  }
+
+  .deposit-payment-card-variants-confirm-card{
+    width: 100%;
+    background-size: 100% 100%;
+    left: 0;
+    margin: 15px 0 0 0;
+  }
+
+  /*not sing in*/
+
+
+  .already-member-tab-content-form{
+    max-width: 100%;
+  }
+
+  .already-member-tab-content-form-wrapper{
+    max-width: 100%;
+  }
+
+  .panel-tabs-wrap{
+    ul{
+      li{
+        width: 50%;
+        float: left;
+        a{
+          font-size: @font-size-12;
+        }
+      }
+    }
+  }
+
+  .tab-content.order-tab-content{
+    margin: 0 -10px;
+  }
+
+  .already-member-tab-content-form-wrapper {
+    margin-left: 0;
+  }
+
+  .panel-tabs-wrap .tab-pane {
+    padding: 31px 0 45px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .already-member-tab-content-pay-info-wrapper .deposit-payment-card-variants-field-cards-pay-info {
+    padding: 33px 30px 0px 0px;
+  }
+
+}
+
+@media @media-xs-small {
+  .deposit-payment-card-variants-main-card-expires-logo select{
+    width: 50px;
+  }
+
+  .deposit-payment-card-variants-main-card-expires-logo img {
+    padding: 6px 0px 0 0px;
+    float: right;
+  }
+
+}
+
+
+/************************ORDER ORDER NO SING IN  *******/

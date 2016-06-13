@@ -1,0 +1,459 @@
+/************************LOTTERY PERSONAL 3*******/
+.lottery-personal3-header-wrapper{
+  background: url("/assets/images/lottery-personal3-header-bg.png") no-repeat 100% 100%;
+  background-size: cover;
+}
+
+.lottery-personal3-header-layout{
+  text-align: center;
+  padding: 39px 0 48px 0;
+}
+
+.section-lottery-personal3-header{
+  .numbers-date-wrapper{
+    display: table;
+    margin: 0 auto;
+  }
+  .date-time-number span:last-child {
+    color: @main-color;
+  }
+
+  .date-time-number-separator{
+    padding-left:15px ;
+    padding-right:15px ;
+  }
+}
+
+.lottery-personal3-header-price-title{
+  font-size: @font-size-26;
+}
+
+.lottery-personal3-header-title {
+  padding: 13px 11px 6px 11px;
+}
+
+.section-lottery-personal3-lottery-tickets{
+  background: @white-gray;
+  padding: 50px 0 50px 0;
+}
+
+.lottery-tickets-wrapper{
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+
+.lottery-ticket-box{
+  width: 20%;
+  float: left;
+}
+
+.lottery-ticket-box-border{
+ img{
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+ }
+
+}
+
+.lottery-ticket-box-border-top{
+  img:first-child{
+    top: -1px;
+  }
+
+  img:last-child{
+    top: -2px;
+  }
+}
+
+.lottery-ticket-box-border-bottom{
+  img:first-child{
+    bottom: -1px;
+  }
+
+  img:last-child{
+    bottom: -2px;
+  }
+}
+
+.lottery-ticket-box-assets-control {
+  padding: 3px 0 10px 0;
+}
+
+.lottery-ticket-box-assets-control-title{
+  float: left;
+  padding: 6px 0 6px 0;
+}
+
+.lottery-ticket-circle-points-box-main-extra-title {
+  padding: 15px 0 15px 0;
+}
+
+.lottery-ticket-box-assets-control-element{
+  float: right;
+  padding: 6px 0 6px 0;
+  a{
+    display: block;
+    float: left;
+    padding: 0 7px;
+  }
+
+  a:last-child{
+    padding-right: 0;
+  }
+}
+
+.lottery-ticket-box-assets-control-button{
+  float: right;
+  display: none;
+  button{
+    width: 63px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    font-size: @font-size-10;
+    background: @red-color;
+    color: @default-color;
+    border-radius: 0;
+    border: none;
+  }
+}
+
+.lottery-ticket-box-wrapper{
+  padding: 1px 7.5px 1px 7.5px;
+}
+
+.lottery-ticket-box-layout{
+  border:1px solid #9292a0;
+  position: relative;
+  padding: 28px 12px 32px 12px;
+}
+
+.lottery-ticket-circle-points-box-main ,
+.lottery-ticket-circle-points-box-main-extra{
+  margin-left: -3px;
+  margin-right: -3px;
+}
+
+.lottery-ticket-point-number{
+  width: 29px;
+  height: 29px;
+  border: 1px solid #d7d7d7;
+  border-radius: 100%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  margin: 4px 2.5px 4px 2.5px;
+
+  span{
+    font-size: @font-size-12;
+    line-height: 28px;
+    display: block;
+  }
+
+}
+
+.lottery-ticket-circle-points-box-main-extra{
+  .lottery-ticket-point-number{
+    background-color:#d4d4d4 ;
+    color: @default-color;
+  }
+}
+
+.lottery-ticket-box-border{
+  img:first-child{
+    display: block;
+  }
+  img:last-child{
+    display: none;
+  }
+}
+
+/*lottery selected ticket*/
+
+
+.lottery-ticket-box-selected{
+
+  .lottery-ticket-box-wrapper {
+    padding: 0 6.5px;
+  }
+
+  .lottery-ticket-box-layout{
+    border:2px solid #9292a0;
+    border-radius: 5px;
+  }
+
+  .lottery-ticket-box-assets-control-element{
+    display: none;
+  }
+
+  .lottery-ticket-point-number-selected{
+    background: @red-color;
+    color: @default-color;
+    border-color: @red-color;
+  }
+
+  .lottery-ticket-box-assets-control-button{
+    display: block;
+  }
+
+  .lottery-ticket-box-border{
+    img:first-child{
+      display: none;
+    }
+
+    img:last-child{
+      display: block;
+    }
+
+  }
+
+}
+
+/*mini*/
+
+
+.lottery-ticket-box-left{
+  float: left;
+  width: 16%;
+}
+
+.lottery-ticket-box-right{
+  float: right;
+  width: 24%;
+}
+
+.lottery-personal3-page {
+
+  .choose-your-draw-participation{
+    padding: 0 0px 0 18px;
+  }
+
+  .choose-your-draw-participation-total-sum-button{
+    margin-left:0;
+  }
+
+  .circle-checkbox-line-one-item{
+    padding-right: 40px;
+  }
+}
+
+
+.lottery-ticket-box-left{
+  .lottery-ticket-box-layout{
+    padding: 0;
+    border: none;
+  }
+
+  .lottery-ticket-circle-points-box-main {
+    padding-top: 31px;
+    padding-bottom: 74px;
+  }
+
+  .lottery-ticket-point-number{
+    float: none;
+    margin: 8px auto 8px auto;
+  }
+
+  .lottery-ticket-circle-points-box-main-extra {
+    padding-top: 10px;
+  }
+}
+
+.lottery-ticket-box-played-mini-ticket-item{
+  width: 80px;
+  position: relative;
+  border: 1px solid #9292a0;
+  padding: 55px 5px 76px 5px;
+}
+
+.lottery-ticket-box-assets-control-mini {
+  padding: 103px 0 0 0;
+  a{
+    margin: 9px 0;
+  }
+}
+
+
+/*mini*/
+
+.lottery-ticket-box-played-mini-ticket-item{
+  float: left;
+}
+
+.lottery-ticket-box-played-mini-ticket-item:nth-child(even) {
+  float: right;
+}
+
+.lottery-ticket-circle-points-box-main-head{
+  overflow: hidden;
+}
+
+
+.lottery-personal3-page .choose-your-draw-participation{
+  padding-top: 15px;
+}
+
+
+
+/**/
+.lottery-ticket-box-left{
+  position: relative;
+
+}
+.lottery-ticket-box-played-mini-ticket-item {
+  position: relative;
+  display: block;
+  float: left;
+  transition: all 0.1s ease .100ms;
+  background: #f6f4f5;
+  position: absolute;
+  width: 80px ;
+}
+.lottery-ticket-box-played-tickets-wrapper {
+  height: 786px;
+}
+
+.lottery-ticket-box-played-mini-ticket-item:hover{
+  z-index:9999 !important;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.lottery-ticket-box-played-mini-ticket-item{
+  .lottery-ticket-box-border.lottery-ticket-box-border-top{
+    img{
+      display: block;
+      top: -1px;
+    }
+  }
+}
+
+
+
+
+.lottery-ticket-box-played-mini-ticket-item-selected{
+  width: 80px !important;z-index: 9999 !important;
+}
+/**/
+
+
+@media @media-lg{
+  .advantages-tile-title {
+    height: 95px;
+  }
+
+  .lottery-ticket-box,
+  .lottery-ticket-box-left{
+    width: 33.333%;
+  }
+  .lottery-ticket-box-right{
+    width: 33.33%;
+  }
+
+  .lottery-ticket-box-layout{
+    max-width: 226px;
+    margin: 0 auto;
+  }
+
+  .lottery-ticket-box-wrapper {
+    margin: 7.5px 0;
+  }
+}
+
+
+@media @media-md{
+  .lottery-ticket-box,
+  .lottery-ticket-box-left{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .lottery-ticket-box-layout{
+    max-width: 226px;
+    margin: 0 auto;
+  }
+
+  .lottery-ticket-box-wrapper {
+    margin: 15px 0;
+  }
+
+  .lottery-ticket-box-right {
+    width: 100%;
+  }
+
+}
+
+@media @media-sm{
+  .lottery-ticket-box {
+    width: 100%;
+    max-width: 250px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .lottery-ticket-box-wrapper {
+    margin: 15px 0;
+  }
+
+
+  .lottery-ticket-box-left{
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media @media-xs {
+  .lottery-personal3-header-wrapper{
+    background: url("/assets/images/lottery-group1-pageheade-mobile-bg.png") no-repeat 100% 100%;
+    background-size: cover;
+  }
+
+  .lottery-personal3-header-layout {
+    padding: 119px 0 134px 0;
+  }
+
+  .lottery-personal3-header-title {
+    padding: 13px 11px 3px 11px;
+  }
+
+  .lottery-personal3-page .section-your-friends-with-us-line {
+    padding: 28px 0 0 0;
+  }
+
+  .section-lottery-personal3-lottery-tickets {
+    padding: 18px 0 30px 0;
+    margin-bottom: 30px;
+  }
+
+  .choose-your-draw-participation-total-box-title {
+    font-size: 16px;
+  }
+
+  .choose-your-draw-participation-total-box-line-left span:first-child {
+    font-size: 14px;
+  }
+
+  .choose-your-draw-participation-total-sum-right span {
+    font-size: 21px;
+  }
+
+  span.block.improve-your-odds-with-group-column-right-title{
+    font-size: 18px;
+  }
+
+  .lottery-personal3-page .choose-your-draw-participation {
+    padding: 15px 0px 0 0px;
+  }
+
+}
+
+/************************LOTTERY PERSONAL 3*******/
+
+
+
+
+

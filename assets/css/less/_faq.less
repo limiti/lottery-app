@@ -1,0 +1,401 @@
+/************************ FAQ and FAQ TOPIC *******/
+
+.faq-header-wrapper{
+  background: url('/assets/images/faq-header-bg.png');
+  padding: 104px 10px 93px 10px;
+}
+
+.faq-header-layout {
+  max-width: 446px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+.faq-header-subtitle{
+  padding-top: 19px;
+  padding-bottom: 38px;
+}
+
+.together-header-search-group{
+  height: 51px;
+  max-width: 440px;
+  margin: 0 auto;
+  input{
+    border: none;
+    float: left;
+    width: 75%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: url("/assets/images/icon-input-search.png") no-repeat 20px 50% #fff;
+    padding: 0 15px 0 53px;
+  }
+  button{
+    width: 25%;
+    height: 100%;
+    background: @red-color;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: @default-color;
+
+  }
+}
+
+.section-faq-boxes-icons {
+  padding: 28px 0 0 0;
+}
+
+.faq-box-icon-wrapper{
+  background: @white-gray;
+  text-align: center;
+  padding: 68px 50px 64px 50px;
+  margin: 18px 0 18px 0;
+  a{
+    color: @main-color;
+    display: block;
+  }
+}
+
+.faq-box-icon-image {
+  min-height: 67px;
+}
+
+.faq-box-icon-info{
+  font-size: @font-size-18;
+  height: 51px;
+  padding: 40px 0 0 0;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  span{
+    margin: 0 auto;
+  }
+}
+
+.section-faq-boxes-topic {
+  padding: 39px 0 0 0;
+}
+
+.section-faq-form-question{
+  padding: 28px 0 46px 0;
+}
+
+.faq-form-question-wrapper{
+  background: @white-gray;
+  padding: 45px 0 42px 0;
+}
+
+.faq-form-box-wrapper {
+  padding: 25px 0 0 230px;
+}
+
+
+.faq-form-box-input-info{
+  display: block;
+  float: left;
+  width: 160px;
+  padding: 12px 0 12px 0;
+  font-size: @font-size-subtitle;
+}
+
+.faq-form-box-input{
+  display: inline-block;
+  width: 424px;
+
+  textarea{
+    resize: none;
+    padding-top: 14px;
+  }
+
+  input/*,select*/{
+    height: 46px;
+  }
+
+  input /*, select */,textarea{
+    border: 1px solid #ede9e9;
+    border-radius: 3px;
+    background: @default-color;
+    font-size: @font-size-12;
+    color: @gray-color;
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+}
+
+.faq-form-box-field-layout {
+  padding: 7px 0 7px 0;
+}
+
+.faq-form-box-input-full-width{
+  width: 100%;
+}
+
+.faq-form-box-input-name{
+  width: 48.5%;
+}
+.faq-form-box-input-surname{
+  float: right;
+  width: 48.5%;
+}
+
+.faq-form-box-btn-send{
+  padding: 10px 0 0 0;
+  button{
+    font-size: @font-size-12;
+    float: right;
+  }
+}
+
+/*faq topic-page*/
+.boxes-topic-box-title {
+  max-width: 254px;
+  border-bottom: 1px solid @gray-border;
+  padding: 0 0 30px 0;
+}
+
+.faq-boxes-topic-nav-title{
+  font-size: @font-size-18;
+  padding: 40px 0 20px 0;
+}
+
+.faq-boxes-topic-nav-layout{
+
+  ul{
+    margin: 0 ;
+    padding: 0;
+
+    li{
+      padding: 15px 0 15px 0;
+      list-style-type: none;
+
+      a{
+        font-size: @font-size-14;
+        color: @shite-grey;
+      }
+    }
+
+  }
+
+}
+
+.faq-boxes-topic-collapse-wrapper {
+  padding: 16px 0 0 78px;
+}
+
+.faq-boxes-topic-collapse-item{
+  margin-bottom: 15px;
+  background: @white-gray;
+}
+
+.faq-boxes-topic-collapse-item-control{
+
+  a{
+    padding: 25px 30px 25px 30px;
+    display: block;
+    font-size: @font-size-18;
+    text-decoration: none;
+
+   span{
+     background: url("/assets/images/icon-collapse-sprite.png") no-repeat 0 0px;
+     width: 9px;
+     height: 7px;
+     float: right;
+     margin: 10px 0 10px 0;
+     display: block;
+   }
+
+  }
+
+  .topic-collapse-btn-open-close{
+    color: @red-color;
+  }
+
+  .topic-collapse-btn-open-close.collapsed{
+    /*close*/
+    color: @main-color;
+
+    span{
+      background-position:0px -9px ;
+    }
+
+  }
+
+}
+
+.faq-boxes-topic-collapse-item-content{
+  .panel-collapse{
+    span{
+      display: block;
+      font-size: @font-size-12;
+      color: @shite-grey;
+      padding: 10px 85px 30px 30px;
+      line-height: 21px;
+    }
+  }
+}
+
+
+@media @media-lg{
+  .faq-box-icon-wrapper{
+    padding: 68px 25px 64px 25px;
+  }
+
+  .faq-form-box-wrapper {
+    padding: 25px 0 0 67px;
+  }
+}
+
+@media @media-md{
+  .faq-boxes-topic-collapse-wrapper {
+    padding: 16px 0 0 35px;
+  }
+
+  .faq-boxes-topic-collapse-item-control a{
+    font-size: @font-size-subtitle;
+    padding: 25px 15px 25px 15px;
+  }
+
+  .faq-boxes-topic-collapse-item-content .panel-collapse span {
+    padding: 10px 30px 30px 15px;
+
+  }
+}
+
+
+@media @media-sm{
+  .faq-form-box-input{
+    width: 70%;
+  }
+
+  .faq-form-box-input-info{
+    width: 30%;
+  }
+
+  .faq-form-box-wrapper {
+    padding: 25px 15px 0 15px;
+  }
+
+  .faq-boxes-topic-nav-layout{
+    ul{
+      li{
+        width: 50%;
+        float: left;
+        display: inline-block;
+      }
+    }
+  }
+
+  .faq-boxes-topic-collapse-wrapper{
+    padding: 16px 0 0 0px;
+  }
+}
+
+@media @media-xs{
+
+
+  .faq-header-wrapper{
+    padding: 81px 10px 114px 10px;
+    background: url("/assets/images/lottery-page-results-mobile-bg.png");
+    background-size: cover;
+  }
+
+  .faq-header-subtitle {
+    padding-top: 10px;
+    padding-bottom: 19px;
+  }
+
+  .together-header-search-group {
+    height: 36px;
+    button, input{
+      font-size: @font-size-12;
+    }
+  }
+
+  .section-faq-boxes-icons {
+    padding: 15px 0 0 0;
+  }
+
+  .faq-form-box-input-info{
+    font-size: @font-size-12;
+    padding-right: 5px;
+  }
+
+  .section-faq-form-question {
+    padding: 15px 0 30px 0;
+  }
+
+  .section-faq-boxes-icons{
+
+    .col-xs-6{
+      width: 100%;
+    }
+
+  }
+
+  .faq-form-box-wrapper {
+    padding: 25px 10px 0 10px;
+  }
+
+  .boxes-topic-box-title {
+    padding: 19px 0 8px 0;
+  }
+
+  .faq-boxes-topic-nav-title {
+    font-size: @font-size-14;
+    padding: 10px 0 0px 0;
+  }
+
+  .faq-boxes-topic-nav-layout {
+    ul{
+
+      li{
+        padding: 8px 0 8px 0;
+      }
+    }
+  }
+
+  .faq-boxes-topic-collapse-item-control a {
+    font-size: 13px;
+  }
+
+  .faq-boxes-topic-collapse-wrapper {
+    padding: 27px 0 0 0px;
+  }
+
+  .section-faq-boxes-topic {
+    padding: 0px 0 0 0;
+  }
+
+}
+
+
+@media @media-xx {
+  .faq-form-box-input{
+    input, select ,textarea{
+      font-size: @font-size-10;
+    }
+  }
+
+  .faq-boxes-topic-nav-layout {
+    ul{
+
+      li{
+
+       a{
+         font-size: @font-size-12;
+       }
+      }
+    }
+  }
+}
+/*together*/
+/************************ FAQ and FAQ TOPIC *******/
+
